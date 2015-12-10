@@ -15,5 +15,7 @@ public class Hello {
         System.out.println("Hello World");
         System.out.println("Hello GitHub");
         System.out.println("Hello Maven");
+        Report demo = new Report();
+        demo.export();
     }
 }
