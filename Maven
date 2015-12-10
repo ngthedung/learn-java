@@ -3,3 +3,9 @@ Thêm thư viện:
 
 Danh sách thư viện:
 http://mvnrepository.com/
+
+Một số lệnh Maven cơ bản:
+clean : clean lần build trước đó
+compile : tiến hành compile, dịch các file java sang class, copy các file resources, lib...
+package : package project thành jar or war
+install : đưa 1 thư viện lên repository (ở đây là local), để các project khác có thể sử dụng ( chỉ sử dụng với các project jar)
