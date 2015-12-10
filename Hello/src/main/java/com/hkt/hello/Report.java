@@ -6,6 +6,7 @@
 
 package com.hkt.hello;
 
+import java.io.File;
 import java.util.HashMap;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
@@ -39,7 +40,7 @@ public class Report {
     
         
     public void export(){
-        reportExport("report.jasper", hMap, jTable.getModel(), false);
+        reportExport(File.separator + "report.jasper", hMap, jTable.getModel(), false);
     }
     
     private void reportExport(String filePathResource, HashMap hashMap, TableModel model, boolean flag){

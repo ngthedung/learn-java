@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="f1a271fb-41a1-43b6-aa8f-e2ab9ea31967">
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e55ffcc3-0a18-45d4-afb7-6f818a8bbaa6">
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
-	<property name="ireport.y" value="24"/>
+	<property name="ireport.y" value="0"/>
 	<parameter name="World" class="java.lang.String"/>
+	<parameter name="Java" class="java.lang.String"/>
 	<parameter name="Maven" class="java.lang.String"/>
 	<parameter name="GitHub" class="java.lang.String"/>
-	<parameter name="parameter4" class="java.lang.String"/>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
 	<title>
 		<band height="79" splitType="Stretch">
 			<textField>
-				<reportElement x="179" y="0" width="202" height="79" uuid="699b51ea-ba5c-41d9-9676-0e778a87846e"/>
+				<reportElement x="204" y="0" width="195" height="79" uuid="8a1befce-964a-48f0-9698-f5a9c0fd2da4"/>
 				<textElement>
-					<font size="24" isBold="true"/>
+					<font size="36" isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$P{parameter4}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{Java}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="455" y="0" width="100" height="20" uuid="9efb62b2-4b7d-40d6-a17f-31eee3efb05d"/>
+				<reportElement x="455" y="0" width="100" height="20" uuid="b04a6ba8-094a-47af-9cf5-a4519f3e734b"/>
 				<textElement>
-					<font size="14" isUnderline="true"/>
+					<font size="12" isUnderline="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{World}]]></textFieldExpression>
 			</textField>
@@ -31,9 +31,9 @@
 	<pageHeader>
 		<band height="35" splitType="Stretch">
 			<textField>
-				<reportElement x="0" y="0" width="100" height="20" uuid="ffc0f5a5-f5b9-43bc-9b3f-be2fa6b60f87"/>
+				<reportElement x="0" y="0" width="100" height="20" uuid="1876196c-4472-4372-9d22-8dd177a49e33"/>
 				<textElement>
-					<font size="12" isItalic="true"/>
+					<font size="14" isItalic="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{Maven}]]></textFieldExpression>
 			</textField>
@@ -42,9 +42,9 @@
 	<columnHeader>
 		<band height="61" splitType="Stretch">
 			<textField>
-				<reportElement x="0" y="0" width="100" height="20" uuid="25091c3d-5ad6-47f9-a4a1-316bcebbd4fe"/>
+				<reportElement x="0" y="0" width="100" height="20" uuid="c91d4392-3e60-4102-9e8b-96a72c168e4e"/>
 				<textElement>
-					<font size="12" isItalic="true"/>
+					<font size="14" isItalic="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{GitHub}]]></textFieldExpression>
 			</textField>
