@@ -1,0 +1,5 @@
+Thêm thư viện:
+<dependencies>  <dependency>   <groupid>org.hibernate</groupid>   <artifactid>hibernate-core</artifactid>   <version>5.0.0.CR2</version>  </dependency> </dependencies>
+
+Danh sách thư viện:
+http://mvnrepository.com/
