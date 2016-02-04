@@ -1,0 +1,12 @@
+com\hkt\client\rest\service\HRServiceClientIntegrationTest.class
+com\hkt\client\rest\service\LocaleServiceClientIntegrationTest.class
+com\hkt\client\rest\RESTScriptRunnerIntegrationTest.class
+com\hkt\client\rest\service\AccountingServiceClientIntegrationTest$MapMapper.class
+com\hkt\client\rest\RESTClientIntegrationTest.class
+com\hkt\client\rest\service\AccountServiceClientIntegrationTest.class
+com\hkt\client\rest\service\AccountingServiceClientIntegrationTest.class
+com\hkt\client\rest\service\CustomerServiceClientIntegrationTest.class
+com\hkt\client\rest\service\RestaurantServiceClientIntegrationTest.class
+com\hkt\client\rest\service\ProductServiceClientIntegrationTest.class
+com\hkt\client\rest\service\PrintMachineServiceClientIntegrationTest.class
+com\hkt\client\rest\service\UIConfigServiceClientIntegrationTest.class

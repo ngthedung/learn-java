@@ -1,0 +1,95 @@
+{
+  "suppliers":[
+    {
+      "memberships": [
+        { "loginId": "tranAnh", "groupPath": "hkt/partner/supplier", "capability": "ADMIN" }
+      ],
+      
+      "supplier": {
+        "loginId": "tranAnh", "organizationLoginId": "hkt"
+      },
+    
+      "suppliedProducts": [
+        {
+          "suppliedProduct": {
+            "name": "may tinh", "code": "lap01", "lastPrice": 9000000, "note": "lay cho khach hang"
+          },
+        
+          "priceHistories": [
+            {
+              "price": 10000000, "note": "lay lan 1" 
+            },
+            {
+              "price": 9500000, "note": "lay lan 2" 
+            },
+            {
+              "price": 9000000, "note": "lay lan 3" 
+            }
+          ]
+        },
+        {
+          "suppliedProduct": {
+            "name": "ban phim", "code": "banphim01", "lastPrice": 200000, "note": "lay cho khach hang"
+          },
+        
+          "priceHistories": [
+            {
+              "price": 100000, "note": "lay lan 1" 
+            },
+            {
+              "price": 150000, "note": "lay lan 2" 
+            },
+            {
+              "price": 200000, "note": "lay lan 3" 
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "memberships": [
+        { "loginId": "digitech", "groupPath": "hkt/partner/supplier", "capability": "ADMIN" }
+      ],
+      
+      "supplier": {
+        "loginId": "digitech", "organizationLoginId": "hkt"
+      },
+      "suppliedProducts": [
+        {
+          "suppliedProduct": {
+            "name": "may in", "code": "mayin01", "lastPrice": 2000000, "note": "lay cho khach hang"
+          },
+        
+          "priceHistories": [
+            {
+              "price": 3000000, "note": "lay lan 1" 
+            },
+            {
+              "price": 2500000, "note": "lay lan 2" 
+            },
+            {
+              "price": 2000000, "note": "lay lan 3" 
+            }
+          ]
+        },
+        {
+          "suppliedProduct": {
+            "name": "giay in", "code": "giayin01", "lastPrice": 100000, "note": "lay cho khach hang"
+          },
+        
+          "priceHistories": [
+            {
+              "price": 150000, "note": "lay lan 1" 
+            },
+            {
+              "price": 50000, "note": "lay lan 2" 
+            },
+            {
+              "price": 100000, "note": "lay lan 3" 
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

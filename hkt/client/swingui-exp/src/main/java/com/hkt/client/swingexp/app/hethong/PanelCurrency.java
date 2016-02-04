@@ -1,0 +1,402 @@
+package com.hkt.client.swingexp.app.hethong;
+
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.util.Date;
+import java.util.List;
+
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JScrollPane;
+import javax.swing.JTextField;
+
+import com.hkt.client.swingexp.app.component.MyPanel;
+import com.hkt.client.swingexp.app.core.DialogMain;
+import com.hkt.client.swingexp.app.core.DialogResto;
+import com.hkt.client.swingexp.app.core.DialogTest;
+import com.hkt.client.swingexp.app.core.IDialogMain;
+import com.hkt.client.swingexp.app.core.MyGroupLayout;
+import com.hkt.client.swingexp.model.LocaleModelManager;
+import com.hkt.client.swingexp.model.UIConfigModelManager;
+import com.hkt.module.account.entity.AccountMembership.Capability;
+import com.hkt.module.config.locale.Currency;
+import com.hkt.util.text.DateUtil;
+
+@SuppressWarnings("serial")
+public class PanelCurrency extends MyPanel implements IDialogMain {
+
+	@SuppressWarnings("unused")
+	private JLabel lbCode, lbName, lbPriority, lbRate, lbDescription, lbMessenger;
+	@SuppressWarnings("unused")
+	private JTextField txtCode, txtName, txtPriority, txtRate, txtDescription;
+	private JScrollPane scrollPaneTable, scrollIndex;
+	private CurrencyTable TableCurrrency;
+	private Currency currency = new Currency();
+	@SuppressWarnings("unused")
+	private int index = 0;
+	private boolean Flag;
+	public static String permission;
+	private boolean restore = true;
+
+	public PanelCurrency() throws Exception {
+		init();
+		setOpaque(false);
+		reset();
+	}
+
+	// Hàm tạo giao diện
+	@SuppressWarnings("static-access")
+	private void init() throws Exception {
+
+		lbMessenger = new JLabel("");
+		scrollPaneTable = new JScrollPane();
+		scrollPaneTable.setOpaque(false);
+		scrollPaneTable.getViewport().setOpaque(false);
+		scrollPaneTable.setBorder(null);
+
+		TableCurrrency = new CurrencyTable();
+		TableCurrrency.setName("tbcurrrencyTable");
+
+		TableCurrrency.setCurrencys(getObjects());
+		TableCurrrency.addMouseListener(new MouseAdapter() {
+			public void mouseClicked(MouseEvent event) {
+				try {
+					tableOptionsMouseClicked(event);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+
+		TableCurrrency.setPreferredScrollableViewportSize(new Dimension(200, 290));
+		scrollPaneTable.setViewportView(TableCurrrency);
+
+		lbCode = new JLabel("Mã");
+		txtCode = new JTextField();
+		txtCode.setName("txtCode");
+		txtCode.setDisabledTextColor(Color.black);
+
+		lbName = new JLabel("Đơn vị tiền");
+		txtName = new JTextField();
+		txtName.setName("txtName");
+		txtName.setDisabledTextColor(Color.black);
+
+		lbRate = new JLabel("Tỷ lệ");
+		txtRate = new JTextField();
+		txtRate.setName("txtRate");
+		txtRate.setHorizontalAlignment(txtRate.RIGHT);
+		txtRate.setDisabledTextColor(Color.black);
+
+		lbDescription = new JLabel("Miêu tả");
+		txtDescription = new JTextField();
+		txtDescription.setPreferredSize(new Dimension(250, 53));
+		txtDescription.setName("txtDescription");
+		txtDescription.setDisabledTextColor(Color.black);
+
+		MyGroupLayout layout = new MyGroupLayout(this);
+		layout.add(0, 0, lbCode);
+		layout.add(0, 1, txtCode);
+
+		layout.add(0, 2, lbName);
+		layout.add(0, 3, txtName);
+
+		layout.add(1, 0, lbRate);
+		layout.add(1, 1, txtRate);
+
+		layout.add(1, 2, lbDescription);
+		layout.add(1, 3, txtDescription);
+		layout.addMessenger(lbMessenger);
+
+		// Thêm button cập nhật index
+		scrollIndex = new JScrollPane();
+		scrollIndex.setOpaque(false);
+		scrollIndex.getViewport().setOpaque(false);
+		scrollIndex.setBorder(null);
+		scrollIndex.setViewportView(TableCurrrency.getPanleButton());
+
+		// Giao diện Button cập nhật index đi cùng với scrollPaneTable
+		layout.add(2, 0, scrollIndex);
+		layout.add(2, 1, scrollPaneTable);
+		layout.updateGui();
+
+	}
+
+	protected void tableOptionsMouseClicked(MouseEvent event) throws Exception {
+		currency = TableCurrrency.getSelectedBean();
+		int click = 2;
+		if (currency.getCode().indexOf("HktTest") > 0 && event.getButton() == 3) {
+			click = 1;
+		}
+		if (event.getClickCount() >= click) {
+			setData();
+			index = TableCurrrency.getSelectedRow();
+			setEnableCompoment(false);
+			((DialogMain) getRootPane().getParent()).showButton(false);
+		}
+		refresh();
+	}
+
+	@Override
+	public void save() throws Exception {
+		if (UIConfigModelManager.getInstance().getPermission(permission) == Capability.READ) {
+			JOptionPane.showMessageDialog(null, "Bạn chưa được cấp quyền này !");
+
+		} else {
+			// Lấy dữ liệu đổ vào đối tượng
+			if (checkData()) {
+				if (restore)
+				getData();
+				if (currency != null) {
+					LocaleModelManager.getInstance().saveCurrency(currency);
+					Flag = true;
+				}
+				reset();
+			}
+		}
+	}
+
+	private boolean checkData() {
+
+		boolean check = true;
+		
+		if (txtCode.getText().equals("")) {
+			lbCode.setForeground(Color.red);
+			check = false;
+		} else {
+			lbCode.setForeground(Color.black);
+		}
+		if (txtName.getText().equals("")) {
+			lbName.setForeground(Color.red);
+			check = false;
+		} else {
+			lbName.setForeground(Color.black);
+		}
+
+		if ((txtRate.getText() != null && txtRate.getText().isEmpty()) && (txtRate.getText() != null || currency.getRate() == 0d)) {
+			lbRate.setForeground(Color.red);
+			check = false;
+		} else {
+			lbRate.setForeground(Color.black);
+		}
+
+		// Kiểm tra xem có bị trùng code hay không
+		if (txtCode.isEnabled()) {
+			try {
+				Currency c = LocaleModelManager.getInstance().getCurrencyByCode(txtCode.getText());
+				if ( c!= null) {
+					check = false;
+					lbCode.setForeground(Color.red);
+					if (c.isRecycleBin()){
+        				PanelRecybin panel = new PanelRecybin(
+								"Mã đã bị xóa trước đó!",
+								" Chọn ĐỒNG Ý để lấy lại thông tin ban đầu hoặc THOÁT và nhập mã khác!");
+						panel.setName("Xoa");
+						DialogResto dialog = new DialogResto(panel, false,
+								0, 120);
+						dialog.setName("dlXoa");
+						dialog.setTitle("Tiền tệ");
+						dialog.setLocationRelativeTo(null);
+						dialog.setModal(true);
+						dialog.setVisible(true);
+						if (panel.isDelete()) {
+							restore = false;
+							c.setRecycleBin(false);
+							LocaleModelManager.getInstance().saveCurrency(c);
+							return true;
+						}
+        			}
+				}
+			} catch (Exception e) {
+			}
+		
+	}
+
+		if (!check) {
+			lbMessenger.setText("Dữ liệu vùng đỏ bị lỗi");
+			lbMessenger.setForeground(Color.red);
+			lbMessenger.setVisible(true);
+			return false;
+		} else {
+			lbMessenger.setText(" ");
+			return true;
+		}
+	}
+
+	@Override
+	public void edit() throws Exception {
+		if (UIConfigModelManager.getInstance().getPermission(permission) == Capability.READ) {
+			JOptionPane.showMessageDialog(null, "Bạn chưa được cấp quyền này !");
+		} else {
+			setEnableCompoment(true);
+			txtCode.setEnabled(false);
+			Flag = false;
+		}
+	}
+
+	@Override
+	public void delete() throws Exception {
+		if (UIConfigModelManager.getInstance().getPermission(permission) == Capability.ADMIN) {
+
+			String str = "Xóa tiền tệ ";
+			PanelChoise pnPanel = new PanelChoise(str + currency + "?");
+			pnPanel.setName("Xoa");
+			DialogResto dialog1 = new DialogResto(pnPanel, false, 0, 80);
+			dialog1.setName("dlXoa");
+			dialog1.setTitle("Xóa tiền tệ");
+			dialog1.setLocationRelativeTo(null);
+			dialog1.setModal(true);
+			dialog1.setVisible(true);
+
+			if (pnPanel.isDelete()) {
+				LocaleModelManager.getInstance().deleteCurrency(currency);
+				lbMessenger.setText("");
+				reset();
+			} else if (pnPanel.isDelete() == false) {
+				reset();
+			} else {
+				lbMessenger.setText("Hãy chắc chắn là bạn đã chọn 1 TIỀN TỆ để xóa");
+				lbMessenger.setVisible(true);
+				return;
+			}
+		} else {
+			JOptionPane.showMessageDialog(null, "Bạn chưa được cấp quyền này !");
+		}
+	}
+
+	@Override
+	public void reset() throws Exception {
+		setEnableCompoment(true);
+		txtCode.setText(DateUtil.asCompactDateTimeId(new Date()));
+		txtName.setText("");
+		txtRate.setText("");
+		txtDescription.setText("");
+
+		lbCode.setForeground(Color.black);
+		lbName.setForeground(Color.black);
+		lbRate.setForeground(Color.black);
+		lbDescription.setForeground(Color.black);
+		lbMessenger.setText(" ");
+
+		currency = null;
+		index = -1;
+		loadTable();
+	}
+
+	@Override
+	public void refresh() throws Exception {
+		setData();
+		setEnableCompoment(false);
+		lbCode.setForeground(Color.black);
+		lbName.setForeground(Color.black);
+		lbRate.setForeground(Color.black);
+		lbDescription.setForeground(Color.black);
+		lbMessenger.setText(" ");
+	}
+
+	private void setData() {
+		try {
+			txtCode.setText(currency.getCode());
+			txtName.setText(currency.getName());
+			txtRate.setText(String.valueOf(currency.getRate()));
+			txtDescription.setText(currency.getDescription());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private Currency getData() {
+		restore = true;
+		try {
+			if (currency == null) {
+				currency = new Currency();
+				Flag = true;
+			}
+			currency.setCode(txtCode.getText());
+			currency.setName(txtName.getText());
+			 if(Flag==true){
+			 currency.setPriority(getObjects().size());
+			 }
+			 if (txtRate.getText().length() > 0) {
+			currency.setRate(Double.parseDouble(txtRate.getText()));
+			 } else {
+			 lbRate.setForeground(Color.red);
+			 }
+			currency.setDescription(txtDescription.getText());
+			lbMessenger.setText(" ");
+			return currency;
+		} catch (Exception e) {
+
+			if (currency.getCode() == null | currency.getCode().isEmpty() | currency.getName() == null | currency.getName().isEmpty()
+					| currency.getRate() == 0d) {
+
+				if (currency.getCode().isEmpty()) {
+					lbCode.setForeground(Color.red);
+				} else {
+					lbCode.setForeground(Color.black);
+				}
+				if (currency.getName().isEmpty()) {
+					lbName.setForeground(Color.red);
+				} else {
+					lbName.setForeground(Color.black);
+				}
+				if (currency.getRate() == 0d) {
+					lbRate.setForeground(Color.red);
+				} else {
+					lbRate.setForeground(Color.black);
+				}
+
+				lbMessenger.setText("Dữ liệu vùng đỏ bị lỗi");
+				lbMessenger.setForeground(Color.red);
+				lbMessenger.setVisible(true);
+				return new Currency();
+			}
+
+			lbMessenger.setText("Lỗi định dạng dữ liệu");
+			lbMessenger.setForeground(Color.red);
+			lbMessenger.setVisible(true);
+			if (lbMessenger.getText().equals("Lỗi định dạng dữ liệu")) {
+				lbRate.setForeground(Color.red);
+			}
+			return new Currency();
+		}
+	}
+
+	private void setEnableCompoment(boolean value) {
+		txtName.setEnabled(value);
+		txtCode.setEnabled(value);
+		txtDescription.setEnabled(value);
+		txtRate.setEnabled(value);
+	}
+
+	public void setObject(Currency object) throws Exception {
+		this.currency = object;
+		if (object == null) {
+			currency = new Currency();
+		}
+		setData();
+	}
+
+	private void loadTable() throws Exception {
+		TableCurrrency.setCurrencys(getObjects());
+	}
+
+	public List<Currency> getObjects() throws Exception {
+		return LocaleModelManager.getInstance().getCurrencies();
+	}
+
+	@Override
+	public void deleteDataTest() {
+		if (!PanelTestAll.runAll) {
+			DialogTest.getInstance().show("Xóa toàn bộ dữ liệu test ?");
+			if (DialogTest.getInstance().isTest()) {
+				try {
+					LocaleModelManager.getInstance().deleteTest("HktTest");
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+}

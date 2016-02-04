@@ -1,0 +1,21 @@
+{
+  "employees": [
+    {
+      "memberships": [
+        { "loginId": "kiemhkt42", "groupPath": "nhahangmuoiot/employees", "capability": "WRITE" },
+        { "loginId": "kiemhkt42", "groupPath": "nhahangmuoiot/employees/leader", "capability": "WRITE" }
+      ],
+      "employee": {
+        "loginId": "kiemhkt42"
+      },
+      "salaries": [
+        {
+          "salary": {        
+            "loginId": "kiemhkt42", "salary": 10000000, "salaryType": "Monthly",
+            "fromDate": "1/1/2013 00:00:00 GMT+0700"
+          }
+        }
+      ]
+    }
+  ]
+}

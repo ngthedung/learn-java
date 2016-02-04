@@ -1,0 +1,57 @@
+{
+  "account": "Tài Khoản",
+  "account.Accounts": "Tài Khoản",
+   "account.AccountsTest": "Tài Khoản Test",
+  "account.Groups":   "Phân Nhóm",
+
+
+  "cms": "CMS",
+  "cms.Explorer": "Explorer",
+  "cms.Templates": "Templates",
+
+
+  "accounting": "Kế Toán",
+  "accounting.Invoices": "Hóa đơn",
+  "accounting.Banks": "Tài khoản ngân hàng",
+  "accounting.Report": "Báo cáo",
+  "accounting.Configs": "Thiết lập vị trí",
+  "accounting.Accounting": "Thống kê",
+
+  "hr": "Nhân Sự",
+  "hr.Employees": "Nhân sự",
+  "hr.Appointments": "Lịch hẹn",
+  "hr.Configs": "Chức vụ",
+
+  "warehouse": "Kho-Hàng Hóa",
+  "warehouse.Products": "Hàng hóa",
+  "warehouse.Warehouses": "Kho hàng",
+  "warehouse.PricesConfig": "Bảng giá",
+  "warehouse.Taxs": "Thuế",
+  "warehouse.Promotions": "Khuyễn mãi",
+  "warehouse.Coupons": "Phiếu giảm giá",
+  "warehouse.Menus": "Thực đơn",
+
+  "school": "Trường Học",
+  "school.Students": "Học viên",
+  "school.Teachers": "Giáo viên",
+  "school.Courses": "Khóa học",
+
+  "partner": "Đối Tác",
+  "partner.Customers": "Khách hàng",
+  "partner.Suppliers": "Nhà cung cấp",
+  "partner.PointConversionRules": "Điểm",
+
+  "restaurant": "Nhà Hàng",
+  "restaurant.Recipes": "Định lượng",
+  "restaurant.Tables": "Bàn",
+  "restaurant.Locations": "Khu vực",
+  "restaurant.Shifts": "Ca nhân viên",
+
+  "admin": "Hệ Thống",
+  "admin.Configs": "Thông tin cơ bản",
+  "admin.Monitors": "Hệ Thống",
+
+  "test": "Test",
+  "test.Tests": "Test",
+  "test.Samples": "Samples"
+}

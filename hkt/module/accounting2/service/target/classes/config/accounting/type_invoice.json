@@ -1,0 +1,13 @@
+{
+  "module": "accounting",
+  "service": "AccountingService",
+  "name": "type_invoice",
+
+  "options": [
+    { "label": "Thu Chi", "code": "Thu Chi", "priority": 1, "description": " " },
+    { "label": "Trả Trước", "code": "Trả Trước", "priority": 2, "description": " " },
+    { "label": "Bán Hàng", "code": "Bán Hàng", "priority": 3, "description": " " },
+    { "label": "Đặt Hàng", "code": "Đặt Hàng", "priority": 4, "description": "" },
+    { "label": "Trả Hàng", "code": "Trả Hàng", "priority": 5, "description": "" }
+  ]
+}

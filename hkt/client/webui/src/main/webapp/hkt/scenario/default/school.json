@@ -1,0 +1,46 @@
+{
+  "courses": [
+    {"code": "math101", "name": "Math"},
+    {"code": "physic101", "name": "Physic"},
+    {"code": "chemistry101", "name": "Chemistry"}
+  ],
+  
+  "teachers": [
+    {"loginId": "school.huonganh.teacher", "firstName": "Huong Anh", "lastName": "Nguyen"},
+    {"loginId": "school.ngoc.teacher", "firstName": "Ngoc", "lastName": "Do Hong"},
+    {"loginId": "school.minh.teacher", "firstName": "Minh", "lastName": "Tran Van"}
+  ],
+  
+  "students": [
+    {"loginId": "school.manh.student", "firstName": "Manh", "lastName": "Nguyen Van"},
+    {"loginId": "school.minh.student", "firstName": "Minh", "lastName": "Pham Binh"},
+    {"loginId": "school.ngoc.student", "firstName": "Ngoc", "lastName": "Nguyen Hong"},
+    {"loginId": "school.dung.student", "firstName": "Dung", "lastName": "Pham Tan"},
+    {"loginId": "school.long.student", "firstName": "Long", "lastName": "Tran Van"}
+  ],
+
+  "courseSessions": [
+    {"sessionId": "math101-012013", "courseCode": "math101", "teacherLoginId": "school.ngoc.teacher"},
+    {"sessionId": "math101-092013", "courseCode": "math101", "teacherLoginId": "school.ngoc.teacher"},
+    
+    {"sessionId": "physic101-012013", "courseCode": "physic101", "teacherLoginId": "school.huonganh.teacher"},
+    {"sessionId": "physic101-092013", "courseCode": "physic101", "teacherLoginId": "school.huonganh.teacher"},
+    
+    {"sessionId": "chemistry101-012013", "courseCode": "chemistry101", "teacherLoginId": "school.minh.teacher"},
+    {"sessionId": "chemistry101-092013", "courseCode": "chemistry101", "teacherLoginId": "school.minh.teacher"}
+  ],
+    
+  "courseSessionRegistrations": [
+    {"courseSessionId": "math101-012013", "studentLoginId": "school.ngoc.student", "status": "REGISTERED" },
+    {"courseSessionId": "math101-012013", "studentLoginId": "school.dung.student", "status": "ACCEPTED"},
+    {"courseSessionId": "math101-012013", "studentLoginId": "school.long.student", "status": "DROPPED"},
+    
+    {"courseSessionId": "physic101-012013", "studentLoginId": "school.ngoc.student", "status": "REGISTERED"},
+    {"courseSessionId": "physic101-012013", "studentLoginId": "school.dung.student", "status": "REGISTERED"},
+    {"courseSessionId": "physic101-012013", "studentLoginId": "school.minh.student", "status": "REGISTERED"},
+    
+    {"courseSessionId": "chemistry101-012013", "studentLoginId": "school.ngoc.student", "status": "REGISTERED"},
+    {"courseSessionId": "chemistry101-012013", "studentLoginId": "school.dung.student", "status": "REGISTERED"},
+    {"courseSessionId": "chemistry101-012013", "studentLoginId": "school.manh.student", "status": "REGISTERED"}
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "ratio": 
+  {
+    "name": "quy doi diem", "organizationLoginId": "hkt",
+    "status": "Active", "pointToCreditRatio": 0.00001, "minPointToTrigger": 1000
+  },
+
+  "customers": [
+    {
+      "memberships": [
+        { "loginId": "muoiot", "groupPath": "hkt/partner/customer", "capability": "ADMIN" }
+      ],
+      
+      "customer": {
+        "loginId": "muoiot", "organizationLoginId": "hkt"
+      },
+      "points": {
+        "point": {
+          "loginId": "muoiot", "point": 100
+        },
+        
+        "transactions": [
+          {
+            "loginId": "muoiot", "point": 150, "dateExecute": "1/1/2014 08:00:00 GMT+0700"
+          },
+          {
+            "loginId": "muoiot", "point": -50, "dateExecute": "1/1/2014 08:00:00 GMT+0700" 
+          }
+        ]
+      },
+     
+      "credits": {
+        "credit": {
+          "loginId": "muoiot", "credit": 2000000, "unitType": "Currency"
+        },
+        
+        "transactions": [
+          {
+            "amount": 5000000, "dateExecute": "1/1/2014 08:00:00 GMT+0700",
+            "description": "nha hang muoi ot dua truoc 5000000d"
+          },
+          {
+            "amount": -3000000, "dateExecute": "1/1/2014 08:00:00 GMT+0700",
+            "description": "nha hang muoi ot lay may in" 
+          }
+        ]
+      }
+    },
+    {
+      "memberships": [
+        { "loginId": "123zzo", "groupPath": "hkt/partner/customer", "capability": "ADMIN" }
+      ],
+      
+      "customer": {
+        "loginId": "123zzo", "organizationLoginId": "hkt"
+      },
+      "points": {
+        "point": {
+          "loginId": "123zzo", "point": 50
+        },
+        "transactions": [
+          {
+            "loginId": "123zzo", "point": 80, "dateExecute": "1/1/2014 08:00:00 GMT+0700"
+          },
+          {
+            "loginId": "123zzo", "point": -30, "dateExecute": "5/1/2014 08:00:00 GMT+0700"
+          }
+        ]
+      },
+    
+      "credits": {
+        "credit": {
+          "loginId": "123zzo", "credit": 0, "unitType": "Currency"
+        },
+        "transactions": [
+          {
+            "amount": 4000000, "dateExecute": "1/1/2014 08:00:00 GMT+0700",
+            "description": "nha hang 123zzo dua truoc 4000000d"
+          },
+          {
+            "amount": -4000000, "dateExecute": "7/1/2014 08:00:00 GMT+0700",
+            "description": "nha hang 123zzo lay phan mem" 
+          }
+        ]
+      }
+    }
+  ]
+}

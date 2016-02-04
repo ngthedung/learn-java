@@ -1,0 +1,57 @@
+{
+  "UIEmployee.label": "Nhân sự",
+  "UIEmployee.field.loginId": "Tài khoản",
+  "UIEmployee.field.organizationLoginId": "Công ty",
+  "UIEmployee.field.startDate": "Ngày bắt đầu",
+  "UIEmployee.field.leaveDate": "Ngày kết thúc",
+  
+  "UIEmployeeDetail.label": "Thông tin nhân sự",
+  "UIEmployeeDetail.action.back": "Quay lại",
+  "UIEmployeeDetail.action.save": "Lưu",
+  
+  "UIEmployeeList.label": "Danh sách nhân viên",
+  "UIEmployeeList.action.onNewEmployee": "Thêm mới",
+  "UIEmployeeList.action.onNewFullEmployee": "Thêm mới (Full)",
+  "UIEmployeeList.action.onRefresh": "Làm tươi",
+  
+  "UIWorkPosition.label": "Vị trí làm việc",
+  "UIWorkPosition.field.positionTitle": "Tên vị trí",
+  "UIWorkPosition.field.group": "Nhóm",
+  "UIWorkPosition.field.fromDate": "Ngày bắt đầu",
+  "UIWorkPosition.field.toDate": "Ngày kết thúc",
+  "UIWorkPosition.field.status": "Tình trạng vị trí",
+  "UIWorkPosition.field.status.planed": "Chưa bắt đầu",
+  "UIWorkPosition.field.status.active": "Có hiệu lực",
+  "UIWorkPosition.field.status.ended": "Hết hiệu lực",
+  "UIWorkPosition.field.salaryType": "Hình thức trả lương",
+  "UIWorkPosition.field.salaryType.hourly": "Theo giờ",
+  "UIWorkPosition.field.salaryType.daily": "Theo ngày",
+  "UIWorkPosition.field.salaryType.weekly": "Theo tuần",
+  "UIWorkPosition.field.salaryType.monthly": "Theo tháng",
+  "UIWorkPosition.field.salaryType.yearly": "Theo năm",
+  "UIWorkPosition.field.salaryType.na": "Khác",
+  "UIWorkPosition.field.salary": "Lương",
+  "UIWorkPosition.action.save": "Lưu",
+  "UIWorkPosition.action.cancel": "Thoát",
+  
+  "UIWorkPositionList.label": "Danh sách vị trí làm việc",
+  "UIWorkPositionList.action.onNewPosition": "Tạo mới",
+  "UIWorkPositionList.action.onRefresh": "Làm tươi",
+  
+  "UIDailyWork.label": "Thông tin công việc hàng ngày",
+  "UIDailyWork.field.loginId": "Tài khoản",
+  "UIDailyWork.field.startTime": "Bắt đầu",
+  "UIDailyWork.field.endTime": "Kết thúc",
+  "UIDailyWork.field.note": "Ghi chú",
+  "UIDailyWork.action.save": "Lưu",
+  "UIDailyWork.action.cancel": "Thoát",
+  
+  "UIDailyWorkList.label": "Danh sách công việc hàng ngày",
+  "UIDailyWorkList.action.onNewDailyWork": "Tạo mới",
+  "UIDailyWorkList.action.onRefresh": "Làm tươi",
+  
+  "UIContract.label": "Hợp đồng lao động",
+  "UIContract.action.save": "Lưu",
+  "UIContract.action.back": "Quay lại"
+  
+  }

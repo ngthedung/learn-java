@@ -1,0 +1,10 @@
+com\hkt\module\restaurant\GenericOptionServiceUnitTest.class
+com\hkt\module\restaurant\RestaurantServiceUnitTest$1.class
+com\hkt\module\restaurant\rest\RestaurantServiceDispatcherUnitTest$1.class
+com\hkt\module\restaurant\repository\ProjectRepositoryUnitTest.class
+com\hkt\module\restaurant\AbstractUnitTest.class
+com\hkt\module\restaurant\rest\RestaurantServiceDispatcherUnitTest.class
+com\hkt\module\restaurant\repository\RecipeRepositoryUnitTest.class
+com\hkt\module\restaurant\RestaurantServiceUnitTest.class
+com\hkt\module\restaurant\repository\TableRepositoryUnitTest.class
+com\hkt\module\restaurant\repository\LocationRepositoryUnitTest.class

@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PhieuThanhToanA5" printOrder="Horizontal" pageWidth="421" pageHeight="595" whenNoDataType="BlankPage" columnWidth="356" leftMargin="35" rightMargin="30" topMargin="20" bottomMargin="10" isSummaryWithPageHeaderAndFooter="true" whenResourceMissingType="Empty" uuid="b342136c-9501-4b68-9727-8717f21cf943">
+	<property name="ireport.zoom" value="2.415765000000014"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="336"/>
+	<parameter name="prTenDoanhNghiep" class="java.lang.String"/>
+	<parameter name="prDiaChi" class="java.lang.String"/>
+	<parameter name="prNgayLap" class="java.lang.String"/>
+	<parameter name="prSoPhieu" class="java.lang.String"/>
+	<parameter name="prKhuVuc" class="java.lang.String"/>
+	<parameter name="prBan" class="java.lang.String"/>
+	<parameter name="prGioVao" class="java.lang.String"/>
+	<parameter name="prNhanVien" class="java.lang.String"/>
+	<parameter name="prTongTien" class="java.lang.String"/>
+	<parameter name="prGiamGia" class="java.lang.String"/>
+	<parameter name="prThue" class="java.lang.String"/>
+	<parameter name="prTongCong" class="java.lang.String"/>
+	<parameter name="prChieuKhau%" class="java.lang.String"/>
+	<parameter name="prThue%" class="java.lang.String"/>
+	<parameter name="prDaThanhToan" class="java.lang.String"/>
+	<parameter name="prConPhaiThanhToan" class="java.lang.String"/>
+	<parameter name="prNgayIn" class="java.lang.String"/>
+	<parameter name="prGioIn" class="java.lang.String"/>
+	<parameter name="prH0" class="java.lang.String"/>
+	<parameter name="prH1" class="java.lang.String"/>
+	<parameter name="prH2" class="java.lang.String"/>
+	<parameter name="prH3" class="java.lang.String"/>
+	<parameter name="prTel" class="java.lang.String"/>
+	<parameter name="prFax" class="java.lang.String"/>
+	<parameter name="prStt" class="java.lang.String"/>
+	<parameter name="logo" class="java.awt.Image"/>
+	<parameter name="money" class="java.lang.String"/>
+	<parameter name="prLbCK%" class="java.lang.String"/>
+	<parameter name="prLbThue%" class="java.lang.String"/>
+	<parameter name="prLbGiamGia" class="java.lang.String"/>
+	<parameter name="prLbDaTra" class="java.lang.String"/>
+	<parameter name="prLbPhaiTra" class="java.lang.String"/>
+	<parameter name="money1" class="java.lang.String"/>
+	<parameter name="money2" class="java.lang.String"/>
+	<parameter name="prLbTongCong" class="java.lang.String"/>
+	<parameter name="prLbTienThue" class="java.lang.String"/>
+	<parameter name="lbPhiDV" class="java.lang.String"/>
+	<parameter name="prPhiDV" class="java.lang.String"/>
+	<parameter name="lbTyGia" class="java.lang.String"/>
+	<parameter name="prTyGia" class="java.lang.String"/>
+	<parameter name="lbQuyDoi" class="java.lang.String"/>
+	<parameter name="prQuyDoi" class="java.lang.String"/>
+	<parameter name="moneyQuyDoi" class="java.lang.String"/>
+	<parameter name="lbTyGia1" class="java.lang.String"/>
+	<parameter name="prTyGia1" class="java.lang.String"/>
+	<parameter name="lbTyGia2" class="java.lang.String"/>
+	<parameter name="prTyGia2" class="java.lang.String"/>
+	<parameter name="prPhiDV%" class="java.lang.String"/>
+	<parameter name="lbPhiDV%" class="java.lang.String"/>
+	<parameter name="money3" class="java.lang.String"/>
+	<parameter name="prMoney1" class="java.lang.String"/>
+	<parameter name="prMoney2" class="java.lang.String"/>
+	<parameter name="prMoney3" class="java.lang.String"/>
+	<parameter name="prNoiDungGhiChu" class="java.lang.String"/>
+	<parameter name="prLbGhiChu" class="java.lang.String"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["D:\\HKT\\hkt_soft_v3.2\\HKT Software Enterprise Manager\\Module Report Gui\\src\\vn\\com\\hkt\\report\\gui\\template\\"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="prTextMoney" class="java.lang.String"/>
+	<parameter name="prMuaHo1" class="java.lang.String"/>
+	<parameter name="prMuaHo2" class="java.lang.String"/>
+	<parameter name="prMuaHo3" class="java.lang.String"/>
+	<parameter name="prMuaHo4" class="java.lang.String"/>
+	<parameter name="prMuaHo5" class="java.lang.String"/>
+	<parameter name="prMoneyMH1" class="java.lang.String"/>
+	<parameter name="prMoneyMH2" class="java.lang.String"/>
+	<parameter name="prMoneyMH3" class="java.lang.String"/>
+	<parameter name="prMoneyMH4" class="java.lang.String"/>
+	<parameter name="prMoneyMH5" class="java.lang.String"/>
+	<parameter name="prLbMuaHo" class="java.lang.String"/>
+	<parameter name="prCongGop" class="java.lang.String"/>
+	<parameter name="prMoneyCongGop" class="java.lang.String"/>
+	<parameter name="prTongSoMon" class="java.lang.String"/>
+	<parameter name="prSoKhach" class="java.lang.String"/>
+	<parameter name="prMoneyUnit1" class="java.lang.String"/>
+	<parameter name="prMoneyUnit2" class="java.lang.String"/>
+	<parameter name="prMoneyUnit3" class="java.lang.String"/>
+	<parameter name="prMoneyUnit4" class="java.lang.String"/>
+	<parameter name="prMoney4" class="java.lang.String"/>
+	<parameter name="prDiemTien" class="java.lang.String"/>
+	<parameter name="prlbDiemTien" class="java.lang.String"/>
+	<parameter name="prSoDiem" class="java.lang.String"/>
+	<parameter name="prlbSoDiem" class="java.lang.String"/>
+	<parameter name="prNhanVienBan" class="java.lang.String"/>
+	<parameter name="prTenKhachHang" class="java.lang.String"/>
+	<parameter name="prSoTienTraTruocConLai" class="java.lang.String"/>
+	<parameter name="prlbSoTienTraTruocConLai" class="java.lang.String"/>
+	<parameter name="prLbDiemConLai" class="java.lang.String"/>
+	<parameter name="prMoney5" class="java.lang.String"/>
+	<parameter name="prSoDiemTienConLai" class="java.lang.String"/>
+	<parameter name="prLbSoDiemTienConLai" class="java.lang.String"/>
+	<parameter name="prDiemConLai" class="java.lang.String"/>
+	<parameter name="prNgayHenConPhaiThanhToan" class="java.lang.String"/>
+	<parameter name="prSoTienKhachDua" class="java.lang.String"/>
+	<parameter name="prMoney6" class="java.lang.String"/>
+	<parameter name="prlbSoTienKhachDua" class="java.lang.String"/>
+	<parameter name="prlbSoTienTraKhach" class="java.lang.String"/>
+	<parameter name="prMoney7" class="java.lang.String"/>
+	<parameter name="prSoTienTraKhach" class="java.lang.String"/>
+	<parameter name="prlbNgayHenThanhToan" class="java.lang.String"/>
+	<parameter name="prMoney7_1" class="java.lang.String"/>
+	<parameter name="prSoTienTraKhach_1" class="java.lang.String"/>
+	<parameter name="prlbNgayHenThanhToan_1" class="java.lang.String"/>
+	<parameter name="prTienTraTruocConLai" class="java.lang.String"/>
+	<parameter name="prTienTraTruocDungTrongHD" class="java.lang.String"/>
+	<parameter name="prTienTraTruoc" class="java.lang.String"/>
+	<parameter name="prTongDiemTien" class="java.lang.String"/>
+	<parameter name="prTongSoDiem" class="java.lang.String"/>
+	<parameter name="prDiemTienConLai" class="java.lang.String"/>
+	<parameter name="prSoDiemConLai" class="java.lang.String"/>
+	<parameter name="prLienHoaDon" class="java.lang.String"/>
+	<parameter name="prSoLanInHoaDon" class="java.lang.String"/>
+	<parameter name="prTongSoDiemTien" class="java.lang.String"/>
+	<parameter name="prTienTraNgay" class="java.lang.String"/>
+	<parameter name="prDiaChiKH" class="java.lang.String"/>
+	<parameter name="prSDT" class="java.lang.String"/>
+	<parameter name="prLoaiHinh" class="java.lang.String"/>
+	<field name="COLUMN_0" class="java.lang.String"/>
+	<field name="COLUMN_1" class="java.lang.String"/>
+	<field name="COLUMN_2" class="java.lang.String"/>
+	<field name="COLUMN_3" class="java.lang.String"/>
+	<field name="COLUMN_4" class="java.lang.String"/>
+	<field name="COLUMN_5" class="java.lang.String"/>
+	<field name="COLUMN_6" class="java.lang.String"/>
+	<pageHeader>
+		<band height="110" splitType="Immediate">
+			<image isLazy="true" onErrorType="Blank">
+				<reportElement uuid="172fe3fc-6ec6-4020-bfc7-a2bb3c78c227" x="0" y="0" width="80" height="45"/>
+				<imageExpression><![CDATA[$P{logo}]]></imageExpression>
+			</image>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="e4e0cf15-5715-4a92-9402-fe2fd17b3c4a" x="80" y="1" width="270" height="26" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="17" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prTenDoanhNghiep}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="467fd428-08ba-4888-a500-bc3055494210" x="80" y="27" width="270" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prDiaChi}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="b9174986-98e8-450f-9904-7b17858f07da" x="1" y="73" width="24" height="11"/>
+				<textElement>
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ngày:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="5ad28d76-1f47-4126-8e0e-cca8cb068380" x="25" y="73" width="85" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prNgayLap}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c2bb2011-4b28-4684-ac48-ad73ea35ec27" x="1" y="85" width="43" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Thu ngân:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="250416c5-cb2a-4d4c-9a36-19a1c187089b" x="44" y="85" width="98" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prNhanVien}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="8fae4180-0349-4b97-80a1-b3abc0e867f9" x="229" y="85" width="28" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[No:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="66d47bad-0844-413e-bb5e-569d9ba47065" x="257" y="85" width="90" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prSoPhieu}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c457dece-ab45-481f-8ad8-8848e1e09d37" x="142" y="85" width="24" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Bàn:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="1a2806ad-56eb-403d-9bae-4c8016be6655" x="166" y="85" width="60" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prBan}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="6a1d3792-63fa-4e73-8567-b1c1c657d3d3" x="141" y="38" width="31" height="11"/>
+				<textElement>
+					<font fontName="Times New Roman" size="8"/>
+				</textElement>
+				<text><![CDATA[Hotline :]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="1a2806ad-56eb-403d-9bae-4c8016be6655" x="167" y="73" width="61" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prKhuVuc}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c457dece-ab45-481f-8ad8-8848e1e09d37" x="142" y="73" width="25" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Khu:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="b8a57d5e-f918-4611-a435-710e2842fe9e" x="265" y="73" width="23" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prGioVao}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c457dece-ab45-481f-8ad8-8848e1e09d37" x="229" y="73" width="35" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Giờ vào:]]></text>
+			</staticText>
+			<textField pattern="HH:mm" isBlankWhenNull="true">
+				<reportElement uuid="b8a57d5e-f918-4611-a435-710e2842fe9e" x="324" y="73" width="23" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prGioIn}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c457dece-ab45-481f-8ad8-8848e1e09d37" x="295" y="73" width="30" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Giờ ra:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="c2bb2011-4b28-4684-ac48-ad73ea35ec27" x="1" y="97" width="43" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Phục vụ:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="5bacc361-777a-44e8-86a3-5222eeee9578" x="44" y="97" width="98" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prNhanVienBan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="d4098bee-d3d4-428b-9a10-cae17710e4f6" x="176" y="38" width="60" height="11"/>
+				<textElement>
+					<font fontName="Times New Roman" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prTel}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="fa8085d2-fca7-48ab-8c23-d6c90b559318" x="0" y="49" width="350" height="23"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prStt}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c2bb2011-4b28-4684-ac48-ad73ea35ec27" x="142" y="97" width="43" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Loại hình:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="5bacc361-777a-44e8-86a3-5222eeee9578" x="185" y="97" width="97" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prLoaiHinh}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="6a1d3792-63fa-4e73-8567-b1c1c657d3d3" x="236" y="38" width="31" height="11"/>
+				<textElement>
+					<font fontName="Times New Roman" size="8"/>
+				</textElement>
+				<text><![CDATA[Fax :]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="d4098bee-d3d4-428b-9a10-cae17710e4f6" x="271" y="38" width="79" height="11"/>
+				<textElement>
+					<font fontName="Times New Roman" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prFax}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="17" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="e0fa9362-9cea-4d7b-a10c-5d6a550a9795" x="0" y="1" width="20" height="15"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[STT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="8fd5d983-8057-48ef-a658-539255cec907" x="21" y="1" width="133" height="15"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tên hàng hóa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="8fd5d983-8057-48ef-a658-539255cec907" x="154" y="1" width="37" height="15"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ĐVT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="41a7e9c5-ca64-403b-8b7d-a72fec267519" x="192" y="1" width="26" height="15"/>
+				<textElement textAlignment="Center" markup="none">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Slg]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="241a4319-3395-44e5-994f-9d518f4be301" x="219" y="1" width="48" height="15"/>
+				<textElement textAlignment="Center" markup="none">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Đơn giá]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="51a4c2d7-ff10-41a2-9da3-5f309e344b39" x="294" y="1" width="55" height="15"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Thành tiền]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="305cd5c6-9918-4e12-8330-5e0969ef41bb" x="0" y="0" width="350" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement uuid="22142260-67f6-4ffc-b287-f4df8c7133c4" x="0" y="16" width="350" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement uuid="41a7e9c5-ca64-403b-8b7d-a72fec267519" x="268" y="1" width="26" height="15"/>
+				<textElement textAlignment="Center" markup="none">
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CK]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20">
+			<textField>
+				<reportElement uuid="492539ba-a403-4606-a5c8-dcde275c3946" x="1" y="0" width="19" height="20"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="false">
+				<reportElement uuid="ae52832a-efde-43ec-8cd2-0c87195d5509" x="21" y="0" width="133" height="19"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{COLUMN_0}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement uuid="c5b33400-56b8-488d-9e9a-eb1412e4b6cd" x="154" y="0" width="37" height="19"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{COLUMN_2}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement uuid="c5b33400-56b8-488d-9e9a-eb1412e4b6cd" x="192" y="0" width="26" height="19"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{COLUMN_3}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="false">
+				<reportElement uuid="48e61ae5-de70-4a3f-b7ac-62e8e2cf1ce1" x="219" y="0" width="48" height="19"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{COLUMN_4}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="false">
+				<reportElement uuid="f0c71d07-47fd-47cd-9880-bea347bda7c0" x="295" y="0" width="54" height="19"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{COLUMN_5}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement uuid="3fdeb74d-312f-4b58-b601-7ca9e94b0b83" x="0" y="-16" width="1" height="35"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement uuid="62089710-396a-423b-8768-b60e94684f51" x="20" y="-16" width="1" height="35"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement uuid="bb36b597-1915-4cd6-9754-0747d1257abd" x="153" y="-16" width="1" height="35"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement uuid="bb36b597-1915-4cd6-9754-0747d1257abd" x="191" y="-16" width="1" height="35"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement uuid="e74e382c-6b69-4257-9aca-9f81769a8e42" x="218" y="-16" width="1" height="35"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement uuid="cb4c69c1-2d8d-4a9a-aecb-b317efd9226c" x="294" y="-16" width="1" height="35"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement uuid="cb1819c2-f5a1-494a-9402-7f20789f9449" x="349" y="-16" width="1" height="35"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement uuid="e598ee15-b07c-4b39-9926-38bfa2358a15" x="0" y="19" width="350" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement uuid="cb4c69c1-2d8d-4a9a-aecb-b317efd9226c" x="267" y="-17" width="1" height="37"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement uuid="80dfea00-8d21-42d7-b9fa-cf5985696ad0" x="268" y="0" width="26" height="19"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{COLUMN_1}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<lastPageFooter>
+		<band height="13">
+			<staticText>
+				<reportElement uuid="ca446f37-3dd3-4ff6-8e28-83ae4647d026" x="247" y="3" width="32" height="9" forecolor="#333333"/>
+				<textElement verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Ngày in:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="881b6260-d8de-4a8e-a240-32cc45dc3d90" x="279" y="3" width="38" height="9" forecolor="#333333"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prNgayIn}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="caf460b8-5344-4a02-8720-d148f52828c0" x="317" y="3" width="30" height="9" forecolor="#333333"/>
+				<textElement verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prGioIn}]]></textFieldExpression>
+			</textField>
+		</band>
+	</lastPageFooter>
+	<summary>
+		<band height="108">
+			<staticText>
+				<reportElement uuid="160d2c16-8e8f-4e82-8e18-3f1427ea9311" x="0" y="92" width="350" height="15"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="13" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Cảm ơn quý khách. Hẹn gặp lại!]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="194d764a-6851-4d72-9756-c2002d246956" x="195" y="2" width="55" height="13"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Tổng tiền:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="50fd9a93-1e99-4fd9-aac3-6e1f2fe63f61" x="250" y="2" width="67" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prTongTien}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="abb821c2-0889-4be3-901c-30971ce560dc" x="250" y="15" width="67" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prGiamGia}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="fc5be5a5-e452-4e85-8313-7db60efc3306" x="195" y="15" width="55" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prGiamGia}.equals("")? "" : "Giảm giá"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="234bf194-9a39-4ce2-a45e-70c0e7deba18" x="175" y="15" width="20" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prChieuKhau%}.equals("")? "" : ($P{prChieuKhau%}+ "%")]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="7c8c68fa-96cf-48ce-8caf-27a97e2b522b" x="110" y="15" width="65" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prChieuKhau%}.equals("")? "" : "Chiết khấu:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="1378f78c-4d37-4a3d-bd8c-b47ad115ddce" x="250" y="28" width="67" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prTongCong}.equals("")? "0" : $P{prTongCong}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="07895d01-07ad-4096-ae55-a04045ca3c9d" x="250" y="41" width="67" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prDaThanhToan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="a6b70df2-821a-461e-b97c-27d1e3ff6d2f" x="110" y="41" width="140" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prDaThanhToan}.equals("")? "" : "Đã trả:"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="d43dfc28-6527-409d-a6fb-39313f1d0a3c" x="110" y="28" width="140" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Tổng tiền thanh toán:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="2406ac1d-5f4f-4924-8c2c-ea2c2546d3b0" x="317" y="2" width="31" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{money}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="f9ab135c-2cbc-4a1b-b1ee-0d3452043762" x="317" y="41" width="31" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prDaThanhToan}.equals("")? "" : $P{money}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="1cd9cc63-df70-4497-bf6a-5d262f11c22b" x="317" y="15" width="31" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prMoney1}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="5eeb9555-a648-441e-9cd2-443c2598cda5" x="317" y="28" width="31" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{money}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3d3d444a-7e3a-4f04-9953-17188a32ee2f" x="1" y="67" width="348" height="13"/>
+				<textElement textAlignment="Right">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prTextMoney}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="a6b70df2-821a-461e-b97c-27d1e3ff6d2f" x="111" y="54" width="140" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prConPhaiThanhToan}.equals("0")? "" : "Tổng tiền khách nợ:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="07895d01-07ad-4096-ae55-a04045ca3c9d" x="251" y="54" width="66" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prConPhaiThanhToan}.equals("0")? "" : $P{prConPhaiThanhToan}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="f9ab135c-2cbc-4a1b-b1ee-0d3452043762" x="317" y="54" width="32" height="13" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prConPhaiThanhToan}.equals("0")? "" : $P{money}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="194d764a-6851-4d72-9756-c2002d246956" x="153" y="80" width="197" height="13"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Giá trên chưa bao gồm Thuế VAT]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

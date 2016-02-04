@@ -1,0 +1,8 @@
+{
+  "module": "accounting",
+  "service": "AccountingService",
+  "name": "contributor_role",
+
+  "options": [
+  ]
+}

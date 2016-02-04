@@ -1,0 +1,246 @@
+<%function renderInputField(field, bean, fieldValue, disabled) { %>
+  <input class="onChangeInput" type="text" name="<%=field.field%>" 
+         value="<%=fieldValue%>" data-mini="true" <%=disabled%> />
+<%}%>
+
+<%function renderDatepickerField(field, bean, disabled) { %>
+  <%var date = field.datepicker.getDate(bean) ; %>
+  <input class="onFocusDatePickerInput onBlurDatePickerInput" type="text" name="<%=field.field%>" 
+         value="<%=date%>" data-role="date" data-mini="true" <%=disabled%>/>
+<%}%>
+
+<%function renderCustomField(field, bean, fieldValue, disabled) { %>
+  <div class="UIBeanCustomInput">
+    <%var inputVal = field.custom.getDisplay(bean); %>
+    <input class="onBlurCustomInput onChangeCustomInput" 
+           type="search" name="<%=field.field%>" 
+           value="<%=inputVal%>" data-mini="true" <%=disabled%> autocomplete="off"/>
+    <div class="UIBeanCustomInputSelector"></div>
+  </div>
+<%}%>
+
+<%function renderSelectInputField(field, bean, fieldValue, disabled) { %>
+  <select <%=disabled%> class="onChangeInput" name="<%=field.field%>" data-mini="true">
+     <%var options = field.select.getOptions(field, bean) ; %>
+     <%for(var i = 0; i < options.length ; i++) { %>
+     <% fieldValue = fieldValue != null ? fieldValue : field.defaultValue ; %>
+     <% var selected = fieldValue == options[i].value ? 'selected' : '' ; %>
+         <option value='<%=options[i].value%>' <%=selected%>>
+           <%=options[i].label%>
+         </option>
+     <%}%>
+   </select>
+<%}%>
+
+<%function renderMultipleInputField(field, bean, fieldValue, disabled) { %>
+  <%if(fieldValue == null ) {%>
+  <%  fieldValue = [''] ;%>
+  <%  bean[field.field] = fieldValue ;%>
+  <%}%>
+  <div class="ui-grid-a InputGrid" field="<%=field.field%>">
+    <div class="ui-block-a InputBlock" style="width: 420px">
+      <%for(var i = 0; i < fieldValue.length; i++) { %>
+        <input class="onChangeInput" type="text" name="<%=field.field + '@' + i%>" 
+               value="<%=fieldValue[i]%>" data-mini="true" <%=disabled%> />
+      <%}%>
+    </div>
+        
+    <div class="ui-block-b" style="width: 30px">
+      <a class="onAddInput" data-role="button" data-icon="plus" 
+         data-iconpos="notext">Add</a>
+    </div>
+  </div>
+<%}%>
+
+<%function renderTextareaInputField(field, bean, fieldValue, disabled) { %>
+  <%
+    var height = "75px";
+    if(field.textarea.height != null) height = field.textarea.height ;
+  %>
+  <textarea class="onChangeInput" style="height: <%=height%>"
+            name="<%=field.field%>" <%=disabled%>><%=fieldValue%></textarea>
+<%}%>
+
+<%function renderEditable(beanName, beanConfig, beanState, display, deletable) { %>
+<%  var bean = beanState.bean %>
+    <div class="UIBean" style="width: 600px; display: <%=display%>" bean="<%=beanName%>">
+      <form>
+        <div class="ui-grid-a">
+          <%beanConfig.fields.forEach(function(field) { %>
+            <div class="ui-block-a" style="width: 150px; padding-top: 8px">
+              <%var mandatory = field.required ? "*" : ""  %>
+              <label><%=mandatory%><%=field.label%>:</label>
+            </div>
+            <div class="ui-block-b" style="width: 450px">
+              <%
+                var fieldValue = bean[field.field] ;
+                var disabled = "" ;
+                if(field.disable)  disabled = 'disabled="disabled"';
+                if(field.select != null) {
+                  renderSelectInputField(field, bean, fieldValue, disabled);
+                } else if(field.multiple != null) {
+                  renderMultipleInputField(field, bean, fieldValue, disabled);
+                } else if(field.textarea != null)  {
+                  renderTextareaInputField(field, bean, fieldValue, disabled);
+                } else if(field.datepicker != null)  {
+                  renderDatepickerField(field, bean, disabled);
+                } else if(field.custom != null)  {
+                  renderCustomField(field, bean, fieldValue, disabled);
+                } else {
+                  renderInputField(field, bean, fieldValue, disabled);
+                }
+              %>
+              <%if(beanState.fieldErrors != null) { %>
+              <%  var errors = beanState.fieldErrors ;%>
+              <%  if(errors[field.field] != null) {%>
+                  <span class="ui-error-text"><%=errors[field.field]%></span>
+              <%  }%>
+              <%}%>
+            </div>
+          <%});%>
+        </div>
+        <div data-role="controlgroup" data-mini="true" data-type="horizontal" style="float: right">
+          <a class="onRestoreBean" data-role="button" data-icon="refresh">Restore</a>
+          <%if(deletable) {%>
+            <a class="onDeleteBean" data-role="button" data-icon="delete">Delete</a>
+          <%}%>
+          <a class="onViewMode" data-role="button" data-icon="check">OK</a>
+          <%if(beanConfig.edit != null && !beanConfig.edit.disable) {%>
+            <%for(var i = 0; i < beanConfig.edit.actions.length; i++) {%>
+            <%  var action =  beanConfig.edit.actions[i];%> 
+                <a class="onEditAction" action="<%=action.action%>" data-role="button" 
+                   data-icon="<%=action.icon%>"><%=action.label%></a> 
+            <%}%>
+          <%}%>
+        </div>
+        <div style="clear: right"><span/></div>
+      </form>
+    </div>
+<%}%>
+
+<%function renderNonEditable(beanName, beanConfig, beanState, display, deletable) { %>
+<%  var bean = beanState.bean ; %>
+    <div class="UIBean" style="max-width: 700px; display: <%=display%>" bean="<%=beanName%>">
+      <table>
+        <%beanConfig.fields.forEach(function(field) { %>
+          <tr>
+            <td style="width: 200px"><strong><%=field.label %>:</strong></td>
+            <td>
+              <%if(field.custom != null) {%>
+                <%=field.custom.getDisplay(bean)%>
+              <%} else {%>
+                <%=bean[field.field] %>
+              <%}%>
+            </td>
+          </tr>
+        <%})%>
+      </table>
+      
+      <div data-role="controlgroup" data-mini="true" data-type="horizontal" style="float: right">
+        <%if(!beanState.readOnly) {%>
+          <%if(deletable) {%>
+            <a class="onDeleteBean" data-role="button" data-icon="delete">Delete</a>
+          <%}%>
+          <a class="onEditMode" data-role="button" data-icon="edit">Edit</a>
+        <%}%>
+        <%if(beanConfig.view != null && !beanConfig.view.disable) {%>
+          <%for(var i = 0; i < beanConfig.view.actions.length; i++) {%>
+          <%  var action =  beanConfig.view.actions[i];%> 
+              <a class="onViewAction" action="<%=action.action%>" data-role="button" 
+                 data-icon="<%=action.icon%>"><%=action.label%></a> 
+          <%}%>
+        <%}%>
+      </div>
+      <div style="clear: right"><span/></div>
+    </div>
+<%}%>
+
+<%function renderTabs(config, beanStates) { %>
+  <%if(config.type == null || config.type == 'single') return ;%>
+  <div data-role="controlgroup" data-mini="true" data-type="horizontal"  data-corners="false">
+    <%var beanConfig = null ;%>
+    <%var label = null ;%>
+    <%for(var name in beanStates) { %>
+    <%
+      var beanState = beanStates[name] ;
+    %>
+    <%
+      if(config.type == 'array') {
+    %>
+    <%
+      var idx = name.lastIndexOf('_');
+    %>
+    <%
+      var configName = name.substring(0, idx);
+    %>
+    <%
+      var beanIdx = name.substring(idx + 1) ;
+    %>
+     <%
+       beanConfig = config.beans[configName] ;
+     %>
+    <%
+      label = beanConfig.label + ' ' + (parseInt(beanIdx) + 1);
+    %>
+    <%
+      } else {
+    %>
+    <%
+      beanConfig = config.beans[name] ;
+    %>
+    <%
+      label = beanConfig.label ;
+    %>
+    <%
+      }
+    %>
+    <%
+      var disabledClass = beanState.select ? 'ui-disabled': ''
+    %>
+        <a class="<%=disabledClass%> onToggleBean" bean="<%=name%>"
+           data-role="button"><%=label%></a>
+    <%
+      }
+    %>
+    <%
+      if(config.type == 'array') {
+    %>
+      <a class="onAddBean" data-role="button" 
+         data-icon="add" data-iconpos="notext" data-inline="true">Add</a>
+    <%
+      }
+    %>
+  </div>
+<%
+  }
+%>
+
+<div class="UIBeans">
+  <div class="UIBeansTab" style="padding: 10px 0px">
+    <%
+      renderTabs(config, beanStates);
+    %>
+  </div>
+  <%
+    var render = null ;
+      for(var name in beanStates) {
+    var beanConfig = null ;
+    if(config.type == 'array') {
+      var idx = name.lastIndexOf('_');
+      var configName = name.substring(0, idx);
+      beanConfig = config.beans[configName] ;
+    } else {
+      beanConfig = config.beans[name]; 
+    }
+    
+    var beanState  = beanStates[name] ;
+    if(beanState.editMode) {
+      render = renderEditable ;
+    } else {
+      render = renderNonEditable ;
+    }
+    var display = beanState.select ? 'block' : 'none' ;
+    render(name, beanConfig, beanState, display, config.type == 'array') ;
+      }
+  %>
+</div>

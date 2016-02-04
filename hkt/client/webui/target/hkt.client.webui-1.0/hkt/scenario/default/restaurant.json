@@ -1,0 +1,159 @@
+{
+  "recipe": 
+  {
+    "name": "Dinh luong", "organizationLoginId": "hkt","productCode": "trung-ran", "recipe": "test", "description": "test"
+  },
+  
+  "recipeIngredients": [
+    {
+      "productCode": "hanh", "quantity": 1,"percent": 0.3 ,"unit": "cu"
+    },
+    {
+      "productCode": "trung", "quantity": 2,"percent": 0.7 ,"unit": "qua"
+    }
+  ],
+  
+  "tables": [
+    {
+      "name": "A01", "code": "A01","organizationLoginId": "hkt", "locationCode": "tang01", "description": "Tang 1 - A01",
+      "reservations": [
+        {
+          "fromTime": "24/02/2014 08:00:00 GMT+0700", "toTime": "24/02/2014 09:00:00 GMT+0700",
+          "description": "Ban khach thuong"
+        },
+        {
+          "fromTime": "25/02/2014 21:00:00 GMT+0700", "toTime": "25/02/2014 22:30:00 GMT+0700",
+          "description": "Ban khach thuong"
+        }
+      ]
+    },
+    {
+      "name": "A02","code": "A02", "organizationLoginId": "hkt", "locationCode": "tang01", "description": "Tang 1 - A02",
+      "reservations": [
+        {
+          "fromTime": "24/02/2014 08:00:00 GMT+0700", "toTime": "24/02/2014 09:00:00 GMT+0700",
+          "description": "Ban khach thuong"
+        },
+        {
+          "fromTime": "25/02/2014 21:00:00 GMT+0700", "toTime": "25/02/2014 22:30:00 GMT+0700",
+          "description": "Ban khach thuong"
+        }
+      ]
+    },
+    {
+      "name": "A03",  "code": "A03","organizationLoginId": "hkt", "locationCode": "tang01", "description": "Tang 1 - A03",
+      "reservations": [
+        {
+          "fromTime": "24/02/2014 08:00:00 GMT+0700", "toTime": "24/02/2014 09:00:00 GMT+0700",
+          "description": "Ban khach thuong"
+        },
+        {
+          "fromTime": "25/02/2014 21:00:00 GMT+0700", "toTime": "25/02/2014 22:30:00 GMT+0700",
+          "description": "Ban khach thuong"
+        }
+      ]
+    },
+    {
+      "name": "A04", "code": "A04","organizationLoginId": "hkt", "locationCode": "tang01", "description": "Tang 1 - A04",
+      "reservations": [
+        {
+          "fromTime": "24/02/2014 08:00:00 GMT+0700", "toTime": "24/02/2014 09:00:00 GMT+0700",
+          "description": "Ban khach thuong"
+        },
+        {
+          "fromTime": "25/02/2014 21:00:00 GMT+0700", "toTime": "25/02/2014 22:30:00 GMT+0700",
+          "description": "Ban khach thuong"
+        }
+      ]
+    },
+    {
+      "name": "A05", "code": "A05","organizationLoginId": "hkt", "locationCode": "tang01", "description": "Tang 1 - A05",
+      "reservations": [
+        {
+          "fromTime": "24/02/2014 08:00:00 GMT+0700", "toTime": "24/02/2014 09:00:00 GMT+0700",
+          "description": "Ban khach thuong"
+        },
+        {
+          "fromTime": "25/02/2014 21:00:00 GMT+0700", "toTime": "25/02/2014 22:30:00 GMT+0700",
+          "description": "Ban khach thuong"
+        }
+      ]
+    },
+    {
+      "name": "B01", "code": "B01","organizationLoginId": "hkt", "locationCode": "tang02", "description": "Tang 2 - B01",
+      "reservations": [
+        {
+          "fromTime": "24/02/2014 08:00:00 GMT+0700", "toTime": "24/02/2014 09:00:00 GMT+0700",
+          "description": "Ban khach VIP"
+        },
+        {
+          "fromTime": "25/02/2014 21:00:00 GMT+0700", "toTime": "25/02/2014 22:30:00 GMT+0700",
+          "description": "Ban khach VIP"
+        }
+      ]
+    },
+    {
+      "name": "B02", "code": "B02","organizationLoginId": "hkt", "locationCode": "tang02", "description": "Tang 2 - B02",
+      "reservations": [
+        {
+          "fromTime": "24/02/2014 08:00:00 GMT+0700", "toTime": "24/02/2014 09:00:00 GMT+0700",
+          "description": "Ban khach VIP"
+        },
+        {
+          "fromTime": "25/02/2014 21:00:00 GMT+0700", "toTime": "25/02/2014 22:30:00 GMT+0700",
+          "description": "Ban khach VIP"
+        }
+      ]
+    },
+    {
+      "name": "B03", "code": "B03","organizationLoginId": "hkt", "locationCode": "tang02", "description": "Tang 2 - B03",
+      "reservations": [
+        {
+          "fromTime": "24/02/2014 08:00:00 GMT+0700", "toTime": "24/02/2014 09:00:00 GMT+0700",
+          "description": "Ban khach VIP"
+        },
+        {
+          "fromTime": "25/02/2014 21:00:00 GMT+0700", "toTime": "25/02/2014 22:30:00 GMT+0700",
+          "description": "Ban khach VIP"
+        }
+      ]
+    },
+    {
+      "name": "B04", "code": "B04","organizationLoginId": "hkt", "locationCode": "tang02", "description": "Tang 2 - B04",
+      "reservations": [
+        {
+          "fromTime": "24/02/2014 08:00:00 GMT+0700", "toTime": "24/02/2014 09:00:00 GMT+0700",
+          "description": "Ban khach VIP"
+        },
+        {
+          "fromTime": "25/02/2014 21:00:00 GMT+0700", "toTime": "25/02/2014 22:30:00 GMT+0700",
+          "description": "Ban khach VIP"
+        }
+      ]
+    },
+    {
+      "name": "B05", "code": "B05","organizationLoginId": "hkt", "locationCode": "tang02", "description": "Tang 2 - B05",
+      "reservations": [
+        {
+          "fromTime": "24/02/2014 08:00:00 GMT+0700", "toTime": "24/02/2014 09:00:00 GMT+0700",
+          "description": "Ban khach VIP"
+        },
+        {
+          "fromTime": "25/02/2014 21:00:00 GMT+0700", "toTime": "25/02/2014 22:30:00 GMT+0700",
+          "description": "Ban khach VIP"
+        }
+      ]
+    }
+  ],
+  
+ "locations": [
+    {
+      "name": "Tầng 01", "organizationLoginId": "hkt", "code": "tang01", "description": "Tang 1 - A01",
+      "priority": 1
+    },
+     {
+      "name": "Tầng 02", "organizationLoginId": "hkt", "code": "tang02", "description": "Tang 2 - A02",
+      "priority": 2
+    }
+  ]
+}

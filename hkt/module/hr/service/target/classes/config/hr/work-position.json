@@ -1,0 +1,13 @@
+{
+  "module": "hr",
+  "service": "HRService",
+  "name": "work-position",
+
+  "options": [
+    { "label": "Khách hàng", "code": "khach-hang", "priority": 1, "description": "Khách hàng" },
+    { "label": "Nhà cung câp" ,"code": "nha-cc", "priority": 2, "description": "Nhà cung cấp" },
+    { "label": "Trưởng phòng" ,"code": "truong-phong", "priority": 3, "description": "Trưởng phòng" },
+    { "label": "Nhân viên" ,"code": "nhan-vien", "priority": 4, "description": "Nhân viên" },
+    { "label": "Giám đốc" ,"code": "giam-doc", "priority": 5, "description": "Giám đốc" }
+  ]
+}

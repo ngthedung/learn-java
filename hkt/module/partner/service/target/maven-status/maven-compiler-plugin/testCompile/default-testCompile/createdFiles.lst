@@ -1,0 +1,16 @@
+com\hkt\module\partner\supplier\SupplerServiceUnitTest.class
+com\hkt\module\partner\customer\repository\PointRepositoryUnitTest.class
+com\hkt\module\partner\customer\repository\PointConversionRuleRepositoryUnitTest.class
+com\hkt\module\partner\supplier\repository\SupplierRepositoryUnitTest.class
+com\hkt\module\partner\supplier\repository\SuppliedProductRepositoryUnitTest.class
+com\hkt\module\partner\supplier\rest\SupplierServiceDispatcherUnitTest.class
+com\hkt\module\partner\customer\CustomerServiceUnitTest.class
+com\hkt\module\partner\AbstractUnitTest.class
+com\hkt\module\partner\customer\repository\PointTransactionRepositoryUnitTest.class
+com\hkt\module\partner\customer\repository\CustomerRepositoryUnitTest.class
+com\hkt\module\partner\customer\repository\CreditRepositoryUnitTest.class
+com\hkt\module\partner\supplier\rest\SupplierServiceDispatcherUnitTest$1.class
+com\hkt\module\partner\customer\rest\CustomerServiceDispatcherUnitTest.class
+com\hkt\module\partner\supplier\repository\PriceHistoryRepositoryUnitTest.class
+com\hkt\module\partner\customer\rest\CustomerServiceDispatcherUnitTest$1.class
+com\hkt\module\partner\customer\repository\CreditTransactionRepositoryUnitTest.class

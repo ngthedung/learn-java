@@ -1,0 +1,114 @@
+{
+  "adminAuthentication": {
+    "loginId": "admin", "password": "admin"
+  },
+
+  "webuiConfig": {
+    "language": "vn",
+
+    "modules": [
+      {
+        "name":  "account",
+        "permission": { "capability": "ADMIN", "group": "hkt/webui/account" } ,
+        "screens": [
+           { "name": "Accounts"},
+             { "name": "AccountsTest"},
+           { "name": "Groups"}
+        ]
+      },
+
+      {
+        "name":  "cms",
+        "permission": { "capability": "ADMIN", "group": "hkt/webui/cms" } ,
+        "screens": [
+           { "name": "Explorer" },
+           { "name": "Templates" }
+        ]
+      },
+      {
+        "name":  "accounting",
+        "permission": { "capability": "ADMIN", "group": "hkt/webui/accounting" } ,
+        "screens": [
+           { "name": "Invoices" },
+           { "name": "Banks" },
+           { "name": "Report" },
+           { "name": "Configs" },
+           { "name": "Accounting"}
+        ]
+      },
+      {
+        "name":  "hr",
+        "permission": { "capability": "ADMIN", "group": "hkt/webui/hr" } ,
+        "screens": [
+           { "name": "Employees" },
+           { "name": "Appointments" },
+           { "name": "Configs" }
+        ]
+      },
+
+      {
+        "name":  "warehouse",
+        "permission": { "capability": "ADMIN", "group": "hkt/webui/warehouse" } ,
+        "screens": [
+           { "name": "Products" },
+           { "name": "Warehouses" },
+           { "name": "PricesConfig", "label": "Product Prices" },
+           { "name": "Taxs" },
+           { "name": "Promotions" },
+           { "name": "Coupons" },
+           { "name": "Menus" }
+        ]
+      },
+      
+      {
+        "name":  "school",
+        "permission": { "capability": "ADMIN", "group": "hkt/webui/school" } ,
+        "screens": [
+           { "name": "Students" },
+           { "name": "Teachers" },
+           { "name": "Courses" }
+        ]
+      },
+      
+      {
+        "name":  "partner",
+        "permission": { "capability": "ADMIN", "group": "hkt/webui/partner" } ,
+        "screens": [
+           { "name": "Customers" },
+           { "name": "Suppliers" },
+           { "name": "PointConversionRules" }
+        ]
+      },
+      
+      {
+        "name":  "restaurant",
+        "permission": { "capability": "ADMIN", "group": "hkt/webui/restaurant" } ,
+        "screens": [
+           { "name": "Recipes" },
+           { "name": "Tables" },
+           { "name": "Locations" },
+           { "name": "Shifts" }
+           
+        ]
+      },
+      
+      {
+        "name":  "admin",
+        "permission": { "capability": "ADMIN", "group": "hkt/webui/admin" } ,
+        "screens": [
+           { "name": "Configs" },
+           { "name": "Monitors" }
+        ]
+      },
+
+      {
+        "name":  "test",
+        "permission": { "capability": "ADMIN", "group": "hkt/webui/admin" } ,
+        "screens": [
+           { "name": "Tests" },
+           { "name": "Samples" }
+        ]
+      }
+    ]
+  }
+}

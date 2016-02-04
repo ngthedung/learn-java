@@ -1,0 +1,31 @@
+{
+  "warehouses" : [
+    {
+      "createdTime" : "29/05/2014 09:10:57 GMT+0700",
+      "modifiedTime" : "29/05/2014 09:10:57 GMT+0700",
+      "persistableState" : "ORIGIN",
+      "warehouseId" : "1",
+      "name" : "Kho tổng",
+      "ownerId" : "Nhà Hàng muối ớt @TOFIX",
+      "description" : ""
+    },
+    {
+      "createdTime" : "29/05/2014 09:10:57 GMT+0700",
+      "modifiedTime" : "29/05/2014 09:10:57 GMT+0700",
+      "persistableState" : "ORIGIN",
+      "warehouseId" : "2",
+      "name" : "Kho nguyên vật liệu",
+      "ownerId" : "Nhà Hàng muối ớt @TOFIX",
+      "description" : ""
+    },
+    {
+      "createdTime" : "29/05/2014 09:10:57 GMT+0700",
+      "modifiedTime" : "29/05/2014 09:10:57 GMT+0700",
+      "persistableState" : "ORIGIN",
+      "warehouseId" : "4",
+      "name" : "Kho thành phẩm",
+      "ownerId" : "Nhà Hàng muối ớt @TOFIX",
+      "description" : ""
+    }
+  ]
+}

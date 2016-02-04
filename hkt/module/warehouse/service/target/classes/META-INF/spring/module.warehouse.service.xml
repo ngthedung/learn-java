@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:jpa="http://www.springframework.org/schema/data/jpa" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                      http://www.springframework.org/schema/beans/spring-beans.xsd
+                      http://www.springframework.org/schema/tx
+                      http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+		                  http://www.springframework.org/schema/data/jpa 
+                      http://www.springframework.org/schema/data/jpa/spring-jpa.xsd
+                      http://www.springframework.org/schema/context
+                      http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<bean id="WarehouseServiceDispatcher" class="com.hkt.module.core.rest.ProxyDispatcher">
+		<property name="module" value="warehouse" />
+		<property name="serviceName" value="WarehouseService" />
+		<property name="service" ref="WarehouseService" />
+	</bean>
+	<bean id="ProductServiceDispatcher" class="com.hkt.module.core.rest.ProxyDispatcher">
+    <property name="module" value="warehouse" />
+    <property name="serviceName" value="ProductService" />
+    <property name="service" ref="ProductService" />
+  </bean>
+  <bean id="PromotionServiceDispatcher" class="com.hkt.module.core.rest.ProxyDispatcher">
+    <property name="module" value="warehouse" />
+    <property name="serviceName" value="PromotionService" />
+    <property name="service" ref="PromotionService" />
+  </bean>
+
+	<context:annotation-config />
+	<context:component-scan base-package="com.hkt.module.warehouse" />
+	<jpa:repositories base-package="com.hkt.module.warehouse.repository" />
+	<context:component-scan base-package="com.hkt.module.product" />
+  <jpa:repositories base-package="com.hkt.module.product.repository" />
+  <context:component-scan base-package="com.hkt.module.promotion" />
+  <jpa:repositories base-package="com.hkt.module.promotion.repository" />
+</beans>

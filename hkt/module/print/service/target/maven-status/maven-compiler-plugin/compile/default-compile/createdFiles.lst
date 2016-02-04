@@ -1,0 +1,4 @@
+com\hkt\module\print\repository\PrintMachineTool.class
+com\hkt\module\print\repository\PrintMachineRepository.class
+com\hkt\module\print\PrintMachineService.class
+com\hkt\module\print\entity\PrintMachine.class

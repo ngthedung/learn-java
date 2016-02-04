@@ -1,0 +1,20 @@
+{
+  "adminAuthentication": {
+    "loginId": "admin", "password": "admin"
+  },
+
+  "webuiConfig": {
+    "language": "vn",
+
+    "modules": [
+      {
+        "name":  "accounting",
+        "permission": { "capability": "ADMIN", "group": "hkt/webui/accounting" } ,
+        "screens": [
+           { "name": "Invoices" }
+        ]
+      }
+     
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "UIShiftList.label": "Ca nhân viên",
+  "UIShiftList.action.onNewShift": "Thêm mới",
+  "UIShiftList.field.store": "Cửa hàng",
+  "UIShiftList.field.start": "Ngày BĐ",
+  "UIShiftList.field.end": "Ngày KT",
+  "UIShiftList.field.description": "Ghi chú",
+  
+  }

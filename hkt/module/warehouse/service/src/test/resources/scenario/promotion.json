@@ -1,0 +1,166 @@
+{
+  
+  "promotions":[
+    {
+      "promotion": {
+        "name": "Khuyen mai IPhone5s",
+        "organizationLoginId": "hkt",
+        "fromDate": "07/01/2014 00:00:00 GMT+0700", 
+        "status": "Planned", "maxUsePerCustomer": 100, "discountRate": 10, "discount": 0,
+        "appliedToMinExpense": 0, "maxExpense": 10000000, "currencyUnit": "VND",
+        "description": "Gia soc ca tuan",
+        "productTargets" : [
+           {
+             "productTargetType": "ByProduct", "productIdentifierId": "iphone5s"
+           }
+        ]
+      },
+     
+      "promotionUseds": [
+        {
+          "invoiceDetail": {
+            "type": "PROMOTION", "activityType": "Receipt", 
+            "total": 10000000, "currencyUnit": "VND",
+            "discount": 0, "discountRate": 0,
+            "totalTax": 1000000, "finalCharge": 11000000,
+            "invoiceCode": "promotion",
+            "status": "Paid", "description": "Hóa đơn có chương trình Khuyến mại Smart phone Iphone5s",
+            "note": "Hóa đơn có chương trình Khuyến mại Smart phone Iphone5s",
+            "startDate": "06/11/2013 08:00:00 GMT+0700", "endDate": "06/11/2013 09:00:00 GMT+0700",
+            
+            "items" : [
+              {
+                "itemName": "Iphone5s", "quantity": 1, "unitPrice": 10000000, "discount": 0, "discountByInvoice": 0,
+                "tax": 1000000, "total": 10000000, "finalCharge": 11000000, "currencyUnit": "VND"
+              }
+            ],
+            
+            "transactions":[
+              {
+              "createdBy":"thang",
+                "total": 11000000, "currencyUnit": "VND", 
+                "transactionType": "Wire", "bankAccountId": "",
+                "transactionDate": "06/11/2013 08:30:00 GMT+0700",
+                "description": "Hóa đơn có chương trình Khuyến mại Smart phone Iphone5s",
+                "note": "Hóa đơn có chương trình Khuyến mại Smart phone Iphone5s"
+              }
+            ],
+            
+            "attributes": [
+              { "name": "byGroup", "value": "Kinh Doanh" },
+              { "name": "restaurant:byProject", "value": "Ban Hang" },
+              { "name": "restaurant:byTable", "value": "A01" },
+              { "name": "restaurant:customerName", "value": "muoiot" }
+            ],
+            
+            "contributors": [
+              { "type": "User","identifierId": "long", "percent": 100,"role": "phuc vu chinh"},
+              { "type": "User","identifierId": "thang",   "percent": 100,"role": "phuc vu phu"},
+              { "type": "User","identifierId": "muoiot",   "percent": 100,"role": "Đối tác"}
+            ]
+          },
+          
+          "promotionUsed": {
+            "usedDate": "06/11/2013 00:00:00 GMT+0700", "expense": 300000, "saving": 1000
+          }
+        }
+      ]
+    },
+    {
+      "promotion": {
+        "name": "Khuyen mai IPhone6s",
+        "organizationLoginId": "hkt",
+        "fromDate": "07/01/2014 00:00:00 GMT+0700", 
+        "status": "Planned", "maxUsePerCustomer": 100, "discountRate": 0, "discount": 10000,
+        "appliedToMinExpense": 0, "maxExpense": 10000000, "currencyUnit": "VND",
+        "description": "Gia soc ca tuan",
+        "productTargets" : [
+           {
+             "productTargetType": "ByProduct", "productIdentifierId": "iphone5s"
+           }
+        ]
+      },
+     
+      "promotionUseds": [
+      ]
+    },
+    {
+      "promotion": {
+        "name": "Khuyen mai Mobile",
+        "organizationLoginId": "hkt",
+        "fromDate": "07/01/2014 00:00:00 GMT+0700",
+        "status": "Planned", "maxUsePerCustomer": 1, "discountRate": 10, "discount": 0,
+        "appliedToMinExpense": 0, "maxExpense": 10000000, "currencyUnit": "VND",
+        "description": "",
+        "productTargets" : [
+           {
+             "productTargetType": "ByProductTag", "productIdentifierId": "electronic:mobile"
+           }
+        ]
+      },
+      "promotionUseds": [
+      ]
+    },
+    {
+      "promotion": {
+        "name": "Khuyen mai nhan vien",
+        "organizationLoginId": "hkt",
+        "fromDate": "07/01/2014 00:00:00 GMT+0700", 
+        "status": "Planned", "maxUsePerCustomer": 1, "discountRate": 10, "discount": 0,
+        "appliedToMinExpense": 0, "maxExpense": 10000000, "currencyUnit": "VND",
+        "description": "",
+        "locationTargets" : [
+           {
+             "location": "hkt/employees"
+           }
+        ]
+      },
+      "promotionUseds": [
+      ]
+    },
+    {
+      "promotion": {
+        "name": "Khuyen mai doi tac",
+        "organizationLoginId": "hkt",
+        "fromDate": "07/01/2014 00:00:00 GMT+0700", 
+        "status": "Planned", "maxUsePerCustomer": 1, "discountRate": 0, "discount": 20000,
+        "appliedToMinExpense": 0, "maxExpense": 10000000, "currencyUnit": "VND",
+        "description": "",
+        "customerTargets" : [
+           {
+             "customerGroup": "hkt/partner/customer"
+           }
+        ],
+        "locationTargets" : [
+           {
+             "location": "hkt/employees"
+           }
+        ]
+      },
+      "promotionUseds": [
+      ]
+    },
+    {
+      "promotion": {
+        "name": "Khuyen mai doi tac san pham",
+        "organizationLoginId": "hkt",
+        "fromDate": "07/01/2014 00:00:00 GMT+0700", 
+        "status": "Planned", "maxUsePerCustomer": 1, "discountRate": 0, "discount": 30000,
+        "appliedToMinExpense": 0, "maxExpense": 10000000, "currencyUnit": "VND",
+        "description": "",
+        "productTargets" : [
+           {
+             "productTargetType": "ByProductTag", "productIdentifierId": "electronic:mobile:phone"
+           }
+        ],
+        "customerTargets" : [
+           {
+             "customerGroup": "hkt/partner/customer"
+           }
+        ]
+      },
+      "promotionUseds": [
+      ]
+    }
+  ]
+}

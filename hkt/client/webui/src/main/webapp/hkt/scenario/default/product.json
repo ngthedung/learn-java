@@ -1,0 +1,224 @@
+{
+  "products": [
+    { 
+      "product": {
+        "code": "iphone5s", "name": "iphone5s", "maker": "Apple", "unit": "chiec"
+      },
+      
+      "cmsNode": {
+        "node": {
+          "name": "iphone5s", "mimeType": "warehouse/product", "path" : "iOS/iphone5s"
+        },
+        "attributes": {
+          "screen:size": {
+            "type": "String", "name": "screen:size", "value": "5.0", "nodePath" : "iOS/iphone5s"
+          },
+          
+          "screen:resolution": {
+            "type": "String", "name": "screen:resolution", "value": "5.0", "nodePath" : "iOS/iphone5s"
+          },
+          "battery:capacity": {
+            "type": "String", "name": "battery:capacity", "value": "3000mhA", "nodePath" : "iOS/iphone5s"
+          },
+          "battery:duration": {
+            "type": "String", "name": "battery:duration", "value": "10h", 
+            "note": "phu thuoc vao cach su dung", "nodePath" : "iOS/iphone5s"
+          }
+        }
+      }
+    },
+      
+    {
+      "product": {
+        "code": "ipad-air", "name": "Ipad Air", "maker": "Apple", "unit": "chiec"
+      },
+      "cmsNode": {
+        "node": {
+          "name": "ipad-air", "mimeType": "warehouse/product", "path" : "iOS/ipad-air"
+        },
+        "attributes": {
+          "screen:size": {
+            "type": "String", "name": "screen:size", "value": "9.7", "nodePath" : "iOS/ipad-air"
+          },
+          
+          "screen:resolution": {
+            "type": "String", "name": "screen:resolution", "value": "2560x1920", "nodePath" : "iOS/ipad-air"
+          },
+          "battery:capacity": {
+            "type": "String", "name": "battery:capacity", "value": "9000mhA", "nodePath" : "iOS/ipad-air"
+          },
+          "battery:duration": {
+            "type": "String", "name": "battery:duration", "value": "11h", 
+            "note": "phu thuoc vao cach su dung", "nodePath" : "iOS/ipad-air"
+          }
+        }
+      }
+    },
+    
+    {
+      "product": {
+        "code": "samsung-galaxy-note-3", "name": "Samsung Galaxy Note III", "maker": "Samsung", "unit": "chiec"
+      },
+      "cmsNode": {
+        "node": {
+          "name": "samsung-galaxy-note-3", "mimeType": "warehouse/product", "path" : "android/samsung-galaxy-note-3"
+        },
+        "attributes": {
+          "screen:size": {
+            "type": "String", "name": "screen:size", "value": "5.7", "nodePath" : "android/samsung-galaxy-note-3"
+          },
+          
+          "screen:resolution": {
+            "type": "String", "name": "screen:resolution", "value": "1920x1440", 
+            "nodePath" : "android/samsung-galaxy-note-3"
+          },
+          "battery:capacity": {
+            "type": "String", "name": "battery:capacity", "value": "3000mhA", 
+            "nodePath" : "android/samsung-galaxy-note-3"
+          },
+          "battery:duration": {
+            "type": "String", "name": "battery:duration", "value": "10h", 
+            "note": "phu thuoc vao cach su dung", "nodePath" : "android/samsung-galaxy-note-3"
+          }
+        }
+      }
+    },
+    {
+      "product": {
+        "code": "trung-ran", "name": "Trung ran", "maker": "No"
+      },
+      "cmsNode": {
+        "node": {
+          "name": "trung-ran", "mimeType": "warehouse/product", "path" : "tu-sinh/trung-ran"
+        }
+      }
+    },
+    {
+      "product": {
+        "code": "thit-rang", "name": "Thịt Rang", "maker": "No"
+      },
+      "cmsNode": {
+        "node": {
+          "name": "thit-rang", "mimeType": "warehouse/product", "path" : "tu-sinh/thit-rang"
+        }
+      }
+    },
+    {
+      "product": {
+        "code": "bia-hoi", "name": "Bia hơi", "maker": "No"
+      },
+      "cmsNode": {
+        "node": {
+          "name": "bia-hoi", "mimeType": "warehouse/product", "path" : "tu-sinh/bia-hoi"
+        }
+      }
+    },
+    {
+      "product": {
+        "code": "tom-hap", "name": "Tôm hấp", "maker": "No"
+      },
+      "cmsNode": {
+        "node": {
+          "name": "tom-hap", "mimeType": "warehouse/product", "path" : "tu-sinh/tom-hap"
+        }
+      }
+    },
+    {
+      "product": {
+        "code": "lau-thap-cam", "name": "Lẩu thập cẩm", "maker": "No"
+      },
+      "cmsNode": {
+        "node": {
+          "name": "lau-thap-cam", "mimeType": "warehouse/product", "path" : "tu-sinh/lau-thap-cam"
+        }
+      }
+    },
+    {
+      "product": {
+        "code": "hanh", "name": "Hanh", "maker": "No"
+      },
+      "cmsNode": {
+        "node": {
+          "name": "hanh", "mimeType": "warehouse/product", "path" : "tu-sinh/hanh"
+        }
+      }
+    },
+    {
+      "product": {
+        "code": "trung", "name": "Trung", "maker": "No"
+      },
+      "cmsNode": {
+        "node": {
+          "name": "Trung", "mimeType": "warehouse/product", "path" : "tu-sinh/trung"
+        }
+      }
+    },
+    {
+      "product": {
+        "code": "BMW 2013", "name": "BMW 2013", "maker": "No"
+      },
+      "cmsNode": {
+        "node": {
+          "name": "BMW 2013", "mimeType": "warehouse/product", "path" : "tu-sinh/BMW 2013"
+        }
+      }
+    }
+  ],
+ 
+  "productPriceTypes": [
+    {
+      "type": "Bang gia thuong", "organizationLoginId": "hkt","description": "ap dung cho tat ca"
+    },
+    {
+      "type": "Bang gia vip", "organizationLoginId": "hkt","description": "ap dung cho tat ca"
+    },
+    {
+      "type": "Bang gia USD", "organizationLoginId": "hkt","description": "ap dung cho tat ca"
+    }
+  ],
+  
+  "productPrices": [
+    {
+      "organizationLoginId": "hkt","price": 5000000, "currencyUnit": "VND",
+      "unit": "chiec", "minQuantity": 1,"maxQuantity": 100, "description": "dien thoai chinh hang"
+    },
+    {
+      "organizationLoginId": "hkt","price": 8000000, "currencyUnit": "VND",
+      "unit": "chiec", "minQuantity": 1,"maxQuantity": 100, "description": "dien thoai xach tay"
+    },
+    {
+      "organizationLoginId": "hkt","price": 8000000, "currencyUnit": "VND",
+      "unit": "chiec", "minQuantity": 1,"maxQuantity": 100, "description": "dien thoai chinh hang"
+    }
+  ],
+   
+  "productTags": [
+    {
+      "label": "electronic", "tag": "electronic"
+    },
+    {
+      "label": "mobile", "tag": "electronic:mobile"
+    },
+    {
+      "label": "phone", "tag": "electronic:phone"
+    },
+    {
+      "label": "tablet", "tag": "electronic:tablet"
+    },
+    {
+      "label": "mobile product", "tag": "electronic:mobile:product"
+    },
+    {
+      "label": "phone product", "tag": "electronic:phone:product"
+    },
+    {
+      "label": "tablet product", "tag": "electronic:tablet:product"
+    }
+  ],
+  
+  "taxs": [
+    {
+      "name": "VAT", "percent": 10, "description": "Thuế giá trị gia tăng"
+    }
+  ]
+}

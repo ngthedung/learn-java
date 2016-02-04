@@ -1,0 +1,57 @@
+{
+  "UIEmployee.label": "Employee",
+  "UIEmployee.field.loginId": "Login Id",
+  "UIEmployee.field.organizationLoginId": "Organization Login Id",
+  "UIEmployee.field.startDate": "Start Date",
+  "UIEmployee.field.leaveDate": "Leave Date",
+  
+  "UIEmployeeDetail.label": "Employee Information",
+  "UIEmployeeDetail.action.back": "Back",
+  "UIEmployeeDetail.action.save": "Save",
+  
+  "UIEmployeeList.label": "Employees list",
+  "UIEmployeeList.action.onNewEmployee": "New",
+  "UIEmployeeList.action.onNewFullEmployee": "New Full",
+  "UIEmployeeList.action.onRefresh": "Refresh",
+  
+  "UIWorkPosition.label": "Work Position Information",
+  "UIWorkPosition.field.positionTitle": "Position Title",
+  "UIWorkPosition.field.group": "Group",
+  "UIWorkPosition.field.fromDate": "From Date",
+  "UIWorkPosition.field.toDate": "To Date",
+  "UIWorkPosition.field.status": "Status",
+  "UIWorkPosition.field.status.planed": "Planed",
+  "UIWorkPosition.field.status.active": "Active",
+  "UIWorkPosition.field.status.ended": "Ended",
+  "UIWorkPosition.field.salaryType": "Salary Type",
+  "UIWorkPosition.field.salaryType.hourly": "Hourly",
+  "UIWorkPosition.field.salaryType.daily": "Daily",
+  "UIWorkPosition.field.salaryType.weekly": "Weekly",
+  "UIWorkPosition.field.salaryType.monthly": "Monthly",
+  "UIWorkPosition.field.salaryType.yearly": "Yearly",
+  "UIWorkPosition.field.salaryType.na": "N/A",
+  "UIWorkPosition.field.salary": "Salary",
+  "UIWorkPosition.action.save": "Save",
+  "UIWorkPosition.action.cancel": "Cancel",
+  
+  "UIWorkPositionList.label": "Work Position List",
+  "UIWorkPositionList.action.onNewPosition": "New",
+  "UIWorkPositionList.action.onRefresh": "Refresh",
+  
+  "UIDailyWork.label": "Daily Work Information",
+  "UIDailyWork.field.loginId": "Login Id",
+  "UIDailyWork.field.startTime": "Start Time",
+  "UIDailyWork.field.endTime": "End Time",
+  "UIDailyWork.field.note": "Note",
+  "UIDailyWork.action.save": "Save",
+  "UIDailyWork.action.cancel": "Cancel",
+  
+  "UIDailyWorkList.label": "Daily Work List",
+  "UIDailyWorkList.action.onNewDailyWork": "New",
+  "UIDailyWorkList.action.onRefresh": "Refresh",
+  
+  "UIContract.label": "Employee Contract",
+  "UIContract.action.save": "Save",
+  "UIContract.action.back": "Back"
+  
+}

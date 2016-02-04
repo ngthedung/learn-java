@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="BarCode10432" language="groovy" pageWidth="294" pageHeight="95" columnWidth="294" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="b2759f0e-4936-4259-bc3f-60f5a249d60d">
+	<property name="ireport.zoom" value="2.1435888100000016"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="prTenSanPham" class="java.lang.String"/>
+	<parameter name="prMaSP" class="java.lang.String"/>
+	<parameter name="prLbGia" class="java.lang.String"/>
+	<parameter name="prGia" class="java.lang.String"/>
+	<parameter name="prDV" class="java.lang.String"/>
+	<parameter name="parameter1_5" class="java.lang.String"/>
+	<title>
+		<band height="95" splitType="Stretch">
+			<textField>
+				<reportElement uuid="8de4bc7a-3a64-42ce-b4c2-c7595a25a33c" x="1" y="9" width="146" height="11"/>
+				<textElement textAlignment="Center">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prTenSanPham}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="8de4bc7a-3a64-42ce-b4c2-c7595a25a33c" x="147" y="9" width="146" height="11"/>
+				<textElement textAlignment="Center">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prTenSanPham}]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement uuid="bee9af7b-1cde-4ba9-a927-14e5da7e4443" x="1" y="21" width="146" height="60"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="false" checksumRequired="false" barWidth="2" barHeight="125">
+					<jr:codeExpression><![CDATA[$P{prMaSP}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<componentElement>
+				<reportElement uuid="bee9af7b-1cde-4ba9-a927-14e5da7e4443" x="147" y="21" width="146" height="60"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="false" checksumRequired="false" barWidth="2" barHeight="125">
+					<jr:codeExpression><![CDATA[$P{prMaSP}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<textField>
+				<reportElement uuid="8de4bc7a-3a64-42ce-b4c2-c7595a25a33c" x="1" y="83" width="146" height="11"/>
+				<textElement textAlignment="Center">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prMaSP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="8de4bc7a-3a64-42ce-b4c2-c7595a25a33c" x="147" y="83" width="146" height="11"/>
+				<textElement textAlignment="Center">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prMaSP}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+</jasperReport>

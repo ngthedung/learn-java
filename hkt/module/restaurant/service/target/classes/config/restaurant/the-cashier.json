@@ -1,0 +1,8 @@
+{
+  "module": "restaurant",
+  "service": "RestaurantService",
+  "name": "the-cashier",
+
+  "options": [
+  ]
+}

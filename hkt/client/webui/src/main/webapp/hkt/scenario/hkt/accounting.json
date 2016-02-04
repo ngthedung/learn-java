@@ -1,0 +1,4505 @@
+{
+  "bankAccounts" : [ ],
+  "invoices" : [
+    {
+      "id" : 1278,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1278",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Bảo Hiểm Xã Hội",
+      "total" : 1800000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 1800000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 1800000.0,
+      "currencyUnit" : "VND",
+      "note" : "Bảo Hiểm Xã Hội",
+      "description" : "Bảo Hiểm Xã Hội",
+      "startDate" : "03/01/2014 00:00:00 GMT+0700",
+      "endDate" : "03/01/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1278@TOFIX",
+          "itemName" : "Thanh toan tien BHXH 01/2013",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 1800000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 1800000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "03/01/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 1800000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "BHXH CẦU GIẤY(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1363,
+      "createdBy" : "(TOFIX)Phạm Thị Hường",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1363",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Bảo Hiểm Xã Hội",
+      "total" : 650000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 650000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 650000.0,
+      "currencyUnit" : "VND",
+      "note" : "Bảo Hiểm Xã Hội",
+      "description" : "Bảo Hiểm Xã Hội",
+      "startDate" : "21/02/2014 00:00:00 GMT+0700",
+      "endDate" : "21/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1363@TOFIX",
+          "itemName" : "Thanh toan tien BHXH",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 650000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 650000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Thị Hường(TOFIX)",
+          "createdTime" : "21/02/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 650000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Thị Hường(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "BHXH CẦU GIẤY(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1420,
+      "createdBy" : "(TOFIX)Phạm Thị Hường",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1420",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Bảo Hiểm Xã Hội",
+      "total" : 2900000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 2900000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 2900000.0,
+      "currencyUnit" : "VND",
+      "note" : "Bảo Hiểm Xã Hội",
+      "description" : "Bảo Hiểm Xã Hội",
+      "startDate" : "26/03/2014 00:00:00 GMT+0700",
+      "endDate" : "26/03/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1420@TOFIX",
+          "itemName" : "Thanh toan tien BHXH thang 03",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 2900000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 2900000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Thị Hường(TOFIX)",
+          "createdTime" : "26/03/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 2900000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Thị Hường(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "BHXH CẦU GIẤY(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1469,
+      "createdBy" : "(TOFIX)Phạm Thị Hường",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1469",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Bảo Hiểm Xã Hội",
+      "total" : 2900000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 2900000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 2900000.0,
+      "currencyUnit" : "VND",
+      "note" : "Bảo Hiểm Xã Hội",
+      "description" : "Bảo Hiểm Xã Hội",
+      "startDate" : "06/04/2014 00:00:00 GMT+0700",
+      "endDate" : "06/04/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1469@TOFIX",
+          "itemName" : "Thanh toan tien BHXH T04",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 2900000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 2900000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Thị Hường(TOFIX)",
+          "createdTime" : "06/04/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 2900000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Thị Hường(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "BHXH CẦU GIẤY(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1296,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1296",
+      "activityType" : "Receipt",
+      "status" : "Paid",
+      "type" : "Cổ đông góp vốn ",
+      "total" : 4000000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 4000000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 4000000.0,
+      "currencyUnit" : "VND",
+      "note" : "Cổ đông góp vốn ",
+      "description" : "Cổ đông góp vốn ",
+      "startDate" : "06/01/2014 00:00:00 GMT+0700",
+      "endDate" : "06/01/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1296@TOFIX",
+          "itemName" : "Đóng góp cổ đông",
+          "quantity" : 400.0,
+          "unitPrice" : 10000.0,
+          "total" : 4000000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 4000000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "06/01/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 4000000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hội Đồng Quản Trị",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1361,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1361",
+      "activityType" : "Receipt",
+      "status" : "Paid",
+      "type" : "Cổ đông góp vốn ",
+      "total" : 7650000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 7650000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 7650000.0,
+      "currencyUnit" : "VND",
+      "note" : "Cổ đông góp vốn ",
+      "description" : "Cổ đông góp vốn ",
+      "startDate" : "03/02/2014 00:00:00 GMT+0700",
+      "endDate" : "03/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1361@TOFIX",
+          "itemName" : "Nop tien co dong Phan TU",
+          "quantity" : 765.0,
+          "unitPrice" : 10000.0,
+          "total" : 7650000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 7650000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "03/02/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 7650000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hội Đồng Quản Trị",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phan Thanh Tú(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1383,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1383",
+      "activityType" : "Receipt",
+      "status" : "Paid",
+      "type" : "Cổ đông góp vốn ",
+      "total" : 5900000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 5900000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 5900000.0,
+      "currencyUnit" : "VND",
+      "note" : "Cổ đông góp vốn ",
+      "description" : "Cổ đông góp vốn ",
+      "startDate" : "03/03/2014 00:00:00 GMT+0700",
+      "endDate" : "03/03/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1383@TOFIX",
+          "itemName" : "Dong co dong thang 02",
+          "quantity" : 590.0,
+          "unitPrice" : 10000.0,
+          "total" : 5900000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 5900000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "03/03/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 5900000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hội Đồng Quản Trị",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phan Thanh Tú(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1384,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1384",
+      "activityType" : "Receipt",
+      "status" : "Paid",
+      "type" : "Cổ đông góp vốn ",
+      "total" : 3200000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 3200000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 3200000.0,
+      "currencyUnit" : "VND",
+      "note" : "Cổ đông góp vốn ",
+      "description" : "Cổ đông góp vốn ",
+      "startDate" : "03/03/2014 00:00:00 GMT+0700",
+      "endDate" : "03/03/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1384@TOFIX",
+          "itemName" : "Dong tien co dong 02",
+          "quantity" : 320.0,
+          "unitPrice" : 10000.0,
+          "total" : 3200000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 3200000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "03/03/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 3200000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hội Đồng Quản Trị",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1398,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1398",
+      "activityType" : "Receipt",
+      "status" : "Paid",
+      "type" : "Cổ đông góp vốn ",
+      "total" : 5750000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 5750000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 5750000.0,
+      "currencyUnit" : "VND",
+      "note" : "Cổ đông góp vốn ",
+      "description" : "Cổ đông góp vốn ",
+      "startDate" : "08/03/2014 00:00:00 GMT+0700",
+      "endDate" : "08/03/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1398@TOFIX",
+          "itemName" : "Nop tien co dong thang 02/2013",
+          "quantity" : 575.0,
+          "unitPrice" : 10000.0,
+          "total" : 5750000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 5750000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "08/03/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 5750000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hội Đồng Quản Trị",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Lê Đức Thủy(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1399,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1399",
+      "activityType" : "Receipt",
+      "status" : "Paid",
+      "type" : "Cổ đông góp vốn ",
+      "total" : 6750000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 6750000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 6750000.0,
+      "currencyUnit" : "VND",
+      "note" : "Cổ đông góp vốn ",
+      "description" : "Cổ đông góp vốn ",
+      "startDate" : "08/03/2014 00:00:00 GMT+0700",
+      "endDate" : "08/03/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1399@TOFIX",
+          "itemName" : "Nop tien co dong thang 02/2013",
+          "quantity" : 675.0,
+          "unitPrice" : 10000.0,
+          "total" : 6750000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 6750000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "08/03/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 6750000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hội Đồng Quản Trị",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Lương Minh Huân(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1400,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1400",
+      "activityType" : "Receipt",
+      "status" : "Paid",
+      "type" : "Cổ đông góp vốn ",
+      "total" : 1.15E7,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 1.15E7,
+      "totalTax" : 0.0,
+      "finalCharge" : 1.15E7,
+      "currencyUnit" : "VND",
+      "note" : "Cổ đông góp vốn ",
+      "description" : "Cổ đông góp vốn ",
+      "startDate" : "08/03/2014 00:00:00 GMT+0700",
+      "endDate" : "08/03/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1400@TOFIX",
+          "itemName" : "Nop tien co dong thang 02/2013",
+          "quantity" : 1150.0,
+          "unitPrice" : 10000.0,
+          "total" : 1.15E7,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 1.15E7,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "08/03/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 1.15E7,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hội Đồng Quản Trị",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Nguyễn Văn Hiển(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1293,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1293",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Salary",
+      "total" : 1950000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 1950000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 1950000.0,
+      "currencyUnit" : "VND",
+      "note" : "Salary",
+      "description" : "Salary",
+      "startDate" : "06/01/2014 00:00:00 GMT+0700",
+      "endDate" : "06/01/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1293@TOFIX",
+          "itemName" : "Luong Thảo",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 1950000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 1950000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "06/01/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 1950000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Vũ Thị Phương Thảo(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1294,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1294",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Salary",
+      "total" : 3110000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 3110000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 3110000.0,
+      "currencyUnit" : "VND",
+      "note" : "Salary",
+      "description" : "Salary",
+      "startDate" : "06/01/2014 00:00:00 GMT+0700",
+      "endDate" : "06/01/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1294@TOFIX",
+          "itemName" : "Luong Lina",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 3110000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 3110000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "06/01/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 3110000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Tôn  Nữ Li Na(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1325,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1325",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Salary",
+      "total" : 2000000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 2000000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 2000000.0,
+      "currencyUnit" : "VND",
+      "note" : "Salary",
+      "description" : "Salary",
+      "startDate" : "30/01/2014 00:00:00 GMT+0700",
+      "endDate" : "30/01/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1325@TOFIX",
+          "itemName" : "Unng truoc luong Khang",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 2000000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 2000000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "30/01/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 2000000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Ngọc Kháng(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1328,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1328",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Salary",
+      "total" : 6570000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 6570000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 6570000.0,
+      "currencyUnit" : "VND",
+      "note" : "Salary",
+      "description" : "Salary",
+      "startDate" : "03/02/2014 00:00:00 GMT+0700",
+      "endDate" : "03/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1328@TOFIX",
+          "itemName" : "Trả lương Bách",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 6570000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 6570000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "03/02/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 6570000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Lê Xuân Bách(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1335,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1335",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Salary",
+      "total" : 2160000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 2160000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 2160000.0,
+      "currencyUnit" : "VND",
+      "note" : "Salary",
+      "description" : "Salary",
+      "startDate" : "03/02/2014 00:00:00 GMT+0700",
+      "endDate" : "03/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1335@TOFIX",
+          "itemName" : "Trả lương Lina",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 2160000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 2160000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "03/02/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 2160000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Tôn  Nữ Li Na(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1359,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1359",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Salary",
+      "total" : 7645000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 7645000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 7645000.0,
+      "currencyUnit" : "VND",
+      "note" : "Salary",
+      "description" : "Salary",
+      "startDate" : "03/02/2014 00:00:00 GMT+0700",
+      "endDate" : "03/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1359@TOFIX",
+          "itemName" : "Tra luong Phan Tu",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 7645000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 7645000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "03/02/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 7645000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phan Thanh Tú(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1360,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1360",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Salary",
+      "total" : 4050000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 4050000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 4050000.0,
+      "currencyUnit" : "VND",
+      "note" : "Salary",
+      "description" : "Salary",
+      "startDate" : "03/02/2014 00:00:00 GMT+0700",
+      "endDate" : "03/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1360@TOFIX",
+          "itemName" : "Tra luong Van Kiem",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 4050000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 4050000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "03/02/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 4050000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1353,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1353",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Salary",
+      "total" : 580000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 580000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 580000.0,
+      "currencyUnit" : "VND",
+      "note" : "Salary",
+      "description" : "Salary",
+      "startDate" : "17/02/2014 00:00:00 GMT+0700",
+      "endDate" : "17/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1353@TOFIX",
+          "itemName" : "Long nhan luong truoc thang 02",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 580000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 580000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "17/02/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 580000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Nguyễn Trung Long(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1397,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1397",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Salary",
+      "total" : 5750000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 5750000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 5750000.0,
+      "currencyUnit" : "VND",
+      "note" : "Salary",
+      "description" : "Salary",
+      "startDate" : "08/03/2014 00:00:00 GMT+0700",
+      "endDate" : "08/03/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1397@TOFIX",
+          "itemName" : "Thuong co dong thang 02/2013",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 5750000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 5750000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "08/03/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 5750000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Lê Đức Thủy(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1406,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1406",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Salary",
+      "total" : 500000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 500000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 500000.0,
+      "currencyUnit" : "VND",
+      "note" : "Salary",
+      "description" : "Salary",
+      "startDate" : "12/03/2014 00:00:00 GMT+0700",
+      "endDate" : "12/03/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1406@TOFIX",
+          "itemName" : "Phan Tu Ung truoc luong t03",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 500000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 500000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "12/03/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 500000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phan Thanh Tú(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1438,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1438",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Salary",
+      "total" : 1.1E7,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 1.1E7,
+      "totalTax" : 0.0,
+      "finalCharge" : 1.1E7,
+      "currencyUnit" : "VND",
+      "note" : "Salary",
+      "description" : "Salary",
+      "startDate" : "31/03/2014 00:00:00 GMT+0700",
+      "endDate" : "31/03/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1438@TOFIX",
+          "itemName" : "Thanh toan luong Phan Tu t05/2013",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 1.1E7,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 1.1E7,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "31/03/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 1.1E7,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phan Thanh Tú(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1444,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1444",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Salary",
+      "total" : 600000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 600000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 600000.0,
+      "currencyUnit" : "VND",
+      "note" : "Salary",
+      "description" : "Salary",
+      "startDate" : "05/04/2014 00:00:00 GMT+0700",
+      "endDate" : "05/04/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1444@TOFIX",
+          "itemName" : "Luong Bach",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 600000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 600000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "05/04/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 600000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Lê Xuân Bách(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1461,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1461",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Salary",
+      "total" : 5000000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 5000000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 5000000.0,
+      "currencyUnit" : "VND",
+      "note" : "Salary",
+      "description" : "Salary",
+      "startDate" : "05/04/2014 00:00:00 GMT+0700",
+      "endDate" : "05/04/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1461@TOFIX",
+          "itemName" : "Thưởng nhân sự",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 5000000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 5000000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "05/04/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 5000000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phan Thanh Tú(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1276,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1276",
+      "activityType" : "Receipt",
+      "status" : "Paid",
+      "type" : "Payment",
+      "total" : 2000000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 2000000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 2000000.0,
+      "currencyUnit" : "VND",
+      "note" : "Payment",
+      "description" : "Payment",
+      "startDate" : "03/01/2014 00:00:00 GMT+0700",
+      "endDate" : "03/01/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1276@TOFIX",
+          "itemName" : "Khach hang thanh toan",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 2000000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 2000000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "03/01/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 2000000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Kinh Doanh",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Đại Học Thương mại(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1301,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1301",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Payment",
+      "total" : 2000000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 2000000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 2000000.0,
+      "currencyUnit" : "VND",
+      "note" : "Payment",
+      "description" : "Payment",
+      "startDate" : "08/01/2014 00:00:00 GMT+0700",
+      "endDate" : "08/01/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1301@TOFIX",
+          "itemName" : "Thanh toán PN",
+          "quantity" : 1.0,
+          "unitPrice" : 2000000.0,
+          "total" : 2000000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 2000000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "08/01/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 2000000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Kinh Doanh",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "DigiTech(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1314,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1314",
+      "activityType" : "Receipt",
+      "status" : "WaitingPaid",
+      "type" : "Payment",
+      "total" : 5840000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 0.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 5840000.0,
+      "currencyUnit" : "VND",
+      "note" : "Payment",
+      "description" : "Payment",
+      "startDate" : "13/01/2014 00:00:00 GMT+0700",
+      "endDate" : "13/01/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1314@TOFIX",
+          "itemName" : "Thanh toan tien may in t12",
+          "quantity" : 1.0,
+          "unitPrice" : 5840000.0,
+          "total" : 5840000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 5840000.0,
+          "currencyUnit" : "VND",
+          "description" : "Chưa thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Kinh Doanh",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Cafe Phong Mã(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1317,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1317",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Payment",
+      "total" : 1000000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 1000000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 1000000.0,
+      "currencyUnit" : "VND",
+      "note" : "Payment",
+      "description" : "Payment",
+      "startDate" : "13/01/2014 00:00:00 GMT+0700",
+      "endDate" : "13/01/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1317@TOFIX",
+          "itemName" : "Thanh toan tien dang bai bao",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 1000000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 1000000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "13/01/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 1000000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Kinh Doanh",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Đại Học Thương mại(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1320,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1320",
+      "activityType" : "Receipt",
+      "status" : "Paid",
+      "type" : "Payment",
+      "total" : 5000000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 5000000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 5000000.0,
+      "currencyUnit" : "VND",
+      "note" : "Payment",
+      "description" : "Payment",
+      "startDate" : "16/01/2014 00:00:00 GMT+0700",
+      "endDate" : "16/01/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1320@TOFIX",
+          "itemName" : "Khach hang ung truoc",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 5000000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 5000000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "16/01/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 5000000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Kinh Doanh",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Đại Học Thương mại(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1346,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1346",
+      "activityType" : "Payment",
+      "status" : "WaitingPaid",
+      "type" : "Payment",
+      "total" : 55000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 0.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 55000.0,
+      "currencyUnit" : "VND",
+      "note" : "Payment",
+      "description" : "Payment",
+      "startDate" : "17/02/2014 00:00:00 GMT+0700",
+      "endDate" : "17/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1346@TOFIX",
+          "itemName" : "Thanh toan CTV",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 55000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 55000.0,
+          "currencyUnit" : "VND",
+          "description" : "Chưa thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Kinh Doanh",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1347,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1347",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Payment",
+      "total" : 1445000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 1445000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 1445000.0,
+      "currencyUnit" : "VND",
+      "note" : "Payment",
+      "description" : "Payment",
+      "startDate" : "17/02/2014 00:00:00 GMT+0700",
+      "endDate" : "17/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1347@TOFIX",
+          "itemName" : "Thanh toan ctv",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 1445000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 1445000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "17/02/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 1445000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Kinh Doanh",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Đại Học Thương mại(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1367,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1367",
+      "activityType" : "Receipt",
+      "status" : "Paid",
+      "type" : "Payment",
+      "total" : 1000000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 1000000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 1000000.0,
+      "currencyUnit" : "VND",
+      "note" : "Payment",
+      "description" : "Payment",
+      "startDate" : "26/02/2014 00:00:00 GMT+0700",
+      "endDate" : "26/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1367@TOFIX",
+          "itemName" : "Truc thanh toan lan 2",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 1000000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 1000000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "26/02/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 1000000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Kinh Doanh",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Đại Học Thương mại(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1368,
+      "createdBy" : "(TOFIX)Lê Thị Kim Oanh",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1368",
+      "activityType" : "Receipt",
+      "status" : "Paid",
+      "type" : "Payment",
+      "total" : 1500000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 1500000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 1500000.0,
+      "currencyUnit" : "VND",
+      "note" : "Payment",
+      "description" : "Payment",
+      "startDate" : "27/02/2014 00:00:00 GMT+0700",
+      "endDate" : "27/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1368@TOFIX",
+          "itemName" : "Khách hàng thanh toán bảo trì phần mềm",
+          "quantity" : 1.0,
+          "unitPrice" : 1500000.0,
+          "total" : 1500000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 1500000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Lê Thị Kim Oanh(TOFIX)",
+          "createdTime" : "27/02/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 1500000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Kinh Doanh",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Lê Thị Kim Oanh(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Long Việt(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1369,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1369",
+      "activityType" : "Receipt",
+      "status" : "WaitingPaid",
+      "type" : "Payment",
+      "total" : 5000000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 0.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 5000000.0,
+      "currencyUnit" : "VND",
+      "note" : "Payment",
+      "description" : "Payment",
+      "startDate" : "28/02/2014 00:00:00 GMT+0700",
+      "endDate" : "28/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1369@TOFIX",
+          "itemName" : "Khach hang thanh toan",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 5000000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 5000000.0,
+          "currencyUnit" : "VND",
+          "description" : "Chưa thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Kinh Doanh",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Đại Học Thương mại(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1389,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1389",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Payment",
+      "total" : 1000000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 1000000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 1000000.0,
+      "currencyUnit" : "VND",
+      "note" : "Payment",
+      "description" : "Payment",
+      "startDate" : "07/03/2014 00:00:00 GMT+0700",
+      "endDate" : "07/03/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1389@TOFIX",
+          "itemName" : "Thanh toan CTV",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 1000000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 1000000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "07/03/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 1000000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Kinh Doanh",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1441,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1441",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Payment",
+      "total" : 2500000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 2500000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 2500000.0,
+      "currencyUnit" : "VND",
+      "note" : "Payment",
+      "description" : "Payment",
+      "startDate" : "29/03/2014 00:00:00 GMT+0700",
+      "endDate" : "29/03/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1441@TOFIX",
+          "itemName" : "Thanh toan CTV",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 2500000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 2500000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "29/03/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 2500000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Kinh Doanh",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1471,
+      "createdBy" : "(TOFIX)Phan Thanh Tú",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1471",
+      "activityType" : "Receipt",
+      "status" : "Paid",
+      "type" : "Payment",
+      "total" : 2000000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 2000000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 2000000.0,
+      "currencyUnit" : "VND",
+      "note" : "Payment",
+      "description" : "Payment",
+      "startDate" : "07/04/2014 00:00:00 GMT+0700",
+      "endDate" : "07/04/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1471@TOFIX",
+          "itemName" : "Khach thanh toan truoc",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 2000000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 2000000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phan Thanh Tú(TOFIX)",
+          "createdTime" : "07/04/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 2000000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Kinh Doanh",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phan Thanh Tú(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Đại Học Thương mại(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1472,
+      "createdBy" : "(TOFIX)Phan Thanh Tú",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1472",
+      "activityType" : "Receipt",
+      "status" : "WaitingPaid",
+      "type" : "Payment",
+      "total" : 8000000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 0.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 8000000.0,
+      "currencyUnit" : "VND",
+      "note" : "Payment",
+      "description" : "Payment",
+      "startDate" : "07/04/2014 00:00:00 GMT+0700",
+      "endDate" : "07/04/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1472@TOFIX",
+          "itemName" : "Khach hang thanh toan truoc",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 8000000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 8000000.0,
+          "currencyUnit" : "VND",
+          "description" : "Chưa thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Kinh Doanh",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phan Thanh Tú(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Đại Học Thương mại(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1277,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1277",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Nghiệp Vụ Hành Chính ",
+      "total" : 1000000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 1000000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 1000000.0,
+      "currencyUnit" : "VND",
+      "note" : "Nghiệp Vụ Hành Chính ",
+      "description" : "Nghiệp Vụ Hành Chính ",
+      "startDate" : "03/01/2014 00:00:00 GMT+0700",
+      "endDate" : "03/01/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1277@TOFIX",
+          "itemName" : "Thanh toan tien thue mon bai 2013",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 1000000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 1000000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "03/01/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 1000000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1316,
+      "createdBy" : "(TOFIX)Phạm Thị Hường",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1316",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Nghiệp Vụ Hành Chính ",
+      "total" : 512000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 512000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 512000.0,
+      "currencyUnit" : "VND",
+      "note" : "Nghiệp Vụ Hành Chính ",
+      "description" : "Nghiệp Vụ Hành Chính ",
+      "startDate" : "13/01/2014 00:00:00 GMT+0700",
+      "endDate" : "13/01/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1316@TOFIX",
+          "itemName" : "Thanh toan ADSL",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 512000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 512000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Thị Hường(TOFIX)",
+          "createdTime" : "13/01/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 512000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Thị Hường(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Fivimart(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1470,
+      "createdBy" : "(TOFIX)Phạm Thị Hường",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1470",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Nghiệp Vụ Hành Chính ",
+      "total" : 100000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 100000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 100000.0,
+      "currencyUnit" : "VND",
+      "note" : "Nghiệp Vụ Hành Chính ",
+      "description" : "Nghiệp Vụ Hành Chính ",
+      "startDate" : "27/01/2014 00:00:00 GMT+0700",
+      "endDate" : "27/01/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1470@TOFIX",
+          "itemName" : "Qua SN Kiem",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 100000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 100000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Thị Hường(TOFIX)",
+          "createdTime" : "27/01/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 100000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Thị Hường(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Fivimart(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1326,
+      "createdBy" : "(TOFIX)Phạm Thị Hường",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1326",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Nghiệp Vụ Hành Chính ",
+      "total" : 1826000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 1826000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 1826000.0,
+      "currencyUnit" : "VND",
+      "note" : "Nghiệp Vụ Hành Chính ",
+      "description" : "Nghiệp Vụ Hành Chính ",
+      "startDate" : "01/02/2014 00:00:00 GMT+0700",
+      "endDate" : "01/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1326@TOFIX",
+          "itemName" : "Thanh toan lien hoan tong ket",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 1826000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 1826000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Thị Hường(TOFIX)",
+          "createdTime" : "01/02/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 1826000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Thị Hường(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1344,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1344",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Nghiệp Vụ Hành Chính ",
+      "total" : 450000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 450000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 450000.0,
+      "currencyUnit" : "VND",
+      "note" : "Nghiệp Vụ Hành Chính ",
+      "description" : "Nghiệp Vụ Hành Chính ",
+      "startDate" : "03/02/2014 00:00:00 GMT+0700",
+      "endDate" : "03/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1344@TOFIX",
+          "itemName" : "Thanh toán tiền lau nhà",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 450000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 450000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "03/02/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 450000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Metro(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1464,
+      "createdBy" : "(TOFIX)Phạm Thị Hường",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1464",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Nghiệp Vụ Hành Chính ",
+      "total" : 171000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 171000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 171000.0,
+      "currencyUnit" : "VND",
+      "note" : "Nghiệp Vụ Hành Chính ",
+      "description" : "Nghiệp Vụ Hành Chính ",
+      "startDate" : "10/02/2014 00:00:00 GMT+0700",
+      "endDate" : "10/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1464@TOFIX",
+          "itemName" : "Thanh toán Viettel",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 171000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 171000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Thị Hường(TOFIX)",
+          "createdTime" : "10/02/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 171000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "Lucky Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Thị Hường(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1355,
+      "createdBy" : "(TOFIX)Phạm Thị Hường",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1355",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Nghiệp Vụ Hành Chính ",
+      "total" : 1000000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 1000000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 1000000.0,
+      "currencyUnit" : "VND",
+      "note" : "Nghiệp Vụ Hành Chính ",
+      "description" : "Nghiệp Vụ Hành Chính ",
+      "startDate" : "19/02/2014 00:00:00 GMT+0700",
+      "endDate" : "19/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1355@TOFIX",
+          "itemName" : "Lien hoan gap mat dau nam",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 1000000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 1000000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Thị Hường(TOFIX)",
+          "createdTime" : "19/02/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 1000000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Thị Hường(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Nhà Hàng Hồng Châu(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1370,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1370",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Nghiệp Vụ Hành Chính ",
+      "total" : 960000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 960000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 960000.0,
+      "currencyUnit" : "VND",
+      "note" : "Nghiệp Vụ Hành Chính ",
+      "description" : "Nghiệp Vụ Hành Chính ",
+      "startDate" : "28/02/2014 00:00:00 GMT+0700",
+      "endDate" : "28/02/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1370@TOFIX",
+          "itemName" : "Thanh toan tien mua ten mien PA VIETNAM HET HAN 14/03/2014",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 960000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 960000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "28/02/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 960000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "PA Việt Nam(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1371,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1371",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Nghiệp Vụ Hành Chính ",
+      "total" : 400000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 400000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 400000.0,
+      "currencyUnit" : "VND",
+      "note" : "Nghiệp Vụ Hành Chính ",
+      "description" : "Nghiệp Vụ Hành Chính ",
+      "startDate" : "03/03/2014 00:00:00 GMT+0700",
+      "endDate" : "03/03/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1371@TOFIX",
+          "itemName" : "Thanh toan tien lau don nha",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 400000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 400000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "03/03/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 400000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Fivimart(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1417,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1417",
+      "activityType" : "Payment",
+      "status" : "WaitingPaid",
+      "type" : "Nghiệp Vụ Hành Chính ",
+      "total" : 3500000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 0.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 3500000.0,
+      "currencyUnit" : "VND",
+      "note" : "Nghiệp Vụ Hành Chính ",
+      "description" : "Nghiệp Vụ Hành Chính ",
+      "startDate" : "17/03/2014 00:00:00 GMT+0700",
+      "endDate" : "17/03/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1417@TOFIX",
+          "itemName" : "Thanh toan tien lam bao cao tai chinh",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 3500000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 3500000.0,
+          "currencyUnit" : "VND",
+          "description" : "Chưa thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1466,
+      "createdBy" : "(TOFIX)Phạm Thị Hường",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1466",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Nghiệp Vụ Hành Chính ",
+      "total" : 54000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 54000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 54000.0,
+      "currencyUnit" : "VND",
+      "note" : "Nghiệp Vụ Hành Chính ",
+      "description" : "Nghiệp Vụ Hành Chính ",
+      "startDate" : "19/03/2014 00:00:00 GMT+0700",
+      "endDate" : "19/03/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1466@TOFIX",
+          "itemName" : "Thanh toán tiên linh tinh",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 54000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 54000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Thị Hường(TOFIX)",
+          "createdTime" : "19/03/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 54000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Thị Hường(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    },
+    {
+      "id" : 1473,
+      "createdBy" : "(TOFIX)Phạm Văn Kiệm",
+      "persistableState" : "ORIGIN",
+      "invoiceCode" : "1473",
+      "activityType" : "Payment",
+      "status" : "Paid",
+      "type" : "Nghiệp Vụ Hành Chính ",
+      "total" : 400000.0,
+      "discountByItem" : 0.0,
+      "discount" : 0.0,
+      "discountRate" : 0.0,
+      "totalPaid" : 400000.0,
+      "totalTax" : 0.0,
+      "finalCharge" : 400000.0,
+      "currencyUnit" : "VND",
+      "note" : "Nghiệp Vụ Hành Chính ",
+      "description" : "Nghiệp Vụ Hành Chính ",
+      "startDate" : "10/04/2014 00:00:00 GMT+0700",
+      "endDate" : "10/04/2014 00:00:00 GMT+0700",
+      "items" : [
+        {
+          "persistableState" : "ORIGIN",
+          "itemCode" : "1473@TOFIX",
+          "itemName" : "Thanh toan tien lau nha thang 03",
+          "quantity" : 0.0,
+          "unitPrice" : 0.0,
+          "total" : 400000.0,
+          "discountRate" : 0.0,
+          "discount" : 0.0,
+          "discountRateByInvoice" : 0.0,
+          "discountByInvoice" : 0.0,
+          "taxRate" : 0.0,
+          "tax" : 0.0,
+          "finalCharge" : 400000.0,
+          "currencyUnit" : "VND",
+          "description" : "Đã Thanh toán",
+          "references" : [ ]
+        }
+      ],
+      "transactions" : [
+        {
+          "createdBy" : "Phạm Văn Kiệm(TOFIX)",
+          "createdTime" : "10/04/2014 00:00:00 GMT+0700",
+          "persistableState" : "ORIGIN",
+          "bankAccountId" : "hkt@TOFIX",
+          "total" : 400000.0,
+          "currencyUnit" : "VND"
+        }
+      ],
+      "attributes" : [
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "byGroup",
+          "value" : "HKT"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Type Payment",
+          "value" : "Tiền mặt"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "name" : "Transaction",
+          "value" : "TopCare Building"
+        }
+      ],
+      "contributors" : [
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "Group",
+          "identifierId" : "HKT Consultant/Hành Chính",
+          "role" : "Department",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Phạm Văn Kiệm(TOFIX)",
+          "role" : "Người thực hiện",
+          "percent" : 100
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "type" : "User",
+          "identifierId" : "Metro(TOFIX)",
+          "role" : "Đối tác",
+          "percent" : 100
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,630 @@
+{
+  "bankAccounts": [
+    {
+      "bankAccountId": "vcb-ngoquyen", "currency": "VND", "type": "Money",
+      "address": "33 Ngo Quyen, Hai Ba Trung, Ha Noi"
+    },
+    
+    {
+      "bankAccountId": "vcb-credit-ngoquyen", "currency": "VND", "type": "CreditCard",
+      "address": "33 Ngo Quyen, Hai Ba Trung, Ha Noi"
+    },
+    
+    {
+      "bankAccountId": "tech-kimna", "currency": "VND", "type": "Money",
+      "address": "111 Kim Ma, Cau Giay, Ha Noi"
+    }
+  ],
+
+  "invoices":[
+    {
+      "type": "RESTAURANT", "activityType": "Receipt", 
+      "total": 100000, "currencyUnit":"VND",
+      "discount": 0, "discountRate":10, "discountByItem": "0",
+      "totalTax": 0, "finalCharge": 0,"totalPaid": 0,
+      "status": "Paid", "description": "ban hang", "note": "ban hang",
+      "startDate": "01/01/2014 08:00:00 GMT+0700", "endDate": "01/01/2014 09:00:00 GMT+0700",
+      "items" : [
+        {
+          "itemName": "Trứng rán", "quantity": 2, "unitPrice": 10000, "discount": 0, 
+          "taxRate": "0","discountRateByInvoice": 0, "discountRate": 0, "discountByInvoice": 0,
+          "tax": 0, "total": 0,  "finalCharge": 0, "currencyUnit": "VND", 
+          "references" : [
+            {
+              "name" : "Product", "value" : "trung-ran"
+            }
+          ]
+        },
+        {
+          "itemName": "Thịt rang", "quantity": 2, "unitPrice": 40000, "discount": 0, 
+          "taxRate": "0","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 0,
+          "tax": 0, "total": 0, "finalCharge": 0,"currencyUnit": "VND", 
+          "references" : [
+            {
+              "name" : "Product", "value" : "thit-rang"
+            }
+          ]
+        }
+      ],
+      
+      "transactions":[
+        {
+          "total": 90000, "currencyUnit": "VND", 
+          "transactionType": "Wire", "bankAccountId": "vcb-ngoquyen",
+          "transactionDate": "01/01/2014 09:00:00 GMT+0700",
+          "description": "ban hang",
+          "note": "ban hang"
+        }
+      ],
+      
+      "attributes": [
+        { "name": "restaurant:byTable", "value": "A01" },
+        { "name": "restaurant:numberOfPeople", "value": 8 },
+        { "name": "restaurant:name", "value": "Bảo Vân" }
+      ],
+        
+      "contributors": [
+        { "type": "Group","identifierId": "hkt/employees/salse", "percent": 100,"role": "Department"},
+        { "type": "User","identifierId": "long", "percent": 100,"role": "Thu ngân"},
+        { "type": "User","identifierId": "thang",   "percent": 100,"role": "Phục vụ"},
+        { "type": "User","identifierId": "muoiot",   "percent": 100,"role": "Đối tác"}
+      ]
+    },
+    
+    {
+      "type": "SAL", "activityType": "Payment",
+      "total": 5300000, "currencyUnit":"VND",
+      "discount": 0, "discountRate":0,
+      "invoiceCode": "SAL1", "discountByItem": "0",
+      "totalTax": 0, "finalCharge": 5300000,"totalPaid": 5300000,
+      "status": "Paid", "description": "Tra luong thang 1 cho nhan vien XYZ(description tu tao bang he thong)",
+      "note": "Tra luong thang 1 cho nhan vien XYZ(description duoc viet bang nguoi lap lenh)",
+      "startDate": "01/01/2014 08:00:00 GMT+0700", "endDate": "01/01/2014 09:00:00 GMT+0700",
+      "items" : [
+        {
+          "itemName": "money1000", "quantity": 1, "unitPrice": 5300000, "discount": 0, 
+          "taxRate": "0","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 0,
+          "tax": 0, "total": 5300000, "finalCharge": 5300000, "currencyUnit": "VND",
+          "references" : [
+            {
+              "name" : "Account", "value" : "long"
+            }
+          ]
+        }
+      ],
+      
+      "transactions":[
+        {
+          "total": 5300000, "currencyUnit": "VND", 
+          "transactionType": "Wire", "bankAccountId": "vcb-ngoquyen",
+          "transactionDate": "06/11/2013 08:30:00 GMT+0700",
+          "description": "Chuyen khoan tra luong thang 11 cho nhan vien XYZ",
+          "note": "Chuyen khoan tra luong thang 11 cho nhan vien XYZ(description duoc viet bang nguoi lap lenh)"
+        }
+      ],
+      
+      "attributes": [
+        { "name": "restaurant:name", "value": "Bảo Vân" }
+      ],
+        
+      "contributors": [
+       { "type": "Group","identifierId": "hkt/employees/hr", "percent": 100,"role": "Department"},
+       { "type": "User","identifierId": "tuhkt",   "percent": 100,"role": "Thu ngân"},
+       { "type": "User","identifierId": "thanghkt",   "percent": 100,"role": "nguoi nhan"}
+      ]
+    },
+    
+    {
+      "type": "RESTAURANT", "activityType": "Receipt", 
+      "total": 1008000, "currencyUnit": "VND",
+      "status": "Paid", "discountByItem": "50000",
+      "discount": 50000, "discountRate": 0,
+      "totalTax": 100800, "finalCharge": 1008800,"totalPaid": 1008800,
+      "description": "Thanh toan Hoa Don khu vuc Ban A01 Tang 01",
+      "note": "Thanh toan Hoa Don khu vuc Ban A01 Tang 01",
+      "startDate": "01/01/2014 08:00:00 GMT+0700", "endDate": "01/01/2014 09:00:00 GMT+0700",
+      
+      "items" : [
+        {
+          "itemName": "Bia hơi", "quantity": 1, "unitPrice": 8000, "discount": 0, 
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 1000,
+          "tax": 800, "total": 8000, "finalCharge": 7800, "currencyUnit": "VND",
+          "references" : [
+            {
+              "name" : "Product", "value" : "bia-hoi"
+            }
+          ]
+        },
+        {
+          "itemName": "Lẩu thập cẩm", "quantity": 1, "unitPrice": 1000000, "discount": 50000, 
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 49000,
+          "tax": 100000, "total": 1000000, "finalCharge": 1001000, "currencyUnit": "VND", 
+          "references" : [
+            {
+              "name" : "Product", "value" : "lau-thap-cam"
+            }
+          ]
+        }
+      ],
+      
+      "transactions":[
+        {
+          "total": 1008800, "currencyUnit": "VND",
+          "transactionType": "Wire", "bankAccountId": "",
+          "transactionDate": "01/01/2014 09:00:00 GMT+0700",
+          "description": "Thanh toan het hoa don",
+          "note": "Thanh toan het hoa don"
+        }
+      ],
+     
+      "attributes": [
+        { "name": "restaurant:byTable", "value": "A01" },
+        { "name": "restaurant:numberOfPeople", "value": "8" },
+        { "name": "restaurant:name", "value": "Bảo Vân" }
+      ],
+        
+      "contributors": [
+         { "type": "Group","identifierId": "hkt/employees/hr", "percent": 100,"role": "Department"},
+         { "type": "User","identifierId": "long", "percent": 100,"role": "Thu ngân"},
+         { "type": "User","identifierId": "thang",   "percent": 100,"role": "Phục vụ"},
+         { "type": "User","identifierId": "muoiot",   "percent": 100,"role": "Đối tác"}
+      ]
+    },
+    
+    {
+      "type": "RESTAURANT", "activityType": "Receipt", 
+      "total": 1608000, "currencyUnit": "VND",
+      "status": "Paid", "discountByItem": "200000",
+      "discount": 100000, "discountRate": 0,
+      "totalTax": 160800, "finalCharge": 1468800,"totalPaid": 1468800,
+      "description": "Thanh toan Hoa Don khu vuc Ban A02 Tang 01",
+      "note": "Thanh toan Hoa Don khu vuc Ban A02 Tang 01",
+      "startDate": "03/01/2014 16:00:00 GMT+0700", "endDate": "03/01/2014 19:00:00 GMT+0700",
+      
+      "items" : [
+        {
+          "itemName": "Bia hơi", "quantity": 1, "unitPrice": 8000, "discount": 0, 
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 1000,
+          "tax": 800, "total": 8000, "finalCharge": 7800, "currencyUnit": "VND",
+          "references" : [
+            {
+              "name" : "Product", "value" : "bia-hoi"
+            }
+          ]
+        },
+        {
+          "itemName": "Lẩu thập cẩm", "quantity": 1, "unitPrice": 1600000, "discount": 200000, 
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 99000,
+          "tax": 160000, "total": 1600000, "finalCharge": 1461000, "currencyUnit": "VND", 
+          "references" : [
+            {
+              "name" : "Product", "value" : "lau-thap-cam"
+            }
+          ]
+        }
+      ],
+      
+      "transactions":[
+        {
+          "total": 1468800, "currencyUnit": "VND",
+          "transactionType": "Wire", "bankAccountId": "",
+          "transactionDate": "03/01/2014 19:00:00 GMT+0700",
+          "description": "Thanh toán trả ngay",
+          "note": "Thanh toán trả ngay"
+        }
+      ],
+     
+      "attributes": [
+        { "name": "restaurant:byTable", "value": "A02" },
+        { "name": "restaurant:numberOfPeople", "value": "8" },
+        { "name": "restaurant:name", "value": "Bảo Vân" }
+      ],
+        
+      "contributors": [
+        { "type": "Group","identifierId": "hkt/employees/hr", "percent": 100,"role": "Department"},
+        { "type": "User","identifierId": "long", "percent": 100,"role": "Thu ngân"},
+        { "type": "User","identifierId": "thang",   "percent": 100,"role": "Phục vụ"},
+        { "type": "User","identifierId": "muoiot",   "percent": 100,"role": "Đối tác"}
+      ]
+    },
+    
+    {
+      "type": "RESTAURANT", "activityType": "Receipt", 
+      "total": 910000, "currencyUnit": "VND",
+      "status": "Paid", "discountByItem": "61000",
+      "discount": 61000, "discountRate": 0,
+      "totalTax": 91000, "finalCharge": 879000,"totalPaid": 879000,
+      "description": "Thanh toan Hoa Don khu vuc Ban B02 Tang 02",
+      "note": "Thanh toan Hoa Don khu vuc Ban B02 Tang 02",
+      "startDate": "20/01/2014 12:00:00 GMT+0700", "endDate": "20/01/2014 15:00:00 GMT+0700",
+      
+      "items" : [
+        {
+          "itemName": "Tôm Hấp", "quantity": 1, "unitPrice": 10000, "discount": 1000, 
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 1000,
+          "tax": 1000, "total": 10000, "finalCharge": 9000, "currencyUnit": "VND", 
+          "references" : [
+            {
+              "name" : "Product", "value" : "tom-hap"
+            }
+          ]
+        },
+        {
+          "itemName": "Lẩu thập cẩm", "quantity": 3, "unitPrice": 900000, "discount": 60000, 
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 60000,
+          "tax": 90000, "total": 2700000, "finalCharge": 870000, "currencyUnit": "VND", 
+          "references" : [
+            {
+              "name" : "Product", "value" : "lau-thap-cam"
+            }
+          ]
+        }
+      ],
+      
+      "transactions":[
+        {
+          "total": 879000, "currencyUnit": "VND",
+          "transactionType": "Wire", "bankAccountId": "",
+          "transactionDate": "20/01/2014 15:00:00 GMT+0700",
+          "description": "Thanh toán trả ngay",
+          "note": "Thanh toán trả ngay"
+        }
+      ],
+     
+      "attributes": [
+        { "name": "restaurant:byTable", "value": "B02" },
+        { "name": "restaurant:numberOfPeople", "value": "8" },
+        { "name": "restaurant:name", "value": "Olala" }
+      ],
+        
+      "contributors": [
+         { "type": "Group","identifierId": "hkt/employees/hr", "percent": 100,"role": "Department"},
+         { "type": "User","identifierId": "long", "percent": 100,"role": "Thu ngân"},
+         { "type": "User","identifierId": "thang",   "percent": 100,"role": "Phục vụ"},
+         { "type": "User","identifierId": "muoiot",   "percent": 100,"role": "Đối tác"}
+      ]
+    },
+    
+    {
+      "type": "RESTAURANT", "activityType": "Receipt", 
+      "total": 1508000, "currencyUnit": "VND",
+      "status": "Paid", "discountByItem": "201000",
+      "discount": 201000, "discountRate": 0,
+      "totalTax": 150800, "finalCharge": 1256800,"totalPaid": 1256800,
+      "description": "Thanh toan Hoa Don khu vuc Ban A01 Tang 01",
+      "note": "Thanh toan Hoa Don khu vuc Ban A01 Tang 01",
+      "startDate": "01/02/2014 08:00:00 GMT+0700", "endDate": "01/02/2014 09:00:00 GMT+0700",
+      
+      "items" : [
+        {
+          "itemName": "Trứng rán", "quantity": 1, "unitPrice": 8000, "discount": 1000,
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 0,
+          "tax": 800, "total": 8000, "finalCharge": 7800, "currencyUnit": "VND",
+          "references" : [
+            {
+              "name" : "Product", "value" : "trung-ran"
+            }
+          ]
+        },
+        {
+          "itemName": "Lẩu thập cẩm", "quantity": 1, "unitPrice": 1500000, "discount": 200000,
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 201000,
+          "tax": 150000, "total": 1500000, "finalCharge": 1249000, "currencyUnit": "VND",
+          "references" : [
+            {
+              "name" : "Product", "value" : "lau-thap-cam"
+            }
+          ]
+        }
+      ],
+      
+      "transactions":[
+        {
+          "total": 1256800, "currencyUnit": "VND",
+          "transactionType": "Wire", "bankAccountId": "",
+          "transactionDate": "01/02/2014 09:00:00 GMT+0700",
+          "description": "Thanh toan het hoa don",
+          "note": "Thanh toan het hoa don"
+        }
+      ],
+     
+      "attributes": [
+        { "name": "restaurant:byTable", "value": "A01" },
+        { "name": "restaurant:numberOfPeople", "value": "8" },
+        { "name": "restaurant:name", "value": "Bảo Vân" }
+      ],
+        
+      "contributors": [
+         { "type": "Group","identifierId": "hkt/employees/hr", "percent": 100,"role": "Department"},
+         { "type": "User","identifierId": "long", "percent": 100,"role": "Thu ngân"},
+         { "type": "User","identifierId": "thang",   "percent": 100,"role": "Phục vụ"},
+         { "type": "User","identifierId": "muoiot",   "percent": 100,"role": "Đối tác"}
+      ]
+    },
+    
+    {
+      "type": "RESTAURANT", "activityType": "Receipt", 
+      "total": 1508000, "currencyUnit": "VND",
+      "status": "Paid", "discountByItem": "101000",
+      "discount": 101000, "discountRate": 0,
+      "totalTax": 150800, "finalCharge": 1456800,"totalPaid": 1456800,
+      "description": "Thanh toan Hoa Don khu vuc Ban A02 Tang 01",
+      "note": "Thanh toan Hoa Don khu vuc Ban A02 Tang 01",
+      "startDate": "03/02/2014 16:00:00 GMT+0700", "endDate": "03/02/2014 19:00:00 GMT+0700",
+      
+      "items" : [
+        {
+          "itemName": "Bia hơi", "quantity": 1, "unitPrice": 8000, "discount": 1000, 
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 1000,
+          "tax": 800, "total": 8000, "total": 6800, "currencyUnit": "VND",
+          "references" : [
+            {
+              "name" : "Product", "value" : "bia-hoi"
+            }
+          ]
+        },
+        {
+          "itemName": "Tôm hấp", "quantity": 1, "unitPrice": 1500000, "discount": 100000, 
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 100000,
+          "tax": 150000, "total": 1500000, "finalCharge": 1450000, "currencyUnit": "VND",
+          "references" : [
+            {
+              "name" : "Product", "value" : "tom-hap"
+            }
+          ]
+        }
+      ],
+      
+      "transactions":[
+        {
+          "total": 1456800, "currencyUnit": "VND",
+          "transactionType": "Wire", "bankAccountId": "",
+          "transactionDate": "03/02/2014 19:00:00 GMT+0700",
+          "description": "Thanh toán trả ngay",
+          "note": "Thanh toán trả ngay"
+        }
+      ],
+     
+      "attributes": [
+        { "name": "restaurant:byTable", "value": "A02" },
+        { "name": "restaurant:numberOfPeople", "value": "8" },
+        { "name": "restaurant:name", "value": "Olala" }
+      ],
+        
+      "contributors": [
+        { "type": "Group","identifierId": "hkt/employees/hr", "percent": 100,"role": "Department"},
+        { "type": "User","identifierId": "long", "percent": 100,"role": "Thu ngân"},
+        { "type": "User","identifierId": "thang",   "percent": 100,"role": "Phục vụ"},
+        { "type": "User","identifierId": "muoiot",   "percent": 100,"role": "Đối tác"}
+      ]
+    },
+    
+    {
+      "type": "RESTAURANT", "activityType": "Receipt", 
+      "total": 910000, "currencyUnit": "VND",
+      "status": "Paid", "discountByItem": "51000",
+      "discount": 51000, "discountRate": 0,
+      "totalTax": 91000, "finalCharge": 899000,"totalPaid": 899000,
+      "description": "Thanh toan Hoa Don khu vuc Ban B02 Tang 02",
+      "note": "Thanh toan Hoa Don khu vuc Ban B02 Tang 02",
+      "startDate": "20/02/2014 12:00:00 GMT+0700", "endDate": "20/02/2014 15:00:00 GMT+0700",
+      
+      "items" : [
+        {
+          "itemName": "Bia hơi", "quantity": 1, "unitPrice": 10000, "discount": 1000, 
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 1000,
+          "tax": 1000, "total": 10000, "finalCharge": 9000, "currencyUnit": "VND", 
+          "references" : [
+            {
+              "name" : "Product", "value" : "bia-hoi"
+            }
+          ]
+        },
+        {
+          "itemName": "Lẩu thập cẩm", "quantity": 1, "unitPrice": 900000, "discount": 50000, 
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 50000,
+          "tax": 90000, "total": 900000, "finalCharge": 890000, "currencyUnit": "VND", 
+          "references" : [
+            {
+              "name" : "Product", "value" : "lau-thap-cam"
+            }
+          ]
+        }
+      ],
+      
+      "transactions":[
+        {
+          "total": 899000, "currencyUnit": "VND",
+          "transactionType": "Wire", "bankAccountId": "",
+          "transactionDate": "20/02/2014 15:00:00 GMT+0700",
+          "description": "Thanh toán trả ngay",
+          "note": "Thanh toán trả ngay"
+        }
+      ],
+     
+      "attributes": [
+        { "name": "restaurant:byTable", "value": "B02" },
+        { "name": "restaurant:numberOfPeople", "value": "8" },
+        { "name": "restaurant:name", "value": "Bảo Vân" }
+      ],
+        
+      "contributors": [
+        { "type": "Group","identifierId": "hkt/employees/hr", "percent": 100,"role": "Department"},
+        { "type": "User","identifierId": "long", "percent": 100,"role": "Thu ngân"},
+        { "type": "User","identifierId": "thang",   "percent": 100,"role": "Phục vụ"},
+        { "type": "User","identifierId": "muoiot",   "percent": 100,"role": "Đối tác"}
+      ]
+    },
+    
+    {
+      "type": "RESTAURANT", "activityType": "Receipt", 
+      "total": 1308000, "currencyUnit": "VND",
+      "status": "Paid", "discountByItem": "101000",
+      "discount": 101000, "discountRate": 0,
+      "totalTax": 130800, "finalCharge": 1236800, "totalPaid": 1236800,
+      "description": "Thanh toan Hoa Don khu vuc Ban A01 Tang 01",
+      "note": "Thanh toan Hoa Don khu vuc Ban A01 Tang 01",
+      "startDate": "01/03/2014 08:00:00 GMT+0700", "endDate": "01/03/2014 09:00:00 GMT+0700",
+      
+      "items" : [
+        {
+          "itemName": "Bia hơi", "quantity": 1, "unitPrice": 8000, "discount": 1000, 
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 1000,
+          "tax": 800, "total": 8000, "finalCharge": 6800, "currencyUnit": "VND", 
+          "references" : [
+            {
+              "name" : "Product", "value" : "bia-hoi"
+            }
+          ]
+        },
+        {
+          "itemName": "Lẩu thập cẩm", "quantity": 1, "unitPrice": 1300000, "discount": 100000, 
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 100000,
+          "tax": 130000, "total": 1300000, "finalCharge": 1230000, "currencyUnit": "VND", 
+          "references" : [
+            {
+              "name" : "Product", "value" : "lau-thap-cam"
+            }
+          ]
+        }
+      ],
+      
+      "transactions":[
+        {
+          "total": 1236800, "currencyUnit": "VND",
+          "transactionType": "Wire", "bankAccountId": "",
+          "transactionDate": "01/03/2014 09:00:00 GMT+0700",
+          "description": "Thanh toan het hoa don",
+          "note": "Thanh toan het hoa don"
+        }
+      ],
+     
+      "attributes": [
+        { "name": "restaurant:byTable", "value": "A01" },
+        { "name": "restaurant:numberOfPeople", "value": "8" },
+        { "name": "restaurant:name", "value": "Olala" }
+      ],
+        
+      "contributors": [
+        { "type": "Group","identifierId": "hkt/employees/hr", "percent": 100,"role": "Department"},
+        { "type": "User","identifierId": "long", "percent": 100,"role": "Thu ngân"},
+        { "type": "User","identifierId": "thang", "percent": 100,"role": "Phục vụ"},
+        { "type": "User","identifierId": "muoiot", "percent": 100,"role": "Đối tác"}
+      ]
+    },
+    
+    {
+      "type": "RESTAURANT", "activityType": "Receipt", 
+      "total": 1408000, "currencyUnit": "VND",
+      "status": "Paid", "discountByItem": "101000",
+      "discount": 101000, "discountRate": 0,
+      "totalTax": 140800, "finalCharge": 1346800, "totalPaid": 1346800,
+      "description": "Thanh toan Hoa Don khu vuc Ban A02 Tang 01",
+      "note": "Thanh toan Hoa Don khu vuc Ban A02 Tang 01",
+      "startDate": "03/03/2014 16:00:00 GMT+0700", "endDate": "03/03/2014 19:00:00 GMT+0700",
+      
+      "items" : [
+        {
+          "itemName": "Bia hơi", "quantity": 1, "unitPrice": 8000, "discount": 1000, 
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 1000,
+          "tax": 800, "total": 6800, "currencyUnit": "VND",
+          "references" : [
+            {
+              "name" : "Product", "value" : "bia-hoi"
+            }
+          ]
+        },
+        {
+          "itemName": "Lẩu thập cẩm", "quantity": 1, "unitPrice": 1400000, "discount": 100000,
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 100000,
+          "tax": 140000, "total": 1400000, "finalCharge": 1360000, "currencyUnit": "VND",
+          "references" : [
+            {
+              "name" : "Product", "value" : "lau-thap-cam"
+            }
+          ]
+        }
+      ],
+      
+      "transactions":[
+        {
+          "total": 1346800, "currencyUnit": "VND",
+          "transactionType": "Wire", "bankAccountId": "",
+          "transactionDate": "03/03/2014 19:00:00 GMT+0700",
+          "description": "Thanh toán trả ngay",
+          "note": "Thanh toán trả ngay"
+        }
+      ],
+     
+      "attributes": [
+        { "name": "restaurant:byTable", "value": "A02" },
+        { "name": "restaurant:numberOfPeople", "value": "8" },
+        { "name": "restaurant:name", "value": "Bảo Vân" }
+      ],
+        
+      "contributors": [
+        { "type": "Group","identifierId": "hkt/employees/hr", "percent": 100,"role": "Department"},
+        { "type": "User","identifierId": "long", "percent": 100,"role": "Thu ngân"},
+        { "type": "User","identifierId": "thang",   "percent": 100,"role": "Phục vụ"},
+        { "type": "User","identifierId": "muoiot",   "percent": 100,"role": "Đối tác"}
+      ]
+    },
+    
+    {
+      "type": "RESTAURANT", "activityType": "Receipt", 
+      "total": 910000, "currencyUnit": "VND",
+      "status": "Paid", "discountByItem": "61000",
+      "discount": 61000, "discountRate": 0,
+      "totalTax": 91000, "finalCharge": 879000, "totalPaid": 879000,
+      "description": "Thanh toan Hoa Don khu vuc Ban B02 Tang 02",
+      "note": "Thanh toan Hoa Don khu vuc Ban B02 Tang 02",
+      "startDate": "20/03/2014 12:00:00 GMT+0700", "endDate": "20/03/2014 15:00:00 GMT+0700",
+      
+      "items" : [
+        {
+          "itemName": "Thịt rang", "quantity": 1, "unitPrice": 10000, "discount": 1000, 
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 1000,
+          "tax": 1000, "total": 10000, "finalCharge": 9000, "currencyUnit": "VND",
+          "references" : [
+            {
+              "name" : "Product", "value" : "thit-rang"
+            }
+          ]
+        },
+        {
+          "itemName": "Lẩu thập cẩm", "quantity": 3, "unitPrice": 900000, "discount": 60000, 
+          "taxRate": "10","discountRateByInvoice": 0, "discountRate": 0,"discountByInvoice": 60000,
+          "tax": 90000, "total": 2700000,"finalCharge": 870000, "currencyUnit": "VND", 
+          "references" : [
+            {
+              "name" : "Product", "value" : "lau-thap-cam"
+            }
+          ]
+        }
+      ],
+      
+      "transactions":[
+        {
+          "total": 879000, "currencyUnit": "VND",
+          "transactionType": "Wire", "bankAccountId": "",
+          "transactionDate": "20/03/2014 15:00:00 GMT+0700",
+          "description": "Thanh toán trả ngay",
+          "note": "Thanh toán trả ngay"
+        }
+      ],
+     
+      "attributes": [
+        { "name": "restaurant:byTable", "value": "B02" },
+        { "name": "restaurant:numberOfPeople", "value": "8" },
+        { "name": "restaurant:name", "value": "Olala" }
+      ],
+        
+      "contributors": [
+        { "type": "Group","identifierId": "hkt/employees/salse", "percent": 100,"role": "Department"},
+        { "type": "User","identifierId": "long", "percent": 100,"role": "Thu ngân"},
+        { "type": "User","identifierId": "thang",   "percent": 100,"role": "Phục vụ"},
+        { "type": "User","identifierId": "muoiot",   "percent": 100,"role": "Đối tác"}
+      ]
+    }
+  ]
+}

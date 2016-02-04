@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PhieuLichTrinhK57" printOrder="Horizontal" pageWidth="164" pageHeight="11451" columnWidth="154" leftMargin="5" rightMargin="5" topMargin="7" bottomMargin="7" isSummaryWithPageHeaderAndFooter="true" isIgnorePagination="true" uuid="b342136c-9501-4b68-9727-8717f21cf943">
+	<property name="ireport.zoom" value="2.6573415000000216"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="77"/>
+	<parameter name="prTenDoanhNghiep" class="java.lang.String"/>
+	<parameter name="prDiaChi" class="java.lang.String"/>
+	<parameter name="prNgayLap" class="java.lang.String"/>
+	<parameter name="prSoPhieu" class="java.lang.String"/>
+	<parameter name="prKhuVuc" class="java.lang.String"/>
+	<parameter name="prBan" class="java.lang.String"/>
+	<parameter name="prGioVao" class="java.lang.String"/>
+	<parameter name="prNhanVien" class="java.lang.String"/>
+	<parameter name="prTongTien" class="java.lang.String"/>
+	<parameter name="prGiamGia" class="java.lang.String"/>
+	<parameter name="prThue" class="java.lang.String"/>
+	<parameter name="prTongCong" class="java.lang.String"/>
+	<parameter name="prChieuKhau%" class="java.lang.String"/>
+	<parameter name="prThue%" class="java.lang.String"/>
+	<parameter name="prDaThanhToan" class="java.lang.String"/>
+	<parameter name="prConPhaiThanhToan" class="java.lang.String"/>
+	<parameter name="prNgayIn" class="java.lang.String"/>
+	<parameter name="prGioIn" class="java.lang.String"/>
+	<parameter name="prH0" class="java.lang.String"/>
+	<parameter name="prH1" class="java.lang.String"/>
+	<parameter name="prH2" class="java.lang.String"/>
+	<parameter name="prH3" class="java.lang.String"/>
+	<parameter name="prTel" class="java.lang.String"/>
+	<parameter name="prFax" class="java.lang.String"/>
+	<parameter name="prStt" class="java.lang.String"/>
+	<parameter name="logo" class="java.awt.Image"/>
+	<parameter name="money" class="java.lang.String"/>
+	<parameter name="prLbCK%" class="java.lang.String"/>
+	<parameter name="prLbThue%" class="java.lang.String"/>
+	<parameter name="prLbGiamGia" class="java.lang.String"/>
+	<parameter name="prLbDaTra" class="java.lang.String"/>
+	<parameter name="prLbPhaiTra" class="java.lang.String"/>
+	<parameter name="money1" class="java.lang.String"/>
+	<parameter name="money2" class="java.lang.String"/>
+	<parameter name="prLbTongCong" class="java.lang.String"/>
+	<parameter name="prLbTienThue" class="java.lang.String"/>
+	<parameter name="lbPhiDV" class="java.lang.String"/>
+	<parameter name="prPhiDV" class="java.lang.String"/>
+	<parameter name="lbTyGia" class="java.lang.String"/>
+	<parameter name="prTyGia" class="java.lang.String"/>
+	<parameter name="lbQuyDoi" class="java.lang.String"/>
+	<parameter name="prQuyDoi" class="java.lang.String"/>
+	<parameter name="moneyQuyDoi" class="java.lang.String"/>
+	<parameter name="lbTyGia1" class="java.lang.String"/>
+	<parameter name="prTyGia1" class="java.lang.String"/>
+	<parameter name="lbTyGia2" class="java.lang.String"/>
+	<parameter name="prTyGia2" class="java.lang.String"/>
+	<parameter name="prPhiDV%" class="java.lang.String"/>
+	<parameter name="lbPhiDV%" class="java.lang.String"/>
+	<parameter name="money3" class="java.lang.String"/>
+	<parameter name="prMoney1" class="java.lang.String"/>
+	<parameter name="prMoney2" class="java.lang.String"/>
+	<parameter name="prMoney3" class="java.lang.String"/>
+	<parameter name="prNoiDungGhiChu" class="java.lang.String"/>
+	<parameter name="prLbGhiChu" class="java.lang.String"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["D:\\HKT\\hkt_soft_v3.2\\HKT Software Enterprise Manager\\Module Report Gui\\src\\vn\\com\\hkt\\report\\gui\\template\\"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="prTextMoney" class="java.lang.String"/>
+	<parameter name="prMuaHo1" class="java.lang.String"/>
+	<parameter name="prMuaHo2" class="java.lang.String"/>
+	<parameter name="prMuaHo3" class="java.lang.String"/>
+	<parameter name="prMuaHo4" class="java.lang.String"/>
+	<parameter name="prMuaHo5" class="java.lang.String"/>
+	<parameter name="prMoneyMH1" class="java.lang.String"/>
+	<parameter name="prMoneyMH2" class="java.lang.String"/>
+	<parameter name="prMoneyMH3" class="java.lang.String"/>
+	<parameter name="prMoneyMH4" class="java.lang.String"/>
+	<parameter name="prMoneyMH5" class="java.lang.String"/>
+	<parameter name="prLbMuaHo" class="java.lang.String"/>
+	<parameter name="prCongGop" class="java.lang.String"/>
+	<parameter name="prMoneyCongGop" class="java.lang.String"/>
+	<parameter name="prTongSoMon" class="java.lang.String"/>
+	<parameter name="prSoKhach" class="java.lang.String"/>
+	<parameter name="prMoneyUnit1" class="java.lang.String"/>
+	<parameter name="prMoneyUnit2" class="java.lang.String"/>
+	<parameter name="prMoneyUnit3" class="java.lang.String"/>
+	<parameter name="prMoneyUnit4" class="java.lang.String"/>
+	<parameter name="prMoney4" class="java.lang.String"/>
+	<parameter name="prDiemTien" class="java.lang.String"/>
+	<parameter name="prlbDiemTien" class="java.lang.String"/>
+	<parameter name="prSoDiem" class="java.lang.String"/>
+	<parameter name="prlbSoDiem" class="java.lang.String"/>
+	<parameter name="prNhanVienBan" class="java.lang.String"/>
+	<parameter name="prTenKhachHang" class="java.lang.String"/>
+	<parameter name="prSoTienTraTruocConLai" class="java.lang.String"/>
+	<parameter name="prlbSoTienTraTruocConLai" class="java.lang.String"/>
+	<parameter name="prLbDiemConLai" class="java.lang.String"/>
+	<parameter name="prMoney5" class="java.lang.String"/>
+	<parameter name="prSoDiemTienConLai" class="java.lang.String"/>
+	<parameter name="prLbSoDiemTienConLai" class="java.lang.String"/>
+	<parameter name="prDiemConLai" class="java.lang.String"/>
+	<parameter name="prNgayHenConPhaiThanhToan" class="java.lang.String"/>
+	<parameter name="prSoTienKhachDua" class="java.lang.String"/>
+	<parameter name="prMoney6" class="java.lang.String"/>
+	<parameter name="prlbSoTienKhachDua" class="java.lang.String"/>
+	<parameter name="prlbSoTienTraKhach" class="java.lang.String"/>
+	<parameter name="prMoney7" class="java.lang.String"/>
+	<parameter name="prSoTienTraKhach" class="java.lang.String"/>
+	<parameter name="prlbNgayHenThanhToan" class="java.lang.String"/>
+	<parameter name="prTienTraTruocConLai" class="java.lang.String"/>
+	<parameter name="prTienTraTruocDungTrongHD" class="java.lang.String"/>
+	<parameter name="prTienTraTruoc" class="java.lang.String"/>
+	<parameter name="prTongDiemTien" class="java.lang.String"/>
+	<parameter name="prTongSoDiem" class="java.lang.String"/>
+	<parameter name="prDiemTienConLai" class="java.lang.String"/>
+	<parameter name="prSoDiemConLai" class="java.lang.String"/>
+	<parameter name="prLienHoaDon" class="java.lang.String"/>
+	<parameter name="prSoLanInHoaDon" class="java.lang.String"/>
+	<field name="COLUMN_0" class="java.lang.String"/>
+	<field name="COLUMN_1" class="java.lang.String"/>
+	<field name="COLUMN_2" class="java.lang.String"/>
+	<field name="COLUMN_3" class="java.lang.String"/>
+	<field name="COLUMN_4" class="java.lang.String"/>
+	<pageHeader>
+		<band height="135" splitType="Immediate">
+			<textField>
+				<reportElement uuid="e4e0cf15-5715-4a92-9402-fe2fd17b3c4a" x="10" y="0" width="135" height="18"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prTenDoanhNghiep}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="467fd428-08ba-4888-a500-bc3055494210" x="10" y="18" width="135" height="12" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Center">
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prDiaChi}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="98fa0bf0-fe20-40da-9c5e-493c857c49ac" x="10" y="30" width="12" height="9"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Tel:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="0b3be280-fbf4-41a5-b515-a8e452284998" x="24" y="30" width="44" height="9" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prTel}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="6a1d3792-63fa-4e73-8567-b1c1c657d3d3" x="74" y="30" width="23" height="9"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[Hotline :]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="2a0516f8-303e-4ba7-a68d-c6774005fe12" x="99" y="30" width="46" height="9" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prFax}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="23f9b58b-05c1-4f65-9382-626a99b9b813" x="10" y="43" width="135" height="13"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Danh sách lịch hẹn]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="4eb5e8c3-74f4-41bb-9e01-ac2eb92a98d2" x="10" y="69" width="23" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ngày:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="d1c2c40a-af92-459d-b903-240017dcd8e2" x="36" y="69" width="42" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prNgayLap}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="4eb5e8c3-74f4-41bb-9e01-ac2eb92a98d2" x="79" y="69" width="3" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[-]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="b8a57d5e-f918-4611-a435-710e2842fe9e" x="83" y="69" width="23" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prGioVao}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c2bb2011-4b28-4684-ac48-ad73ea35ec27" x="10" y="80" width="39" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Số phiếu:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="1a2806ad-56eb-403d-9bae-4c8016be6655" x="51" y="80" width="96" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prSoPhieu}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c457dece-ab45-481f-8ad8-8848e1e09d37" x="10" y="91" width="39" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Khu vực:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="1a2806ad-56eb-403d-9bae-4c8016be6655" x="51" y="91" width="33" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prKhuVuc}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c457dece-ab45-481f-8ad8-8848e1e09d37" x="86" y="91" width="27" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Bàn:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="1a2806ad-56eb-403d-9bae-4c8016be6655" x="115" y="91" width="30" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prBan}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c2bb2011-4b28-4684-ac48-ad73ea35ec27" x="10" y="113" width="41" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nhân viên:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="250416c5-cb2a-4d4c-9a36-19a1c187089b" x="51" y="113" width="94" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prNhanVien}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="250416c5-cb2a-4d4c-9a36-19a1c187089b" x="10" y="58" width="50" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prTenKhachHang}.equals("")? "" : "Khách hàng:"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="250416c5-cb2a-4d4c-9a36-19a1c187089b" x="60" y="58" width="85" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prTenKhachHang}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement uuid="150aac34-6a3b-4637-9705-595fb75e600d" x="10" y="130" width="135" height="1" forecolor="#999999"/>
+			</line>
+			<staticText>
+				<reportElement uuid="c457dece-ab45-481f-8ad8-8848e1e09d37" x="10" y="102" width="39" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Giờ vào:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="b8a57d5e-f918-4611-a435-710e2842fe9e" x="51" y="102" width="33" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prGioVao}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c457dece-ab45-481f-8ad8-8848e1e09d37" x="86" y="102" width="27" height="11"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Giờ ra:]]></text>
+			</staticText>
+			<textField pattern="HH:mm" isBlankWhenNull="true">
+				<reportElement uuid="b8a57d5e-f918-4611-a435-710e2842fe9e" x="115" y="102" width="30" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="250416c5-cb2a-4d4c-9a36-19a1c187089b" x="115" y="69" width="18" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prLienHoaDon}.equals("")? "" : "Liên:"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="250416c5-cb2a-4d4c-9a36-19a1c187089b" x="133" y="69" width="12" height="11" isRemoveLineWhenBlank="true"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prLienHoaDon}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="24" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="false">
+				<reportElement uuid="ae52832a-efde-43ec-8cd2-0c87195d5509" x="10" y="0" width="110" height="12"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{COLUMN_0}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement uuid="c5b33400-56b8-488d-9e9a-eb1412e4b6cd" x="10" y="12" width="48" height="12"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{COLUMN_1}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement uuid="c5b33400-56b8-488d-9e9a-eb1412e4b6cd" x="64" y="12" width="24" height="12"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{COLUMN_2}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="false">
+				<reportElement uuid="48e61ae5-de70-4a3f-b7ac-62e8e2cf1ce1" x="120" y="0" width="25" height="12"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{COLUMN_3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="666bbbcb-83c3-4c89-9edc-37d77ea13f76" x="88" y="12" width="57" height="12"/>
+				<textElement textAlignment="Right">
+					<font size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{COLUMN_4}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<lastPageFooter>
+		<band height="11">
+			<textField pattern="dd/MM/yyyy">
+				<reportElement uuid="881b6260-d8de-4a8e-a240-32cc45dc3d90" x="81" y="0" width="42" height="11" forecolor="#333333"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="ca446f37-3dd3-4ff6-8e28-83ae4647d026" x="51" y="0" width="30" height="11" forecolor="#333333"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Ngày in:]]></text>
+			</staticText>
+			<textField pattern="HH:mm">
+				<reportElement uuid="caf460b8-5344-4a02-8720-d148f52828c0" x="124" y="0" width="21" height="11" forecolor="#333333"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</lastPageFooter>
+	<summary>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="160d2c16-8e8f-4e82-8e18-3f1427ea9311" x="10" y="6" width="135" height="14"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="9" isBold="true" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[Cảm ơn Quý khách. Hẹn gặp lại !]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="36e42d28-212d-4c9e-a5b9-c396e4091022" x="10" y="0" width="135" height="1" forecolor="#999999"/>
+			</line>
+		</band>
+	</summary>
+</jasperReport>

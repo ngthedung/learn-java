@@ -1,0 +1,715 @@
+{  
+  "employees" : [
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Bùi Thị Thủy(TOFIX)",
+          "groupPath" : "HKT Consultant/Kinh Doanh Phần Mềm",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Bùi Thị Thủy(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Bùi Thị Thủy(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "11/01/2012 00:00:00 GMT+0700",
+        "leaveDate" : "04/04/2013 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Bùi Thị Thủy(TOFIX)",
+            "positionTitle" : "Trưởng Phòng",
+            "group" : "HKT Consultant/Kinh Doanh Phần Mềm",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Cao Hoàng Anh(TOFIX)",
+          "groupPath" : "HKT Consultant/Kinh Doanh Phần Mềm",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Cao Hoàng Anh(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Cao Hoàng Anh(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "06/01/2012 00:00:00 GMT+0700",
+        "leaveDate" : "12/07/2014 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Cao Hoàng Anh(TOFIX)",
+            "positionTitle" : "Nhân viên",
+            "group" : "HKT Consultant/Kinh Doanh Phần Mềm",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Cấn Văn Khuyến(TOFIX)",
+          "groupPath" : "HKT Consultant/Kinh Doanh Phần Mềm",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Cấn Văn Khuyến(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Cấn Văn Khuyến(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "06/01/2012 00:00:00 GMT+0700",
+        "leaveDate" : "12/07/2014 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Cấn Văn Khuyến(TOFIX)",
+            "positionTitle" : "Nhân viên",
+            "group" : "HKT Consultant/Kinh Doanh Phần Mềm",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Đào Việt Anh(TOFIX)",
+          "groupPath" : "HKT Consultant/CNTT",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Đào Việt Anh(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Đào Việt Anh(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "06/01/2012 00:00:00 GMT+0700",
+        "leaveDate" : "12/07/2014 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Đào Việt Anh(TOFIX)",
+            "positionTitle" : "Nhân viên",
+            "group" : "HKT Consultant/CNTT",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Lê Quốc Thái(TOFIX)",
+          "groupPath" : "HKT Consultant/CNTT",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Lê Quốc Thái(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Lê Quốc Thái(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "03/02/2013 00:00:00 GMT+0700",
+        "leaveDate" : "12/07/2013 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Lê Quốc Thái(TOFIX)",
+            "positionTitle" : "Trưởng Phòng",
+            "group" : "HKT Consultant/CNTT",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Lê Xuân Bách(TOFIX)",
+          "groupPath" : "HKT Consultant/CNTT",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Lê Xuân Bách(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Lê Xuân Bách(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "03/02/2012 00:00:00 GMT+0700",
+        "leaveDate" : "12/11/2012 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Lê Xuân Bách(TOFIX)",
+            "positionTitle" : "Trưởng Phòng",
+            "group" : "HKT Consultant/CNTT",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Lê Thị Kim Oanh(TOFIX)",
+          "groupPath" : "HKT Consultant/Kinh Doanh",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Lê Thị Kim Oanh(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Lê Thị Kim Oanh(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "03/03/2012 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Lê Thị Kim Oanh(TOFIX)",
+            "positionTitle" : "Trưởng Phòng",
+            "group" : "HKT Consultant/Kinh Doanh",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Lê Đức Thủy@TOFIX",
+          "groupPath" : "HKT Consultant/Kinh Doanh Phần Mềm",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Lê Đức Thủy@TOFIX",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Lê Đức Thủy@TOFIX",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "11/01/2013 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Lê Đức Thủy@TOFIX",
+            "positionTitle" : "Nhân viên",
+            "group" : "HKT Consultant/Kinh Doanh Phần Mềm",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Lương Minh Huân@TOFIX",
+          "groupPath" : "HKT Consultant/Hội Đồng Quản Trị",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Lương Minh Huân@TOFIX",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Lương Minh Huân@TOFIX",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "03/02/2013 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Lương Minh Huân@TOFIX",
+            "positionTitle" : "Thành viên",
+            "group" : "HKT Consultant/Hội Đồng Quản Trị",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Mai Hoàng Anh(TOFIX)",
+          "groupPath" : "HKT Consultant/Kinh Doanh Tư Vấn",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Mai Hoàng Anh(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Mai Hoàng Anh(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "03/02/2013 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Mai Hoàng Anh(TOFIX)",
+            "positionTitle" : "Trưởng Phòng",
+            "group" : "HKT Consultant/Kinh Doanh Tư Vấn",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Nguyễn Trung Long(TOFIX)",
+          "groupPath" : "HKT Consultant/CNTT",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Nguyễn Trung Long(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Nguyễn Trung Long(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "04/07/2013 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Nguyễn Trung Long(TOFIX)",
+            "positionTitle" : "Trưởng Phòng",
+            "group" : "HKT Consultant/CNTT",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Nguyễn Văn Hiển@TOFIX",
+          "groupPath" : "HKT Consultant/Hội Đồng Quản Trị",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Nguyễn Văn Hiển@TOFIX",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Nguyễn Văn Hiển@TOFIX",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "03/02/2013 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Nguyễn Văn Hiển@TOFIX",
+            "positionTitle" : "Thành viên",
+            "group" : "HKT Consultant/Hội Đồng Quản Trị",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Nguyễn Thị Thùy Linh(TOFIX)",
+          "groupPath" : "HKT Consultant/Kinh Doanh Phần Mềm",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Nguyễn Thị Thùy Linh(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Nguyễn Thị Thùy Linh(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "09/07/2013 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Nguyễn Thị Thùy Linh(TOFIX)",
+            "positionTitle" : "Nhân viên",
+            "group" : "HKT Consultant/Kinh Doanh Phần Mềm",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Phạm Văn Kiệm(TOFIX)",
+          "groupPath" : "HKT Consultant/Ban Lãnh Đạo",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Phạm Văn Kiệm(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Phạm Văn Kiệm(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "03/02/2013 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Phạm Văn Kiệm(TOFIX)",
+            "positionTitle" : "Giám Đốc",
+            "group" : "HKT Consultant/Ban Lãnh Đạo",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Phạm Thị Hường(TOFIX)",
+          "groupPath" : "HKT Consultant/Hành Chính",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Phạm Thị Hường(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Phạm Thị Hường(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "05/05/2011 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Phạm Thị Hường(TOFIX)",
+            "positionTitle" : "Nhân viên",
+            "group" : "HKT Consultant/Hành Chính",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Phạm Ngọc Kháng(TOFIX)",
+          "groupPath" : "HKT Consultant/CNTT",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Phạm Ngọc Kháng(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Phạm Ngọc Kháng(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "11/11/2011 00:00:00 GMT+0700",
+        "leaveDate" : "06/04/2013 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Phạm Ngọc Kháng(TOFIX)",
+            "positionTitle" : "Chuyên viên",
+            "group" : "HKT Consultant/CNTT",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Phan Thanh Tú(TOFIX)",
+          "groupPath" : "HKT Consultant/Hội Đồng Quản Trị",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Phan Thanh Tú(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Phan Thanh Tú(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "03/02/2013 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Phan Thanh Tú(TOFIX)",
+            "positionTitle" : "Chủ tịch",
+            "group" : "HKT Consultant/Hội Đồng Quản Trị",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Tô Hồng Đức(TOFIX)",
+          "groupPath" : "HKT Consultant/CNTT",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Tô Hồng Đức(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Tô Hồng Đức(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "06/04/2011 00:00:00 GMT+0700",
+        "leaveDate" : "12/12/2011 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Tô Hồng Đức(TOFIX)",
+            "positionTitle" : "Chuyên viên",
+            "group" : "HKT Consultant/CNTT",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    },
+    {
+      "memberships" : [
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Tôn Nữ Li Na(TOFIX)",
+          "groupPath" : "HKT Consultant/Kinh Doanh",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        },
+        {
+          "persistableState" : "ORIGIN",
+          "loginId" : "Tôn Nữ Li Na(TOFIX)",
+          "groupPath" : "HKT Consultant",
+          "capability" : "WRITE",
+          "status" : "ACTIVE"
+        }
+      ],
+      "employee" : {
+        "persistableState" : "ORIGIN",
+        "loginId" : "Tôn Nữ Li Na(TOFIX)",
+        "organizationLoginId" : "HKT Consultant(TOFIX)",
+        "startDate" : "06/06/2012 00:00:00 GMT+0700"
+      },
+      "positions" : [
+        {
+          "position" : {
+            "persistableState" : "ORIGIN",
+            "loginId" : "Tôn Nữ Li Na(TOFIX)",
+            "positionTitle" : "Nhân viên",
+            "group" : "HKT Consultant/Kinh Doanh",
+            "status" : "Active",
+            "salaryType" : "Monthly",
+            "salary" : 5000000.0
+          }
+        }
+      ]
+    }
+  ]
+}

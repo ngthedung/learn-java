@@ -1,0 +1,55 @@
+{
+  "account": "Account",
+  "account.Accounts": "Accounts",
+   "account.AccountsTest": "Accounts Test",
+  "account.Groups":   "Groups",
+
+  "cms": "CMS",
+  "cms.Explorer": "Explorer",
+  "cms.Templates": "Templates",
+  
+  "accounting": "Accounting",
+  "accounting.Invoices": "Invoices",
+  "accounting.Banks": "Bank accounts",
+  "accounting.Report": "Report",
+  "accounting.Configs": "Configs",
+  "accounting.Accounting": "Accountings",
+
+  "hr": "HR",
+  "hr.Employees": "Employees",
+  "hr.Appointments": "Appointments",
+  "hr.Configs": "Configs",
+
+  "warehouse": "Warehouses",
+  "warehouse.Products": "Products",
+  "warehouse.Warehouses": "Warehouses",
+  "warehouse.PricesConfig": "PricesConfig",
+  "warehouse.Taxs": "Taxs",
+  "warehouse.Promotions": "Promotions",
+  "warehouse.Coupons": "Coupons",
+  "warehouse.Menus": "Menus",
+
+  "school": "School",
+  "school.Students": "Students",
+  "school.Teachers": "Teachers",
+  "school.Courses": "Courses",
+
+  "partner": "Partner",
+  "partner.Customers": "Customers",
+  "partner.Suppliers": "Suppliers",
+  "partner.PointConversionRules": "Point rules",
+
+  "restaurant": "Restaurant",
+  "restaurant.Recipes": "Recipes",
+  "restaurant.Tables": "Tables",
+  "restaurant.Locations": "Configs",
+  "restaurant.Shifts": "Shifts",
+
+  "admin": "Admin",
+  "admin.Configs": "Configs",
+  "admin.Monitors": "Monitors",
+
+  "test": "Test",
+  "test.Tests": "Test",
+  "test.Samples": "Samples"
+}

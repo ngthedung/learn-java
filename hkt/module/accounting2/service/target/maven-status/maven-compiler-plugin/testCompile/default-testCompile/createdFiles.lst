@@ -1,0 +1,13 @@
+com\hkt\module\accounting\repository\InvoiceDetailRepositoryBehaviorUnitTest.class
+com\hkt\module\accounting\repository\CodesRepositoryUnitTest.class
+com\hkt\module\accounting\repository\AbstractInvoiceDetailRepositoryQueryUnitTest$ProductConfig.class
+com\hkt\module\accounting\repository\AbstractInvoiceDetailRepositoryQueryUnitTest.class
+com\hkt\module\accounting\AccountingServiceUnitTest$1.class
+com\hkt\module\accounting\AbstractUnitTest.class
+com\hkt\module\accounting\rest\AccountingServiceDispatcherUnitTest.class
+com\hkt\module\accounting\repository\BankAccountRepositoryUnitTest.class
+com\hkt\module\accounting\repository\AbstractInvoiceDetailRepositoryQueryUnitTest$AccountConfig.class
+com\hkt\module\accounting\rest\AccountingServiceDispatcherUnitTest$1.class
+com\hkt\module\accounting\AccountingServiceUnitTest.class
+com\hkt\module\accounting\repository\InvoiceReportUnitTest.class
+com\hkt\module\accounting\repository\InvoiceDetailRepositoryQueryUnitTest.class

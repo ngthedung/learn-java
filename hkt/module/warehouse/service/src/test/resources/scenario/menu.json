@@ -1,0 +1,55 @@
+{
+  "menuItemRefs": [
+  	{
+  	  "name": "Tuy chon 1", "code": "11d454", "quantityMax": 1,
+  	  "products": [
+  	  	{  "code": "ipad-air-a1", "name": "Ipad Air", "maker": "Apple", "unit": "chiec"  },
+  	  	{  "code": "iphone5s-a1", "name": "iphone5s", "maker": "Apple", "unit": "chiec"  }
+  	  ],
+  	  "description": ""
+  	},
+  	{
+  	  "name": "Tuy chon 2", "code": "11d454", "quantityMax": 1,
+  	  "products": [
+  	  	{  "code": "samsung-air", "name": "Samsung Air", "maker": "Sung Apple", "unit": "chiec"  },
+  	  	{  "code": "isamsung5s", "name": "isamsung5s", "maker": "Ap Sung ple", "unit": "chiec"  }
+  	  ],
+  	  "description": ""
+  	},
+  	{
+  	  "name": "Tuy chon 3", "code": "11d454", "quantityMax": 1,
+  	  "products": [
+  	  	{  "code": "ipad-samsung", "name": "Ipad samsung", "maker": "Apple Sung", "unit": "chiec"  },
+  	  	{  "code": "iNote", "name": "iNote", "maker": "Sam Sung", "unit": "chiec"  }
+  	  ],
+  	  "description": ""
+  	}
+  ],
+  
+  "menus": [
+  	{
+  	  "name": "menu sang", "code": "4353bf", "total": 5, "type": "Voucher", "status": "Options",
+  	  "currencyUnit": "VND", "description": "",
+  	  "menuItems":[
+  	  	{  "name": "an sang 1", "menuItemType": "ByMenuItemRef", "identifierId": "11d454", "description": "" }
+  	  ]
+  	},
+  	{
+  	  "name": "menu sang", "code": "4353bf", "total": 5, "type": "Voucher", "status": "Fixed",
+  	  "currencyUnit": "VND", "description": "",
+  	  "menuItems":[
+  	  	{  "name": "an sang 1", "menuItemType": "ByProduct", "identifierId": "iphone5s", "description": "" }
+  	  ]
+  	},
+  	{
+  	  "name": "menu sang", "code": "4353bf", "total": 5, "type": "Menu", "status": "Fixed",
+  	  "currencyUnit": "VND", "description": "",
+  	  "menuItems":[
+  	  	{  
+	  	  "name": "an sang 1", "groupType": "Appetizer", "menuItemType": "ByProduct", "identifierId": "iphone5s",
+	  	  "description": "" 
+  	  	}
+  	  ]
+  	}
+  ]
+}

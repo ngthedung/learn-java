@@ -1,0 +1,9 @@
+com\hkt\module\school\repository\CourseSessionRegistrationRepositoryUnitTest.class
+com\hkt\module\school\SchoolServiceUnitTest.class
+com\hkt\module\school\SchoolServiceUnitTest$1.class
+com\hkt\module\school\rest\SchoolServiceDispatcherUnitTest.class
+com\hkt\module\school\repository\CourseRepositoryUnitTest.class
+com\hkt\module\school\repository\TeacherRepositoryUnitTest.class
+com\hkt\module\school\rest\SchoolServiceDispatcherUnitTest$1.class
+com\hkt\module\school\repository\StudentRepositoryUnitTest.class
+com\hkt\module\school\AbstractUnitTest.class

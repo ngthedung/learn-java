@@ -1,0 +1,104 @@
+{
+  "invoices":[
+    {
+      "invoice": {
+        "type": "SAL", 
+        "activityType": "Payment",
+        "discountRate": .1,
+        "discount":  10000, 
+        "totalTax":  10000,
+        "total":     1824000,
+        "grandTotal": 1844000, 
+        "currencyUnit": "VND",
+        
+        "cashier": "nguoi nhan/tra tien",
+        "createdBy": "nguoi lap hoa don",
+        "createdTime": "ngay/gio lap hoa don",
+        "reference": "entity:hr/Salary/${entityId}", "status": "Paid",
+        "description": "", "note": "",
+        
+        "attributes": [
+          { "name": "byGroup", "value": "Kinh Doanh" },
+          { "name": "byProject", "value": "Ban Hang" },
+          { "name": "customerLoginId", "value": "" } ,
+          { "name": "customerName", "value": "anh Hai" } ,
+          { "name": "customerCheckInTime", "value": "12/8/2013 11:27" },
+          { "name": "customerCheckOutTime", "value": "12/8/2013 13:27" },
+          { "name": "numberOfPeople", "value": "8" },
+        ],
+        
+        "contributors": [
+          { "loginId": "Duy Quang", "role": "phuc vu chinh"},
+          { "loginId": "Ha Minh",   "role": "phuc vu phu"},
+        ]
+        
+        // Thieu
+        "ban/duAn"       : "C 05",
+        "ngayVao"        : "12/08/2013",
+        "gioVao"         : "11:27",
+        "ngayRa"         : 12/08/2013,
+        "gioRa"          : "13:15",
+        "soKhach"        : 8,
+        "thuNgan"        : "Nguyen Hue",
+        "phucVu"         : "Duy Quang, Ha Minh",
+        "khachHang"      : "anh Hai",
+        "% chiet khau"   : 10,
+        "tienChietKhau"  : 182400,
+        "thue"           : "vat",
+        "tienThue"       : 164160,
+        "tongTienPhaiTra(total)": 1805760
+        "soLanInBanSao"  : 0,
+        "soLanInBanChinh": 2
+      },
+      
+      "items" : [
+        {
+          "itemName": "SÃºp bÃ­ Ä‘á»�", "quantity": 8, "unitPrice": 48000, "discount": 38400, "tax": 34560,
+          "total": 380160, "currencyUnit": "VND", "reference": "",
+          
+          // Thieu
+          "status" : "da in che bien, bi huy, da thanh toan ... "
+        },
+        {
+          "itemName": "Salat miáº¿n ThÃ¡i", "quantity": 2, "unitPrice": 80000, "discount": 16000, "tax": 14400,
+          "total": 158400, "currencyUnit": "VND", "reference": ""
+        },
+        {
+          "itemName": "Cháº£ cÃ¡ quáº£ Há»“ng ChÃ¢u", "quantity": 6, "unitPrice": 140000, "discount": 84000, "tax": 75600,
+          "total": 831600, "currencyUnit": "VND", "reference": ""
+        },
+        {
+          "itemName": "KhÄƒn láº¡nh", "quantity": 8, "unitPrice": 3000, "discount": 2400, "tax": 2160,
+          "total": 23760, "currencyUnit": "VND", "reference": ""
+        },
+        {
+          "itemName": "Thá»‹t lá»£n nÆ°á»›ng kiá»ƒu NGA", "quantity": 2, "unitPrice": 150000, "discount": 30000, "tax": 27000,
+          "total": 297000, "currencyUnit": "VND", "reference": ""
+        },
+        {
+          "itemName": "Cá»§ quáº£ luá»™c cháº¥m muá»‘i vá»«ng", "quantity": 1, "unitPrice": 48000, "discount": 4800, "tax": 4320,
+          "total": 47520, "currencyUnit": "VND", "reference": ""
+        },
+        {
+          "itemName": "NÆ°á»›c suá»‘i (nhá»�)", "quantity": 1, "unitPrice": 150000, "discount": 30000, "tax": 27000,
+          "total": 297000, "currencyUnit": "VND", "reference": ""
+        },
+        {
+          "itemName": "Canh chua thá»‹t náº¡c (nhá»�)", "quantity": 1, "unitPrice": 10000, "discount": 2000, "tax": 1800,
+          "total": 19800, "currencyUnit": "VND", "reference": ""
+        }
+        
+      ],
+      
+      "transactions":[
+        {
+          "total": 1805760, "currencyUnit": "VND", 
+          "transactionType": "WireReceive", "bankAccountId": "",
+          "transactionDate": "12/08/2013 13:15:00 GMT+0700",
+          "description": "",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "products" : [
+    {
+      "product" : {
+        "code" : "PM HKT",
+        "name" : "Phần mềm HKT",
+        "maker" : "HKT@TOFIX"
+      },
+      "cmsNode" : {
+        "node" : {
+          "name" : "PM HKT",
+          "path" : "hkt/Phần mềm HKT",
+          "mimeType" : "warehouse/products",
+          "parentId" : -1,
+          "parentPath" : "hkt"
+        }
+      }
+    },
+    {
+      "product" : {
+        "code" : "PRP085",
+        "name" : "Máy in hóa đơn nhiệt PRP 085",
+        "maker" : "HKT@TOFIX"
+      },
+      "cmsNode" : {
+        "node" : {
+          "name" : "PRP085",
+          "path" : "hkt/Máy in hóa đơn nhiệt PRP 085",
+          "mimeType" : "warehouse/products",
+          "parentId" : -1,
+          "parentPath" : "hkt"
+        }
+      }
+    },
+    {
+      "product" : {
+        "code" : "LS2208",
+        "name" : "Đầu đọc mã vạch Symbol LS 2208 ( MOTOROLA)",
+        "maker" : "HKT@TOFIX"
+      },
+      "cmsNode" : {
+        "node" : {
+          "name" : "LS2208",
+          "path" : "hkt/Đầu đọc mã vạch Symbol LS 2208 ( MOTOROLA)",
+          "mimeType" : "warehouse/products",
+          "parentId" : -1,
+          "parentPath" : "hkt"
+        }
+      }
+    }
+  ],
+  "warehouses" : [
+    {
+      "warehouseId" : "1",
+      "name" : "Kho tổng",
+      "ownerId" : "HKT Consultant@TOFIX",
+      "description" : ""
+    }
+  ],
+  "inOutSets" : [ ]
+}

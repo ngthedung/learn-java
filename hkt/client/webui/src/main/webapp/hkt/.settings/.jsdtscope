@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="service/|test/admin/|module/account/|test/school/|module/admin/monitor/|test/restaurant/|util/|test/account/|ui/|test/accounting/|module/restaurant/|module/cms/|test/core/|module/school/|module/partner/|test/hr/|module/admin/|module/warehouse/|test/|view/|module/accounting/|module/|test/warehouse/|module/hr/|module/my/|test/cms/|test/partner/|module/test/" kind="src" path="js"/>
+	<classpathentry excluding="account/|admin/monitor/|restaurant/|cms/|school/|partner/|admin/|warehouse/|accounting/|hr/|my/|test/" kind="src" path="js/module"/>
+	<classpathentry kind="src" path="js/module/account"/>
+	<classpathentry kind="src" path="js/module/accounting"/>
+	<classpathentry excluding="monitor/" kind="src" path="js/module/admin"/>
+	<classpathentry kind="src" path="js/module/admin/monitor"/>
+	<classpathentry kind="src" path="js/module/cms"/>
+	<classpathentry kind="src" path="js/module/hr"/>
+	<classpathentry kind="src" path="js/module/my"/>
+	<classpathentry kind="src" path="js/module/partner"/>
+	<classpathentry kind="src" path="js/module/restaurant"/>
+	<classpathentry kind="src" path="js/module/school"/>
+	<classpathentry kind="src" path="js/module/test"/>
+	<classpathentry kind="src" path="js/module/warehouse"/>
+	<classpathentry kind="src" path="js/service"/>
+	<classpathentry excluding="admin/|school/|restaurant/|account/|accounting/|core/|hr/|warehouse/|cms/|partner/" kind="src" path="js/test"/>
+	<classpathentry kind="src" path="js/test/account"/>
+	<classpathentry kind="src" path="js/test/accounting"/>
+	<classpathentry kind="src" path="js/test/admin"/>
+	<classpathentry kind="src" path="js/test/cms"/>
+	<classpathentry kind="src" path="js/test/core"/>
+	<classpathentry kind="src" path="js/test/hr"/>
+	<classpathentry kind="src" path="js/test/partner"/>
+	<classpathentry kind="src" path="js/test/restaurant"/>
+	<classpathentry kind="src" path="js/test/school"/>
+	<classpathentry kind="src" path="js/test/warehouse"/>
+	<classpathentry kind="src" path="js/ui"/>
+	<classpathentry kind="src" path="js/util"/>
+	<classpathentry kind="src" path="js/view"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

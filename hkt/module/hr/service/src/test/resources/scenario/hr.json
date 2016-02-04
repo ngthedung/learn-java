@@ -1,0 +1,270 @@
+{
+  "employees": [
+    {
+      "memberships": [
+        { "loginId": "tu", "groupPath": "hkt/employees", "capability": "ADMIN" },
+        { "loginId": "tu", "groupPath": "hkt/employees/hr", "capability": "ADMIN" }
+      ],
+      
+      "employee": {
+        "loginId": "tu", "organizationLoginId": "hkt", "startDate": "", "leaveDate": ""
+      },
+      "positions": [
+        {
+          "position": {
+            "loginId": "tu", "positionTitle": "CEO", "group": "hkt/employees/hr",
+            "fromDate": "1/1/2013 00:00:00 GMT+0700", "toDate": "",
+            "status": "Planed", "salaryType": "Monthly", "salary": 10000000
+          },
+          "dailyWorks": [
+            {
+              "loginId": "tu", "startTime": "1/1/2013 08:00:00 GMT+0700", "endTime": "1/1/2013 17:00:00 GMT+0700",
+              "location": "Cau Giay", "note": "Ngay dau lam viec"
+            },
+            {
+              "loginId": "tu", "startTime": "2/1/2013 08:00:00 GMT+0700", "endTime": "2/1/2013 17:00:00 GMT+0700",
+              "location": "Cau Giay", "note": "Cong viec hang ngay"
+            }
+          ],
+          "invoiceDetails": [
+            {
+              "type": "SAL", "activityType": "Payment",
+              "total": 10000000, "currencyUnit": "VND",
+              "discount": 0, "discountRate": 0,
+              "totalTax": 0, "finalCharge": 10000000,
+              "invoiceCode": "SAL2",
+              "status": "Paid", "description": "Tra luong thang 11 cho nhan vien XYZ(description tu tao bang he thong)",
+              "note": "Tra luong thang 11 cho nhan vien XYZ(description duoc viet bang nguoi lap lenh)",
+              "startDate": "06/12/2013 08:00:00 GMT+0700", "endDate": "06/12/2013 09:00:00 GMT+0700",
+              
+              "items" : [
+                {
+                  "itemName": "money500", "quantity": 10, "unitPrice": 500000, "discount": 0, "discountByInvoice": 0,
+                  "tax": 0, "total": 5000000, "finalCharge": 5000000,"currencyUnit": "VND"
+                },
+                {
+                  "itemName": "money200", "quantity": 25, "unitPrice": 200000, "discount": 0, "discountByInvoice": 0,
+                  "tax": 0, "total": 5000000, "finalCharge": 5000000,"currencyUnit": "VND"
+                }
+              ],
+                
+              "transactions":[
+                {
+                "createdBy":"thang",
+                  "total": 10000000, "currencyUnit": "VND", 
+                  "transactionType": "Wire", "bankAccountId": "vcb-ngoquyen",
+                  "transactionDate": "06/12/2013 09:00:00 GMT+0700",
+                  "description": "Chuyen khoan tra luong thang 11 cho nhan vien",
+                  "note": "Chuyen khoan tra luong thang 11 cho nhan vien (description duoc viet bang nguoi lap lenh)"
+                }
+              ],
+              
+              "attributes": [
+                { "name": "restaurant:byGroup", "value": "Kho" },
+                { "name": "restaurant:byProject", "value": "Xuất hàng" }
+              ],
+              
+              "contributors": [
+               { "type": "User","identifierId": "long", "percent": 100,"role": "thu ngan" },
+               { "type": "User","identifierId": "thang", "percent": 100,"role": "nguoi nhan" }
+              ]
+            }
+          ]
+        }
+      ],
+
+      "contract": {
+        "node": {
+          "name": "ceo-contract.cms", "mimeType": "employee/contract"
+        },
+        "attributes": {
+          "info:stt": {  "type": "integer", "value": 1 },
+          "info:type": { "type": "string",  "value": "hop dong toan thoi gian" },
+          "info:code": { "type": "string",  "value": "ma hop dong" },
+          "info:description": {  "type": "string", "value": "mieu ta hop dong" },
+
+          "company:name": {  "type": "string", "value": "Company name" },
+          "company:registrationCode": {  "type": "string", "value": "Ma Dang ky kinh doanh" },
+          "company:representative": {  "type": "string", "value": "Nguoi Dai Dien" },
+          "company:contact": {  "type": "string", "value": "Thong tin lien he" },
+
+          "employee:name": {  "type": "string", "value": "Employee full name" },
+          "employee:code": {  "type": "string", "value": "IT01" },
+          "employee:personalId": {  "type": "string", "value": "So Chung Minh Nhan Dan" },
+          "employee:contact": {  "type": "string", "value": "Thong tin lien he" },
+          
+          
+          "effective:date": {  "type": "date", "value": "1/1/2013, ngay co hieu luc" },
+          "effective:signedDate": {  "type": "date", "value": "1/1/2013 ngay ky ket" },
+          
+          "termination:date": {  "type": "date", "value": "1/1/2013, ngay ket thuc" },
+          "termination:autoRenew": { "type": "boolean", "value": "true" },
+          "termination:autoRenewDate": { "type": "date", "value": "31/12/2013" },
+          "termination:autoRenewTo": { "type": "date", "value": "1/1/2014" },
+                     
+          "salary:base": {  "type": "double", "value": "3000000" },
+          "salary:coefficient": {  "type": "double", "value": "2" },
+          "salary:sale": {  "type": "double", "value": "1500000" },
+          "salary:saleCoefficient": {  "type": "float", "value": "1.5" },
+          "salary:paymentPeriod": {  "type": "String", "value": "thang" },
+          "salary:raisedType": {  "type": "String", "value": "%Salary" },
+          "salary:raisedPeriod": {  "type": "String", "value": "thang/quy/nam" },
+          "salary:tinhTheoHeSoLuongHayCoDinh": {  "type": "String", "value": "Ko can thiet, neu co dinh de he so la 1" },
+           
+          "compensation:company:layoff": {  "type": "double", "value": "5000000" },
+          "compensation:company:layoff.clause": {  
+            "type": "string", "value": "Dieu kien cho thoi viec" 
+          },
+          "compensation:company:fire": {  "type": "double", "value": "0" },
+          "compensation:company:fire.clause": {  
+            "type": "string", "value": "Dieu kien duoi viec" 
+          },
+          
+          "compensation:employee:resign": {  "type": "double", "value": "0" },
+          "compensation:employee:resign:clause": { 
+            "type": "string", "value": "Dieu kien xin thoi viec" 
+          },
+          "compensation:employee:quit": {  "type": "double", "value": "5000000" },
+          "compensation:employee:quit:clause": { 
+            "type": "string", "value": "Dieu kien bo viec" 
+          },
+          
+          "benefice:lunch": {  "type": "double", "value": "500000" },
+          "benefice:phone": {  "type": "double", "value": "0" },
+          "benefice:socialInsurance": {  "type": "double", "value": "500000" },
+          "benefice:healthInsurance": {  "type": "double", "value": "500000" },
+          
+          "working:position": {  "type": "string", "value": "Kinh Doanh" },
+          
+          "clauses": {  "type": "string", "value": "Cac dieu khoan hop dong bang text" },
+          
+          "attachment:signed-document": {  
+            "type": "FileRef", "value": "path/to/file", 
+            "note": "Hop dong ky va scan duoi dang PDF" 
+          }
+        }
+      }
+
+    },
+    
+    {
+      "memberships": [
+        { "loginId": "tuan", "groupPath": "hkt/employees", "capability": "READ" },
+        { "loginId": "tuan", "groupPath": "hkt/employees/it", "capability": "ADMIN" }
+      ],
+      
+      "employee": {
+        "loginId": "tuan", "organizationLoginId": "hkt", "startDate": "", "leaveDate": ""
+      },
+      "positions": [
+        {
+          "position": {
+            "loginId": "tuan", "positionTitle": "Manager Project Id", "group": "hkt/employees/it",
+            "fromDate": "10/1/2013 00:00:00 GMT+0700", "toDate": "1/3/2014 00:00:00 GMT+0700",
+            "status": "Planed", "salaryType": "Monthly", "salary": 10000000
+          },
+          "dailyWorks": [
+             {
+               "loginId": "tuan", "startTime": "1/1/2013 08:00:00 GMT+0700", "endTime": "1/1/2013 17:00:00 GMT+0700",
+               "location": "Cau Giay", "note": "Ngay dau lam viec"
+             },
+             {
+               "loginId": "tuan", "startTime": "2/1/2013 08:00:00 GMT+0700", "endTime": "2/1/2013 17:00:00 GMT+0700",
+               "location": "Cau Giay", "note": "Cong viec hang ngay"
+             }
+          ]
+        }
+      ]
+    },
+   
+    {
+      "memberships": [
+        { "loginId": "long", "groupPath": "hkt/employees", "capability": "READ" },
+        { "loginId": "long", "groupPath": "hkt/employees/it", "capability": "WRITE" }
+      ],
+      
+      "employee": {
+        "loginId": "long", "organizationLoginId": "hkt", "startDate": "", "leaveDate": ""
+      },
+      "positions": [
+        {
+          "position": {
+            "loginId": "long", "positionTitle": "Leader Id", "group": "hkt/employees/it",
+            "fromDate": "10/1/2013 00:00:00 GMT+0700", "toDate": "",
+            "status": "Planed", "salaryType": "Monthly", "salary": 10000000
+          },
+          "dailyWorks": [
+            {
+              "loginId": "long", "startTime": "1/1/2013 08:00:00 GMT+0700", "endTime": "1/1/2013 17:00:00 GMT+0700",
+              "location": "Cau Giay", "note": "Ngay dau lam viec"
+            },
+            {
+              "loginId": "long","startTime": "2/1/2013 08:00:00 GMT+0700", "endTime": "2/1/2013 17:00:00 GMT+0700",
+              "location": "Cau Giay", "note": "Cong viec hang ngay"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "memberships": [
+        { "loginId": "thang", "groupPath": "hkt/employees", "capability": "READ" },
+        { "loginId": "thang", "groupPath": "hkt/employees/it", "capability": "READ" }
+      ],
+      
+      "employee": {
+        "loginId": "thang", "organizationLoginId": "hkt", "startDate": "", "leaveDate": ""
+      },
+      "positions": [
+        {
+          "position": {
+             "loginId": "thang", "positionTitle": "Employee Id", "group": "hkt/employees/it",
+             "fromDate": "10/1/2013 00:00:00 GMT+0700", "toDate": "",
+             "status": "Planed", "salaryType": "Monthly", "salary": 10000000
+          },
+          "dailyWorks": [
+            {
+              "loginId": "thang", "startTime": "1/1/2013 08:00:00 GMT+0700", "endTime": "1/1/2013 17:00:00 GMT+0700",
+              "location": "Cau Giay", "note": "Ngay dau lam viec"
+            },
+            {
+              "loginId": "thang","startTime": "2/1/2013 08:00:00 GMT+0700", "endTime": "2/1/2013 17:00:00 GMT+0700",
+              "location": "Cau Giay", "note": "Cong viec hang ngay"
+            }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "memberships": [
+        { "loginId": "minh", "groupPath": "hkt/employees", "capability": "READ" },
+        { "loginId": "minh", "groupPath": "hkt/employees/it", "capability": "READ" }
+      ],
+      
+      "employee": {
+        "loginId": "minh", "organizationLoginId": "hkt", "startDate": "", "leaveDate": ""
+      },
+      
+      "positions": [
+        {
+          "position": {
+            "loginId": "minh", "positionTitle": "Employee Id", "group": "hkt/employees/it",
+            "fromDate": "10/1/2013 00:00:00 GMT+0700", "toDate": "",
+            "status": "Planed", "salaryType": "Monthly", "salary": 10000000
+          },
+          "dailyWorks": [
+            {
+              "loginId": "minh", "startTime": "1/1/2013 08:00:00 GMT+0700", "endTime": "1/1/2013 17:00:00 GMT+0700",
+              "location": "Cau Giay", "note": "Ngay dau lam viec"
+            },
+            {
+              "loginId": "minh", "startTime": "2/1/2013 08:00:00 GMT+0700", "endTime": "2/1/2013 17:00:00 GMT+0700",
+              "location": "Cau Giay", "note": "Cong viec hang ngay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

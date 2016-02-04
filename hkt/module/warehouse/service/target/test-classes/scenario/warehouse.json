@@ -1,0 +1,143 @@
+{
+	"identityProducts":[
+	  {
+		"invoiceCode": "09485453212",
+		"productCode": "iphone5s",
+		"price": 5000000,
+		"importType": "NotImport"
+	  },{
+		"invoiceCode": "53535366",
+		"productCode": "ipad-air",
+		"price": 8000000,
+		"importType": "NotImport"
+	  },{
+		"invoiceCode": "97879789",
+		"productCode": "iphone5s",
+		"price": 5000000,
+		"importType": "NotImport"
+	  },{
+		"invoiceCode": "4564634345",
+		"productCode": "ipad-air",
+		"price": 8000000,
+		"importType": "NotImport"
+	  }
+	],
+  
+  "warehouses": [
+    {
+      "warehouseId": "hkt-kho-01",
+      "name": "Kho so 1",
+      "ownerId": "hkt",
+      "address": "123 Cau Giay, Quan Cau Giay, Ha Noi"
+    }
+  ],
+  
+  "inventoryDetails": [
+    {
+      "inventory": {
+        "warehouseCode": "hkt-kho-01", "inStock": 5
+      },
+      "inInventories": [
+        {
+          "quantity": 5, "checkinQuantity": 5, "unit": "Box",
+          "validFromDate": "01/01/2013 10:00:00 GMT+0700", "expireDate": "", "total": 1000000, "finalCharge":1000000
+        },
+        {
+          "quantity": 5, "checkinQuantity": 5, "unit": "Box",
+          "validFromDate": "01/01/2013 10:00:00 GMT+0700", "expireDate": "", "total": 1000000, "finalCharge":1000000
+        }
+      ],
+      "outInventories": [
+        {
+          "quantity": 1, "checkoutQuantity": 1, "unit": "Box",
+          "validFromDate": "01/01/2013 10:00:00 GMT+0700", "expireDate": "", "total": 200000, "finalCharge":200000
+        },
+        {
+          "quantity": 4, "checkoutQuantity": 4, "unit": "Box",
+          "validFromDate": "01/01/2013 10:00:00 GMT+0700", "expireDate": "", "total": 800000, "finalCharge":800000
+        }
+      ]
+    }
+  ],
+  
+  "invoiceDetails": [
+    {
+      "type": "InInventory", "activityType": "Payment", 
+      "total": 50000000, "currencyUnit": "VND",
+      "discount": 0, "discountRate": 0,
+      "totalTax": 110000, "finalCharge": 51100000, "totalPaid": 40000000,
+      "invoiceCode": "inInventory",
+      "status": "PartiallyPaid", "description": "Thanh toan nhap lo hang Iphone5s",
+      "note": "Thanh toan nhap lo hang Iphone5s",
+      "startDate": "11/06/2013 08:00:00 GMT+0700", "endDate": "11/06/2013 08:00:00 GMT+0700",
+        
+      "items" : [
+        {
+          "itemName": "iphone5s", "quantity": 5, "unitPrice": 10000000, "discount": 0, "discountByInvoice": 0,
+          "tax": 1100000, "total": 50000000, "finalCharge": 51100000, "currencyUnit": "VND"
+        }
+      ],  
+        
+      "transactions":[
+        {
+          "createdBy":"minh",
+          "total": 40000000, "currencyUnit": "VND", 
+          "transactionType": "Wire", "bankAccountId": "vcb-ngoquyen",
+          "transactionDate": "12/06/2013 08:30:00 GMT+0700",
+          "description": "Chuyen khoan thanh toan nhap lo hang Iphone5s",
+          "note": "Chuyen khoan dat coc 40.000.000 VND cho lo hang Iphone5s"
+        }  
+      ],
+        
+      "attributes": [
+        { "name": "byGroup", "value": "Kho" },
+        { "name": "restaurant:byProject", "value": "Nháº­p hĂ ng" },
+        { "name": "restaurant:byTable", "value": "" }
+      ],
+      
+      "contributors": [
+        { "type": "User","identifierId": "long", "percent": 100,"role": "thu ngan"},
+        { "type": "User","identifierId": "thang",   "percent": 100,"role": "kiem kho"},
+        { "type": "User","identifierId": "muoiot",   "percent": 100,"role": "Ä�á»‘i tĂ¡c"}
+      ]
+    },
+    {
+      "type": "InOutInventory", "activityType": "Receipt", 
+      "total": 100000000, "currencyUnit": "VND",
+      "discount": 0, "discountRate": 0,
+      "totalTax": 900000, "finalCharge": 100900000, "totalPaid": 50000000,
+      "invoiceCode": "outInventory",
+      "status": "PartiallyPaid", "description": "Thanh toĂ¡n xuáº¥t lĂ´ hĂ ng ipad-air",
+      "note": "Thanh toĂ¡n xuáº¥t lĂ´ hĂ ng ipad-air",
+      "startDate": "27/05/2013 08:00:00 GMT+0700", "endDate": "27/05/2013 09:00:00 GMT+0700",
+      "items" : [
+        {
+          "itemName": "ipad-air", "quantity": 10, "unitPrice": 10000000, "discount": 0, "discountByInvoice": 0,
+          "tax": 900000, "total": 1000000000, "finalCharge": 1009000000, "currencyUnit": "VND"
+        }
+      ],  
+        
+      "transactions":[
+        {
+          "createdBy":"long",
+          "total": 50000000, "currencyUnit": "VND", 
+          "transactionType": "Wire", "bankAccountId": "vcb-ngoquyen",
+          "transactionDate": "28/05/2013 08:30:00 GMT+0700",
+          "description": "Chuyá»ƒn khoáº£n thanh toĂ¡n xuáº¥t lĂ´ hĂ ng ipad-air",
+          "note": "Chuyá»ƒn khoáº£n Ä‘áº·t cá»�c 50.000.000 VND cho lĂ´ hĂ ng ipad-air"
+        }
+      ],
+        
+      "attributes": [
+        { "name": "byGroup", "value": "Kho" },
+        { "name": "restaurant:byProject", "value": "Xuáº¥t hĂ ng" }
+      ],
+        
+      "contributors": [
+        { "type": "User","identifierId": "long", "percent": 100,"role": "thu ngan"},
+        { "type": "User","identifierId": "thang",   "percent": 100,"role": "kiem kho"},
+        { "type": "User","identifierId": "muoiot",   "percent": 100,"role": "Ä�á»‘i tĂ¡c"}
+      ]
+    }
+  ]
+}

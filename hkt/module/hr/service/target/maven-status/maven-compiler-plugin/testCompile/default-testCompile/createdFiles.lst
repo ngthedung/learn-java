@@ -1,0 +1,9 @@
+com\hkt\module\hr\rest\EmployeeServiceDispatcherUnitTest.class
+com\hkt\module\hr\repository\EmployeeRepositoryUnitTest.class
+com\hkt\module\hr\HRServiceUnitTest.class
+com\hkt\module\hr\rest\EmployeeServiceDispatcherUnitTest$1.class
+com\hkt\module\hr\repository\WorkPositionRepositoryUnitTest.class
+com\hkt\module\hr\repository\AppointmentRepositoryUnitTest.class
+com\hkt\module\hr\AbstractUnitTest.class
+com\hkt\module\hr\repository\DailyWorkRepositoryUnitTest.class
+com\hkt\module\hr\HRServiceUnitTest$1.class

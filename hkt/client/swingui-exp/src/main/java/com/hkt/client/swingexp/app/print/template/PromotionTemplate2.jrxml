@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PromotionTemplate2" language="groovy" pageWidth="595" pageHeight="210" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="cf6fa836-7252-4145-a98c-2838f6655b4e">
+	<property name="ireport.zoom" value="1.6105100000000012"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="prImageLogoCity" class="java.awt.Image"/>
+	<parameter name="prImageBackground" class="java.lang.String"/>
+	<parameter name="prImageSanPham" class="java.lang.String"/>
+	<parameter name="prMaSanPham" class="java.lang.String"/>
+	<parameter name="prTenSanPham" class="java.lang.String"/>
+	<parameter name="prTenCongTy" class="java.lang.String"/>
+	<parameter name="prDienThoai" class="java.lang.String"/>
+	<parameter name="prDiaChi" class="java.lang.String"/>
+	<parameter name="prWebsite" class="java.lang.String"/>
+	<parameter name="prBatDauKhuyenMai" class="java.lang.String"/>
+	<parameter name="prKetThucKhuyenMai" class="java.lang.String"/>
+	<parameter name="prLyDoKhuyenMai" class="java.lang.String"/>
+	<parameter name="prMoneyOrPercent" class="java.lang.String"/>
+	<parameter name="prUnitMoney" class="java.lang.String"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["D:\\HKT\\hkt_soft_v3.2\\HKT Software Enterprise Manager\\Module Report Gui\\src\\vn\\com\\hkt\\report\\gui\\template\\"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="prMaBarCode" class="java.lang.String"/>
+	<parameter name="parameter1" class="java.lang.String"/>
+	<background>
+		<band height="210" splitType="Stretch">
+			<image isLazy="true">
+				<reportElement uuid="65c8b137-c8d8-4626-a47e-1d46a9593f4f" x="0" y="52" width="245" height="158"/>
+				<imageExpression><![CDATA[$P{prImageBackground}]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<title>
+		<band height="210" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="9731ea1c-bbc0-4865-886d-bb61058cc399" x="228" y="32" width="44" height="14"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Website:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9731ea1c-bbc0-4865-886d-bb61058cc399" stretchType="RelativeToTallestObject" x="450" y="170" width="34" height="25"/>
+				<textElement>
+					<font size="17" isBold="true"/>
+				</textElement>
+				<text><![CDATA[đến]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9731ea1c-bbc0-4865-886d-bb61058cc399" x="81" y="32" width="56" height="14"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Điện thoại:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="e5febf22-622e-4094-b669-b12132f9dd4d" x="272" y="32" width="157" height="14" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prWebsite}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="e5febf22-622e-4094-b669-b12132f9dd4d" x="79" y="2" width="322" height="14" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="11" isBold="true" isItalic="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prTenCongTy}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="e5febf22-622e-4094-b669-b12132f9dd4d" x="137" y="32" width="91" height="14" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prDienThoai}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="e5febf22-622e-4094-b669-b12132f9dd4d" x="484" y="170" width="109" height="25" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font size="17" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prKetThucKhuyenMai}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="9731ea1c-bbc0-4865-886d-bb61058cc399" x="81" y="17" width="40" height="14"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Địa chỉ:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="e5febf22-622e-4094-b669-b12132f9dd4d" x="121" y="17" width="280" height="14" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prDiaChi}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="9731ea1c-bbc0-4865-886d-bb61058cc399" stretchType="RelativeToTallestObject" x="252" y="170" width="108" height="25"/>
+				<textElement>
+					<font size="17" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Thời gian từ]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="e5febf22-622e-4094-b669-b12132f9dd4d" x="360" y="170" width="87" height="25" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font size="17" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prBatDauKhuyenMai}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="1b6c049b-d4bf-4ed9-b8be-d436a277ff9e" x="141" y="59" width="419" height="42"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="33" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PHIẾU GIẢM GIÁ]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="d964cf6b-bb45-4a05-a238-a9e7c5ed40ec" x="211" y="99" width="349" height="47"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="31" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{prMoneyOrPercent}+" "+$P{prUnitMoney}]]></textFieldExpression>
+			</textField>
+			<image hAlign="Center" vAlign="Middle" isLazy="true">
+				<reportElement uuid="96cb796a-4859-4869-b6ec-1b09ffb1bcb9" x="1" y="2" width="78" height="59"/>
+				<imageExpression><![CDATA[$P{prImageLogoCity}]]></imageExpression>
+			</image>
+			<componentElement>
+				<reportElement uuid="ab3297c2-674b-404b-a240-1587300afb22" x="446" y="5" width="147" height="52"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Code128" drawText="false" checksumRequired="false" barWidth="6" barHeight="290">
+					<jr:codeExpression><![CDATA[$P{prMaBarCode}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+		</band>
+	</title>
+</jasperReport>
